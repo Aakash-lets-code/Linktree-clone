@@ -4,10 +4,8 @@ export default function Home() {
   return (
     <main>
 
-      <section className="bg-green-600 min-h-screen" >
-
-
-        sdfgsdf
+      <section className="bg-[#254f1a] min-h-screen" >
+ 
 
       </section>
 

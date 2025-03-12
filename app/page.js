@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
 
-      <section className="bg-[#254f1a] min-h-[100vh] grid grid-cols-2" >
+      <section className="bg-[#254f1a] min-h-[100vh] grid grid-cols-2 pt-[20vh] " >
 
         <div className=" text-[#d2e823] flex flex-col justify-center items-center ml-[5vw] gap-4 ">
 
@@ -19,9 +19,9 @@ export default function Home() {
 
         </div>
 
-        <div className=" bg-black flex flex-col justify-center items-center mr-[5vw] gap-2.5 ">
+        <div className="flex flex-col justify-center items-center mr-[5vw] gap-2.5 ">
 
-          grid 2
+         <img className=" w-11/12 "  src="/home.png" alt="home" />
 
         </div>
 

@@ -10,11 +10,11 @@ const Navbar = () => {
                 <img className='h-6' src="linktree.svg" alt="linktree" />
 
                 <ul className='flex text-[#72766b] items-center space-x-1.5'>
-                    <li className=' hover:bg-[#eff0ec] px-4 py-3 rounded-lg' >Templates</li>
-                    <li className=' hover:bg-[#eff0ec] px-4 py-3 rounded-lg' >Marketplace</li>
-                    <li className=' hover:bg-[#eff0ec] px-4 py-3 rounded-lg' >Discover</li>
-                    <li className=' hover:bg-[#eff0ec] px-4 py-3 rounded-lg' >Pricing</li>
-                    <li className=' hover:bg-[#eff0ec] px-4 py-3 rounded-lg' >Learn</li>
+                    <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Templates</li>
+                    <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Marketplace</li>
+                    <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Discover</li>
+                    <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Pricing</li>
+                    <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Learn</li>
                 </ul>
 
             </div>

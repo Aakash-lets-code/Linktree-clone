@@ -6,18 +6,40 @@ const Generate = () => {
         <div className=' grid grid-cols-2 bg-[#225abf]  min-h-screen ' >
             <div className="col1 flex flex-col justify-center items-center ml-[5vw] gap-10 ">
 
-                <h1 className=' text-5xl font-extrabold my-5 ' >Create your Bittree</h1>
-
                 <div className='flex flex-col gap-3' >
 
-                    <h2 className='font-semibold my-2 '> Step 1: Claim your Handle </h2>
-                    <input className='bg-green-50 p-3 rounded-full px-5 focus:outline-pink-600 ' type="text" placeholder=' Choose a handle' />
+                    <h1 className=' text-5xl font-extrabold my-5 ' >Create your Bittree</h1>
 
-                    <h2 className='font-semibold my-2 '> Step 2: Add Links </h2>
-                    <input className='bg-green-50 p-3 rounded-full px-5 focus:outline-pink-600 ' type="text" placeholder=' Enter link text' />
-                    <input className='bg-green-50 p-3 rounded-full px-5 focus:outline-pink-600 ' type="text" placeholder=' Enter link ' />
+                    <div className="item">
+                        <h2 className='font-semibold'> Step 1: Claim your Handle </h2>
+                        <div className='mx3' >
+                            <input className='bg-green-50 p-2 rounded-full px-5 focus:outline-pink-600 m-3' type="text" placeholder=' Choose a handle' />
 
-                    <h2 className='font-semibold my-2 '> Step 3: Add Picture and Finalize </h2>
+                        </div>
+                    </div>
+
+                    <div className="item">
+
+                        <h2 className='font-semibold'> Step 2: Add Links </h2>
+                        <div className='mx3' >
+                            <input className='bg-green-50 p-2 rounded-full px-5 focus:outline-pink-600 m-3' type="text" placeholder=' Enter link text' />
+                            <input className='bg-green-50 p-2 rounded-full px-5 focus:outline-pink-600 m-3' type="text" placeholder=' Enter link ' />
+                            <button className=' mx-2 px-5 bg-slate-900 rounded-full text-white py-3 ' >Add Link</button>
+                        </div>
+
+                    </div>
+
+                    <div className="item">
+
+                        <h2 className='font-semibold'> Step 3: Add Picture and Finalize </h2>
+                        
+                        <div className='mx3 flex flex-col' >
+                            <input className='bg-green-50 p-2 rounded-full px-5 focus:outline-pink-600 m-3' type="text" placeholder=' Enter link to your picture ' />
+                            <button className=' w-fit mx-2 px-5 bg-slate-900 rounded-full text-white py-3'>Create your Bittree</button>
+                        </div>
+
+                    </div>
+
 
                 </div>
 

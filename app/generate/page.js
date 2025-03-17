@@ -1,9 +1,17 @@
 import React from 'react'
+import { ToastContainer, toast } from 'react-toastify';
 
 const Generate = () => {
+
+    const notify = () => toast('Wow so easy !');
+
+    
     return ( 
-        <div className=' grid grid-cols-2 bg-[#225abf]  min-h-screen ' >
-            <div className="col1 flex flex-col justify-center items-center ml-[5vw] gap-10 mt-6">
+        
+        <div className=' grid grid-cols-2 bg-[#225abf]  min-h-screen ' > 
+            <button onClick={notify}>Notify !</button>
+            <ToastContainer />
+            <div className="col1 flex flex-col justify-center items-center ml-[5vw] gap-10">
 
                 <div className='flex flex-col gap-3' >
 
@@ -44,7 +52,7 @@ const Generate = () => {
 
             </div>
 
-            <div className="col2 w-full h-screen flex justify-center items-center mt-6" >
+            <div className="col2 w-full h-screen flex justify-center items-center" >
 
                 <img className=' h-screen w-full object-contain' src="/generate.png" alt="generate" />
 

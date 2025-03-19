@@ -31,6 +31,8 @@ const Generate = () => {
         const r = fetch("http://localhost:3000/api/add", requestOptions)
         const result = await r.json()
         toast(result.message)
+        setlink('')
+        setlinktext('')
     }
 
 

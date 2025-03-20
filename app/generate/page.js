@@ -7,14 +7,14 @@ import { ToastContainer, toast } from 'react-toastify';
 const Generate = () => {
 
     // const [link, setlink] = useState('')
-    // const [handle, sethandle] = useState('')
+    // const [linktext, setlinktext] = useState("")
+    const [handle, sethandle] = useState('')
     const [links, setLinks] = useState([{ link: "", linktext: "" }])
-    const [linktext, setlinktext] = useState("")
     const [pic, setpic] = useState("")
 
     const handlChange = (index, link, linktext) => {
         setLinks((initialLinks) => {
-            initialLinks.map((item, i) => {
+          return initialLinks.map((item, i) => {
                 if (i === index) {
                     return { link, linktext }
                 }
@@ -27,7 +27,7 @@ const Generate = () => {
     }
 
     const addLink = () => {
-      setLinks(concat([{ link: "", linktext: "" }]))
+      setLinks(links.concat([{ link: "", linktext: "" }]))
     }
     
 
@@ -52,7 +52,12 @@ const Generate = () => {
 
         const r = fetch("http://localhost:3000/api/add", requestOptions)
         const result = await r.json()
-        toast(result.message)
+        if(result.success){
+            toast.success(result.message)
+        }
+        else{
+            toast.error(result.message)
+        }
     }
 
 
@@ -80,11 +85,11 @@ const Generate = () => {
 
                         {links && links.map((item, index) => {
                             return <div key={index} className='mx3' >
-                                <input value={item.link || ""} onChange={e => { handlChange(index, e.target.value, item.linktext) }} className='bg-green-50 p-2 rounded-full px-5 focus:outline-pink-600 m-3' type="text" placeholder=' Enter link ' />
-                                <input value={item.linktext || ""} onChange={e => { handlChange(index, e.target.value, item.link) }} className='bg-green-50 p-2 rounded-full px-5 focus:outline-pink-600 m-3' type="text" placeholder=' Enter link text' />
+                                <input value={item.link || ""} onChange={e => { handlChange(index, e.target.value, item.linktext) }} className='bg-green-50 p-2 rounded-full px-5 focus:outline-pink-600 m-3' type="text" placeholder=' Enter link text' />
+                                <input value={item.linktext || ""} onChange={e => { handlChange(index, e.target.value, item.link) }} className='bg-green-50 p-2 rounded-full px-5 focus:outline-pink-600 m-3' type="text" placeholder=' Enter link' />
                             </div>
                         })}
-                        <button onClick={() => addLink()} className=' mx-2 px-5 bg-slate-900 rounded-full text-white py-3 ' >Add Link</button>
+                        <button onClick={() => addLink()} className=' mx-2 px-5 bg-slate-900 rounded-full text-white py-3 ' >+ Add Link</button>
 
                     </div>
 

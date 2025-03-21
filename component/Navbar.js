@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Navbar = () => {
     return (
@@ -7,14 +8,14 @@ const Navbar = () => {
 
             <div className="logo flex items-center gap-16 " >
 
-                <img className='h-6' src="linktree.svg" alt="linktree" />
+                <Link href={"/"} > <img className='h-6' src="linktree.svg" alt="linktree" /> </Link>
 
                 <ul className='flex text-[#72766b] items-center space-x-1.5'>
-                    <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Templates</li>
-                    <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Marketplace</li>
-                    <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Discover</li>
-                    <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Pricing</li>
-                    <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Learn</li>
+                    <Link href="/"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Templates</li> </Link>
+                    <Link href="/"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Marketplace</li> </Link>
+                    <Link href="/"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Discover</li> </Link>
+                    <Link href="/"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Pricing</li> </Link>
+                    <Link href="/"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Learn</li> </Link>
                 </ul>
 
             </div>

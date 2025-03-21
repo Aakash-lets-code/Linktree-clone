@@ -102,7 +102,7 @@ const Generate = () => {
 
                         <div className='mx3 flex flex-col' >
                             <input value={pic || ""} onChange={e => { setpic(e.target.value) }} className='bg-green-50 p-2 rounded-full px-5 focus:outline-pink-600 m-3' type="text" placeholder=' Enter link to your picture ' />
-                            <button onChange={() => {submitLinks()}} className=' w-fit mx-2 px-5 bg-slate-900 rounded-full text-white py-3'>Create your Bittree</button>
+                            <button disabled={pic == "" || handle=="" || links[0].linktext==""} onChange={() => {submitLinks()}} className=' disabled:bg-slate-500 w-fit mx-2 px-5 bg-slate-900 rounded-full text-white py-3'>Create your Bittree</button>
                         </div>
 
                     </div>

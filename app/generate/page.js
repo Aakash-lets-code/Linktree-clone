@@ -54,6 +54,9 @@ const Generate = () => {
         const result = await r.json()
         if(result.success){
             toast.success(result.message)
+            setLinks([])
+            setpic("")
+            sethandle("")
         }
         else{
             toast.error(result.message)

@@ -1,6 +1,17 @@
+"use client"
 import Image from "next/image";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+
+  const [text, setText] = useState("")
+  const router = useRouter()
+
+const createTree = () => {
+  router.push(`/generate?handle=${text}`)
+}
+
   return (
     <main>
 
@@ -18,8 +29,8 @@ export default function Home() {
 
           <div className="buttons w-full " >
 
-            <input className="bg-[#fff;] rounded-lg px-4 py-3 text-black" type="text" placeholder="linktr.ee/" />
-            <button className="bg-[#e9c0e9] px-5 py-4 font-semibold rounded-full mx-3 text-black" >Claim your Linktree</button>
+            <input value={text} onChange={(e)=> setText(e.target.value)} className="bg-[#fff;] rounded-lg px-4 py-3 text-black" type="text" placeholder="Enter your handle" />
+            <button onClick={() => createTree()} className="bg-[#e9c0e9] px-5 py-4 font-semibold rounded-full mx-3 text-black" >Claim your Linktree</button>
 
           </div>
 

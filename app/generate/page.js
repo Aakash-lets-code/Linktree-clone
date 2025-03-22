@@ -3,12 +3,16 @@
 import React from 'react'
 import { useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
+import { useSearchParams } from 'next/navigation';
+
 
 const Generate = () => {
 
+    const searchParams = useSearchParams()
+
     // const [link, setlink] = useState('')
     // const [linktext, setlinktext] = useState("")
-    const [handle, sethandle] = useState('')
+    const [handle, sethandle] = useState(searchParams.get('handle'))
     const [links, setLinks] = useState([{ link: "", linktext: "" }])
     const [pic, setpic] = useState("")
 

@@ -18,7 +18,7 @@ const Generate = () => {
 
     const handlChange = (index, link, linktext) => {
         setLinks((initialLinks) => {
-          return initialLinks.map((item, i) => {
+            return initialLinks.map((item, i) => {
                 if (i === index) {
                     return { link, linktext }
                 }
@@ -31,9 +31,9 @@ const Generate = () => {
     }
 
     const addLink = () => {
-      setLinks(links.concat([{ link: "", linktext: "" }]))
+        setLinks(links.concat([{ link: "", linktext: "" }]))
     }
-    
+
 
     const submitLinks = async (text, link, handle) => {
         const myHeaders = new Headers();
@@ -41,7 +41,7 @@ const Generate = () => {
 
         const raw = JSON.stringify({
             "links": links,
-            "handle": handle, 
+            "handle": handle,
             "pic": pic
         });
 
@@ -56,13 +56,13 @@ const Generate = () => {
 
         const r = fetch("http://localhost:3000/api/add", requestOptions)
         const result = await r.json()
-        if(result.success){
+        if (result.success) {
             toast.success(result.message)
             setLinks([])
             setpic("")
             sethandle("")
         }
-        else{
+        else {
             toast.error(result.message)
         }
     }
@@ -92,8 +92,8 @@ const Generate = () => {
 
                         {links && links.map((item, index) => {
                             return <div key={index} className='mx3' >
-                                <input value={item.link || ""} onChange={e => { handlChange(index, e.target.value, item.linktext) }} className='bg-green-50 p-2 rounded-full px-5 focus:outline-pink-600 m-3' type="text" placeholder=' Enter link text' />
-                                <input value={item.linktext || ""} onChange={e => { handlChange(index, e.target.value, item.link) }} className='bg-green-50 p-2 rounded-full px-5 focus:outline-pink-600 m-3' type="text" placeholder=' Enter link' />
+                                <input value={item.linktext || ""} onChange={e => { handlChange(index, e.target.value, item.link) }} className='bg-green-50 p-2 rounded-full px-5 focus:outline-pink-600 m-3' type="text" placeholder=' Enter link text' />
+                                <input value={item.link || ""} onChange={e => { handlChange(index, e.target.value, item.linktext) }} className='bg-green-50 p-2 rounded-full px-5 focus:outline-pink-600 m-3' type="text" placeholder=' Enter link' />
                             </div>
                         })}
                         <button onClick={() => addLink()} className=' mx-2 px-5 bg-slate-900 rounded-full text-white py-3 ' >+ Add Link</button>
@@ -106,7 +106,7 @@ const Generate = () => {
 
                         <div className='mx3 flex flex-col' >
                             <input value={pic || ""} onChange={e => { setpic(e.target.value) }} className='bg-green-50 p-2 rounded-full px-5 focus:outline-pink-600 m-3' type="text" placeholder=' Enter link to your picture ' />
-                            <button disabled={pic == "" || handle=="" || links[0].linktext==""} onChange={() => {submitLinks()}} className=' disabled:bg-slate-500 w-fit mx-2 px-5 bg-slate-900 rounded-full text-white py-3'>Create your Bittree</button>
+                            <button disabled={pic == "" || handle == "" || links[0].linktext == ""} onChange={() => { submitLinks() }} className=' disabled:bg-slate-500 w-fit mx-2 px-5 bg-slate-900 rounded-full text-white py-3'>Create your Bittree</button>
                         </div>
 
                     </div>

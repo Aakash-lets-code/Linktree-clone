@@ -15,6 +15,7 @@ const Generate = () => {
     const [handle, sethandle] = useState(searchParams.get('handle'))
     const [links, setLinks] = useState([{ link: "", linktext: "" }])
     const [pic, setpic] = useState("")
+    const [desc, setdesc] = useState("")
 
     const handlChange = (index, link, linktext) => {
         setLinks((initialLinks) => {
@@ -42,7 +43,8 @@ const Generate = () => {
         const raw = JSON.stringify({
             "links": links,
             "handle": handle,
-            "pic": pic
+            "pic": pic,
+            "desc":desc
         });
 
         console.log(raw)
@@ -102,10 +104,11 @@ const Generate = () => {
 
                     <div className="item">
 
-                        <h2 className='font-semibold'> Step 3: Add Picture and Finalize </h2>
+                        <h2 className='font-semibold'> Step 3: Add Picture and Description </h2>
 
                         <div className='mx3 flex flex-col' >
                             <input value={pic || ""} onChange={e => { setpic(e.target.value) }} className='bg-green-50 p-2 rounded-full px-5 focus:outline-pink-600 m-3' type="text" placeholder=' Enter link to your picture ' />
+                            <input value={desc || ""} onChange={e => { setdesc(e.target.value) }} className='bg-green-50 p-2 rounded-full px-5 focus:outline-pink-600 m-3' type="text" placeholder=' Enter description ' />
                             <button disabled={pic == "" || handle == "" || links[0].linktext == ""} onChange={() => { submitLinks() }} className=' disabled:bg-slate-500 w-fit mx-2 px-5 bg-slate-900 rounded-full text-white py-3'>Create your Bittree</button>
                         </div>
 

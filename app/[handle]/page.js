@@ -25,7 +25,7 @@ export default async function Page({ params }) {
 
             <span className="text-3xl font-bold" >@{item.handle}</span>
             <span className="desc w-80 text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sequi optio eum!
+                {item.desc}
             </span>
 
             <div className="link">

@@ -1,5 +1,6 @@
 import Link from "next/link"
 import clientPromise from "@/lib/mongodb"
+import { notFound } from "next/navigation";
 
 export default async function Page({ params }) {
     const { handle } = await params
@@ -10,6 +11,9 @@ export default async function Page({ params }) {
     // if the handle is already claimed , you cannot create bittree
 
     const item = await collection.findOne({ handle: handle })
+    if(!item) {
+        return notFound()
+    }
 
     const item2 = ["copy the object from database"]
 

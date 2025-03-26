@@ -8,9 +8,9 @@ export default function Home() {
   const [text, setText] = useState("")
   const router = useRouter()
 
-const createTree = () => {
-  router.push(`/generate?handle=${text}`)
-}
+  const createTree = () => {
+    router.push(`/generate?handle=${text}`)
+  }
 
   return (
     <main>
@@ -29,7 +29,7 @@ const createTree = () => {
 
           <div className="buttons w-full " >
 
-            <input value={text} onChange={(e)=> setText(e.target.value)} className="bg-[#fff;] rounded-lg px-4 py-3 text-black" type="text" placeholder="Enter your handle" />
+            <input value={text} onChange={(e) => setText(e.target.value)} className="bg-[#fff;] rounded-lg px-4 py-3 text-black" type="text" placeholder="Enter your handle" />
             <button onClick={() => createTree()} className="bg-[#e9c0e9] px-5 py-4 font-semibold rounded-full mx-3 text-black" >Claim your Linktree</button>
 
           </div>
@@ -43,8 +43,25 @@ const createTree = () => {
         </div>
 
       </section>
-      <section className="bg-[#c4fbb7] min-h-[100vh]" >
+      <section className="bg-[#e9c0e9] min-h-[100vh]" >
 
+        <div className="grid grid-cols-2 gap-10 items-center justify-center py-14 pt-[15vh] ml-[5vw] " >
+
+          <div className=" flex justify-around " >
+            <img src="scroll-second.png" alt="image" />
+          </div>
+          <div className="space-y-4  w-full" >
+            <h2 className="text-6xl font-extrabold text-[#502274]" >
+              Create and customize your Linktree in minutes
+            </h2>
+            <p className=" text-[#502274] w-5/6 " >
+              Connect your TikTok, Instagram, Twitter, website, store, videos, music, podcast, events and more. It all comes together in a link in bio landing page designed to convert.
+            </p>
+            <button className="bg-[#502274] text-white px-5 py-4 font-semibold rounded-full mx-3 " >
+              Get started for free
+            </button>
+          </div>
+        </div>
 
       </section>
 

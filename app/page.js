@@ -43,6 +43,7 @@ export default function Home() {
         </div>
 
       </section>
+
       <section className="bg-[#e9c0e9] min-h-[100vh]" >
 
         <div className="grid grid-cols-2 gap-10 items-center justify-center py-14 pt-[15vh] ml-[5vw] " >
@@ -50,16 +51,23 @@ export default function Home() {
           <div className=" flex justify-around " >
             <img src="scroll-second.png" alt="image" />
           </div>
+
           <div className="space-y-4  w-full" >
+
             <h2 className="text-6xl font-extrabold text-[#502274]" >
               Create and customize your Linktree in minutes
             </h2>
-            <p className=" text-[#502274] w-5/6 " >
-              Connect your TikTok, Instagram, Twitter, website, store, videos, music, podcast, events and more. It all comes together in a link in bio landing page designed to convert.
+
+            <p className=" text-[#502274] mt-2 " >
+              Connect your TikTok, Instagram, Twitter, website, store, videos, music, podcast,
+              <br /> events and more. It all comes together in a link in bio landing page designed to
+              <br /> convert.
             </p>
-            <button className="bg-[#502274] text-white px-5 py-4 font-semibold rounded-full mx-3 " >
+
+            <button className="bg-[#502274] text-white px-6 py-4 font-semibold rounded-full mx-3 mt-4 " >
               Get started for free
             </button>
+
           </div>
         </div>
 

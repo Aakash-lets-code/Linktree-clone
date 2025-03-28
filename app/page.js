@@ -73,6 +73,35 @@ export default function Home() {
 
       </section>
 
+      <section className="bg-[#780016] min-h-screen" >
+
+        <div className="grid grid-cols-2 gap-10 items-center justify-center py-14 pt-[15vh] ml-[5vw] " >
+
+          <div>
+
+            <h2 className="text-6xl font-extrabold text-[#e9c0e9]" >
+              Share your Linktree from your Instagram, TikTok, Twitter and other bios
+            </h2>
+
+            <p className=" text-[#e9c0e9] mt-5 font-semibold " >
+              Add your unique Linktree URL to all the platforms and places you find your
+              <br /> audience. Then use your QR code to drive your offline traffic online.
+            </p>
+
+            <button className="bg-[#e9c0e9] text-black px-8 py-5 text-center font-semibold rounded-full mx-3 mt-10 " >
+              Get started for free
+            </button>
+          </div>
+
+          <div  >
+            <img src="scroll-third.png" alt="image" />
+          </div>
+
+        </div>
+
+
+      </section>
+
     </main>
   );
 }

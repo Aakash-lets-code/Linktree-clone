@@ -46,7 +46,7 @@ export default function Home() {
 
       <section className="bg-[#e9c0e9] min-h-[100vh]" >
 
-        <div className="grid grid-cols-2 gap-10 items-center justify-center py-14 pt-[15vh] ml-[5vw] " >
+        <div className="grid grid-cols-2 gap-10 items-center justify-center py-14 pt-[20vh] ml-[5vw] " >
 
           <div className=" flex justify-around " >
             <img src="scroll-second.png" alt="image" />
@@ -64,7 +64,7 @@ export default function Home() {
               <br /> convert.
             </p>
 
-            <button className="bg-[#502274] text-white px-6 py-4 font-semibold rounded-full mx-3 mt-4 " >
+            <button className="bg-[#502274] text-white px-6 py-4 font-semibold rounded-full mt-4 " >
               Get started for free
             </button>
 
@@ -75,7 +75,7 @@ export default function Home() {
 
       <section className="bg-[#780016] min-h-screen" >
 
-        <div className="grid grid-cols-2 gap-10 items-center justify-center py-14 pt-[15vh] ml-[5vw] " >
+        <div className="grid grid-cols-2 gap-10 items-center justify-center py-14 pt-[20vh] ml-[5vw] " >
 
           <div>
 
@@ -88,7 +88,7 @@ export default function Home() {
               <br /> audience. Then use your QR code to drive your offline traffic online.
             </p>
 
-            <button className="bg-[#e9c0e9] text-black px-8 py-5 text-center font-semibold rounded-full mx-3 mt-10 " >
+            <button className="bg-[#e9c0e9] text-black px-8 py-5 text-center font-semibold rounded-full mt-10 " >
               Get started for free
             </button>
           </div>
@@ -99,6 +99,40 @@ export default function Home() {
 
         </div>
 
+
+      </section>
+
+
+      <section className="bg-[#f3f3f1] min-h-screen" >
+
+        <div className="grid grid-cols-2 gap-10 items-center justify-center py-14 pt-[20vh] ml-[5vw] " >
+
+          <div >
+            <img src="scroll-fourth.png" alt="image" />
+          </div>
+
+          <div>
+
+
+            <h2 className="text-6xl font-extrabold text-[#1e2330]" >
+              Analyze your
+              <br /> audience and keep
+              <br /> your followers
+              <br /> engaged
+            </h2>
+
+            <p className=" text-[#1e2330] mt-5 font-semibold " >
+              Track your engagement over time, monitor revenue and learn what's converting your
+              <br /> audience. Make informed updates on the fly to keep them coming back.
+            </p>
+
+            <button className="bg-[#e9c0e9] text-[#1e2330] px-8 py-5 text-center font-semibold rounded-full mt-10 " >
+              Get started for free
+            </button>
+
+          </div>
+
+        </div>
 
       </section>
 

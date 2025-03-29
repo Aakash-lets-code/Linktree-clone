@@ -13,7 +13,7 @@ const Navbar = () => {
                 <Link href={"/"} > <img className='h-6' src="linktree.svg" alt="linktree" /> </Link>
 
                 <ul className='flex text-[#72766b] items-center space-x-1.5'>
-                    <Link href="/"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Templates</li> </Link>
+                    <Link href="/template"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Templates</li> </Link>
                     <Link href="/"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Marketplace</li> </Link>
                     <Link href="/"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Discover</li> </Link>
                     <Link href="/"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Pricing</li> </Link>

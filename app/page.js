@@ -29,8 +29,8 @@ export default function Home() {
 
           <div className="buttons w-full " >
 
-            <input value={text} onChange={(e) => setText(e.target.value)} className="bg-[#fff;] rounded-lg px-4 py-3 text-black" type="text" placeholder="Enter your handle" />
-            <button onClick={() => createTree()} className="bg-[#e9c0e9] px-5 py-4 font-semibold rounded-full mx-3 text-black" >Claim your Linktree</button>
+            <input value={text} onChange={(e) => setText(e.target.value)} className="bg-[#fff;] rounded-lg p-5 text-black" type="text" placeholder="Enter your handle" />
+            <button onClick={() => createTree()} className="bg-[#e9c0e9] p-5 font-semibold rounded-full mx-3 text-black" >Claim your Linktree</button>
 
           </div>
 
@@ -64,7 +64,7 @@ export default function Home() {
               <br /> convert.
             </p>
 
-            <button className="bg-[#502274] text-white px-6 py-4 font-semibold rounded-full mt-4 " >
+            <button className="bg-[#502274] text-white p-5 font-semibold rounded-full mt-4 " >
               Get started for free
             </button>
 

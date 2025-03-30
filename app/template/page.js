@@ -4,7 +4,7 @@ const Template = () => {
     return (
         <>
 
-            <div>
+            <div className=' min-h-screen bg-[#f3f3f1] flex flex-col gap-4 items-center justify-center' >
 
                 <h2 className='text-6xl font-extrabold text-[#1e2330] text-center' >
                     A Linktree template to suit

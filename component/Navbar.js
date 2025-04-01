@@ -23,13 +23,16 @@ const Navbar = () => {
                 <Link href="/"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Marketplace</li> </Link>
                 <Link href="/"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Discover</li> </Link>
                 <Link href="/"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Pricing</li> </Link>
-                <Link href="/"> <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg group relative' > Learn
-                    {isHovered && <>  <div className=' bg-white rounded-lg shadow-lg p-4 mt-2 absolute top-full right-0 w-16 z-10 text-center'>
-                        <div>home</div>
-                        <div>contact</div>
-                        <div>about</div>
-                    </div></>}
-                </li> </Link>
+                <Link href="/">
+                    <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg relative' > Learn
+                        
+                        {isHovered && <>  <div className=' bg-white rounded-lg shadow-lg p-1.5 absolute left-0 w-48 z-10 origin-top top-full duration-1000'>
+                            <div className=' p-4 py-3 rounded-lg hover:bg-[#eff0ec] my-1' >home</div>
+                            <div className=' p-4 py-3 rounded-lg hover:bg-[#eff0ec] my-1' >contact</div>
+                            <div className=' p-4 py-3 rounded-lg hover:bg-[#eff0ec] my-1' >about</div>
+                        </div></>}
+                    </li>
+                </Link>
             </ul>
 
         </div>

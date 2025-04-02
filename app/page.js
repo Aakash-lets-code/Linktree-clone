@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main>
 
-      <section className="bg-[#254f1a] min-h-[100vh] grid grid-cols-2 pt-[30vh] pb-[20vh] " >
+      <section className="bg-[#254f1a] min-h-[100vh] grid grid-cols-2 pt-[40vh] pb-[20vh] " >
 
         <div className=" text-[#d2e823] flex flex-col justify-center items-start ml-[5vw] gap-10 ">
 

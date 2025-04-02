@@ -25,11 +25,13 @@ const Navbar = () => {
                 <Link href="/"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Pricing</li> </Link>
                 <Link href="/">
                     <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg relative' > Learn
-                        
-                        {isHovered && <>  <div className=' bg-white rounded-lg shadow-lg p-1.5 absolute left-0 w-48 z-10 origin-top top-full duration-1000'>
-                            <div className=' p-4 py-3 rounded-lg hover:bg-[#eff0ec] my-1' >home</div>
-                            <div className=' p-4 py-3 rounded-lg hover:bg-[#eff0ec] my-1' >contact</div>
-                            <div className=' p-4 py-3 rounded-lg hover:bg-[#eff0ec] my-1' >about</div>
+
+                        {isHovered && <> <div className='absolute left-0 top-full w-48 z-10 origin-top  duration-1000 bg-transparent' >
+                            <div className='mt-7 p-1.5 bg-white rounded-lg shadow-lg '>
+                                <div className=' p-4 py-3 rounded-lg hover:bg-[#eff0ec] my-1' >Home</div>
+                                <div className=' p-4 py-3 rounded-lg hover:bg-[#eff0ec] my-1' >Contact</div>
+                                <div className=' p-4 py-3 rounded-lg hover:bg-[#eff0ec] my-1' >About</div>
+                            </div>
                         </div></>}
                     </li>
                 </Link>

@@ -43,7 +43,7 @@ const Navbar = () => {
 
                 <Link href="/"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Pricing</li> </Link>
 
-                <Link href="/">
+                <Link href="/learn">
 
                     <li onMouseEnter={handleLearnEnter} onMouseLeave={handleLearnLeave} className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg relative' > Learn
 

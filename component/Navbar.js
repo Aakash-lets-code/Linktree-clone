@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 const Navbar = () => {
     const pathname = usePathname()
-    const showNavbar = ["/", "/generate"].includes(pathname)
+    const showNavbar = ["/", "/generate", "/learn" , "/template"].includes(pathname)
     const [isLearnHovered, setIsLearnHovered] = useState(false)
     const [isDiscoverHovered, setIsDiscoverHovered] = useState(false)
 

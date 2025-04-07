@@ -4,7 +4,7 @@ const Template = () => {
     return (
         <>
 
-            <div className=' bg-[#f3f3f1]'  >
+            <div className=' bg-[#f3f3f1] flex flex-col items-center justify-center'  >
 
                 <div className=' h-[85vh]  flex flex-col gap-4 items-center justify-center pt-28 px-[5vh]' >
 
@@ -19,29 +19,52 @@ const Template = () => {
                     </p>
                 </div>
 
-                <div className=' mx-[10vh] w-[80vw] min-h-screen flex py-8' >
+                <div className='  w-[88vw] min-h-screen flex py-8 ' >
 
-                    <div className=" flex flex-col w-80">
+                    <div className=" flex flex-col w-1/4 ">
 
-                        <div className='w-full' >
-                        <div className='font-bold text-3xl mb-14 ' >Browse by</div>
-                            <button className=' hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-0.5 rounded-full font-semibold' >Fashion</button>
-                            <button className=' hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-0.5 rounded-full font-semibold' >Health and Fitness</button>
-                            <button className=' hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-0.5 rounded-full font-semibold' >Small Buisness</button>
-                            <button className=' hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-0.5 rounded-full font-semibold' >Music</button>
-                            <button className=' hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-0.5 rounded-full font-semibold' >Sports</button>
-                            <button className=' hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-0.5 rounded-full font-semibold' >Success Stories</button>
-                            <button className=' hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-0.5 rounded-full font-semibold' >Marketing</button>
-                            <button className=' hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-0.5 rounded-full font-semibold' >Social Media</button>
+                        <div className='w-full ' >
+                            <div className='font-bold text-3xl mb-14 ' >Browse by</div>
+                            <button className='text-lg font hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-1 rounded-full font-medium' >Fashion</button>
+                            <button className='text-lg font hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-1 rounded-full font-medium' >Marketing</button>
+                            <button className='text-lg font hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-1 rounded-full font-medium' >Small Buisness</button>
+                            <button className='text-lg font hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-1 rounded-full font-medium' >Music</button>
+                            <button className='text-lg font hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-1 rounded-full font-medium' >Health and Fitness</button>
+                            <button className='text-lg font hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-1 rounded-full font-medium' >Sports</button>
+                            <button className='text-lg font hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-1 rounded-full font-medium' >Success Stories</button>
+                            <button className='text-lg font hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-1 rounded-full font-medium' >Social Media</button>
                         </div>
 
                     </div>
 
-                    <div className=' bg-blue-400 w-72 min-h-[screen] text-center rounded-xl'>
+                    <div className='flex flex-col items-center justify-center w-3/4 ' >
+                        <div className='flex flex-wrap gap-4  items-center' >
+
+                            <div>
+                                <img src="warburton-for-learn.png" alt="image" className='w-[300px] rounded-4xl h-[80vh] cursor-pointer hover:bg-purple-400' />
+                                <span className='font-bold text-lg text-slate-700'>Warburton</span>
+                            </div>
+                            <div>
+                                <img src="warburton-for-learn.png" alt="image" className='w-[300px] rounded-4xl h-[80vh] cursor-pointer hover:bg-purple-400' />
+                                <span className='font-bold text-lg text-slate-700'>Warburton</span>
+                            </div>
+                            <div>
+                                <img src="warburton-for-learn.png" alt="image" className='w-[300px] rounded-4xl h-[80vh] cursor-pointer hover:bg-purple-400' />
+                                <span className='font-bold text-lg text-slate-700'>Warburton</span>
+                            </div>
+                            <div>
+                                <img src="warburton-for-learn.png" alt="image" className='w-[300px] rounded-4xl h-[80vh] cursor-pointer hover:bg-purple-400' />
+                                <span className='font-bold text-lg text-slate-700'>Warburton</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    {/* <div className='bg-blue-400 w-3/4 min-h-[screen] text-center rounded-xl'>
 
                         <img src="warburton-for-learn.png" alt="image" className='w-full rounded-xl h-[80vh] ' />
 
-                    </div>
+                    </div> */}
 
                 </div>
 

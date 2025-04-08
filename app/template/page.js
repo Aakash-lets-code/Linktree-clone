@@ -41,19 +41,27 @@ const Template = () => {
                         <div className='flex flex-wrap gap-4  items-center' >
 
                             <div>
-                                <img src="warburton-for-learn.png" alt="image" className='w-[300px] rounded-4xl h-[80vh] cursor-pointer hover:bg-purple-400' />
+                               <div className='w-[300px] h-[80vh] hover:opacity-10 hover:duration-300 hover:origin-center' >  
+                                  <img src="warburton-for-learn.png" alt="image" className='w-full h-full rounded-4xl cursor-pointer ' />
+                                  </div>
                                 <span className='font-bold text-lg text-slate-700'>Warburton</span>
                             </div>
                             <div>
-                                <img src="warburton-for-learn.png" alt="image" className='w-[300px] rounded-4xl h-[80vh] cursor-pointer hover:bg-purple-400' />
+                               <div className='w-[300px] h-[80vh] hover:opacity-10 hover:duration-300 hover:origin-center' >  
+                                  <img src="warburton-for-learn.png" alt="image" className='w-full h-full rounded-4xl cursor-pointer ' />
+                                  </div>
                                 <span className='font-bold text-lg text-slate-700'>Warburton</span>
                             </div>
                             <div>
-                                <img src="warburton-for-learn.png" alt="image" className='w-[300px] rounded-4xl h-[80vh] cursor-pointer hover:bg-purple-400' />
+                               <div className='w-[300px] h-[80vh] hover:opacity-10 hover:duration-300 hover:origin-center' >  
+                                  <img src="warburton-for-learn.png" alt="image" className='w-full h-full rounded-4xl cursor-pointer ' />
+                                  </div>
                                 <span className='font-bold text-lg text-slate-700'>Warburton</span>
                             </div>
                             <div>
-                                <img src="warburton-for-learn.png" alt="image" className='w-[300px] rounded-4xl h-[80vh] cursor-pointer hover:bg-purple-400' />
+                               <div className='w-[300px] h-[80vh] hover:opacity-10 hover:duration-300 hover:origin-center' >  
+                                  <img src="warburton-for-learn.png" alt="image" className='w-full h-full rounded-4xl cursor-pointer ' />
+                                  </div>
                                 <span className='font-bold text-lg text-slate-700'>Warburton</span>
                             </div>
 

@@ -38,41 +38,90 @@ const Template = () => {
                     </div>
 
                     <div className='flex flex-col items-center justify-center w-3/4 ' >
-                        <div className='flex flex-wrap gap-4  items-center' >
 
-                            <div>
-                               <div className='w-[300px] h-[80vh] hover:opacity-10 hover:duration-300 hover:origin-center' >  
-                                  <img src="warburton-for-learn.png" alt="image" className='w-full h-full rounded-4xl cursor-pointer ' />
-                                  </div>
-                                <span className='font-bold text-lg text-slate-700'>Warburton</span>
+                        <div className='flex flex-wrap gap-8  items-center' >
+
+                            <div className="relative w-[300px] h-[80vh] mb-16 ">
+                                <div className="w-full h-full group">
+
+                                    <img src="warburton-for-learn.png" alt="image" className="w-full h-full rounded-4xl object-cover transition-opacity origin-center duration-300 group-hover:opacity-15" />
+
+                                    <div className="absolute inset-0 bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <span className="font-bold text-xl text-black">Explore Warburton</span>
+                                    </div>
+
+                                </div>
+                                <span className="font-bold text-lg text-slate-800 block mt-2 ">Warburton</span>
                             </div>
-                            <div>
-                               <div className='w-[300px] h-[80vh] hover:opacity-10 hover:duration-300 hover:origin-center' >  
-                                  <img src="warburton-for-learn.png" alt="image" className='w-full h-full rounded-4xl cursor-pointer ' />
-                                  </div>
-                                <span className='font-bold text-lg text-slate-700'>Warburton</span>
+
+                            <div className="relative w-[300px] h-[80vh] mb-16 ">
+                                <div className="w-full h-full group">
+
+                                    <img src="warburton-for-learn.png" alt="image" className="w-full h-full rounded-4xl object-cover transition-opacity origin-center duration-300 group-hover:opacity-15" />
+
+                                    <div className="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <span className="font-bold text-xl text-black">Explore Warburton</span>
+                                    </div>
+
+                                </div>
+                                <span className="font-bold text-lg text-slate-800 block mt-2 ">Warburton</span>
                             </div>
-                            <div>
-                               <div className='w-[300px] h-[80vh] hover:opacity-10 hover:duration-300 hover:origin-center' >  
-                                  <img src="warburton-for-learn.png" alt="image" className='w-full h-full rounded-4xl cursor-pointer ' />
-                                  </div>
-                                <span className='font-bold text-lg text-slate-700'>Warburton</span>
+
+                            <div className="relative w-[300px] h-[80vh] mb-16 ">
+                                <div className="w-full h-full group">
+
+                                    <img src="warburton-for-learn.png" alt="image" className="w-full h-full rounded-4xl object-cover transition-opacity origin-center duration-300 group-hover:opacity-15" />
+
+                                    <div className="absolute inset-0 bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <span className="font-bold text-xl text-black">Explore Warburton</span>
+                                    </div>
+
+                                </div>
+                                <span className="font-bold text-lg text-slate-800 block mt-2 ">Warburton</span>
                             </div>
-                            <div>
-                               <div className='w-[300px] h-[80vh] hover:opacity-10 hover:duration-300 hover:origin-center' >  
-                                  <img src="warburton-for-learn.png" alt="image" className='w-full h-full rounded-4xl cursor-pointer ' />
-                                  </div>
-                                <span className='font-bold text-lg text-slate-700'>Warburton</span>
+
+                            <div className="relative w-[300px] h-[80vh] mb-16 ">
+                                <div className="w-full h-full group">
+
+                                    <img src="warburton-for-learn.png" alt="image" className="w-full h-full rounded-4xl object-cover transition-opacity origin-center duration-300 group-hover:opacity-15" />
+
+                                    <div className="absolute inset-0 bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <span className="font-bold text-xl text-black">Explore Warburton</span>
+                                    </div>
+
+                                </div>
+                                <span className="font-bold text-lg text-slate-800 block mt-2 ">Warburton</span>
                             </div>
+
+                            <div className="relative w-[300px] h-[80vh] mb-16 ">
+                                <div className="w-full h-full group">
+
+                                    <img src="warburton-for-learn.png" alt="image" className="w-full h-full rounded-4xl object-cover transition-opacity origin-center duration-300 group-hover:opacity-15" />
+
+                                    <div className="absolute inset-0 bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <span className="font-bold text-xl text-black">Explore Warburton</span>
+                                    </div>
+
+                                </div>
+                                <span className="font-bold text-lg text-slate-800 block mt-2 ">Warburton</span>
+                            </div> 
+
+                            <div className="relative w-[300px] h-[80vh] mb-16 ">
+                                <div className="w-full h-full group">
+
+                                    <img src="warburton-for-learn.png" alt="image" className="w-full h-full rounded-4xl object-cover transition-opacity origin-center duration-300 group-hover:opacity-15" />
+
+                                    <div className="absolute inset-0 bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <span className="font-bold text-xl text-black">Explore Warburton</span>
+                                    </div>
+
+                                </div>
+                                <span className="font-bold text-lg text-slate-800 block mt-2 ">Warburton</span>
+                            </div> 
 
                         </div>
 
                     </div>
-                    {/* <div className='bg-blue-400 w-3/4 min-h-[screen] text-center rounded-xl'>
-
-                        <img src="warburton-for-learn.png" alt="image" className='w-full rounded-xl h-[80vh] ' />
-
-                    </div> */}
 
                 </div>
 

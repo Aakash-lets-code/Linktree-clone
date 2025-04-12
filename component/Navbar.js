@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 const Navbar = () => {
     const pathname = usePathname()
-    const showNavbar = ["/", "/generate", "/learn" , "/template"].includes(pathname)
+    const showNavbar = ["/", "/generate", "/learn", "/template"].includes(pathname)
     const [isLearnHovered, setIsLearnHovered] = useState(false)
     const [isDiscoverHovered, setIsDiscoverHovered] = useState(false)
 
@@ -64,7 +64,7 @@ const Navbar = () => {
 
         <div className='gap-4 text-lg flex items-center' >
             <button className="login bg-[#eff0ec] rounded-lg text-black p-4 px-6 ">Log in </button>
-            <button className="signup bg-[#1e2330] rounded-full py-5 px-7 text-white">Sign up free</button>
+            <button className="signup bg-[#1e2330] rounded-full py-5 px-7 text-white hover:bg-[#262d3e]">Sign up free</button>
         </div>
 
     </nav>} </>

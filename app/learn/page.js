@@ -3,9 +3,9 @@ import Link from 'next/link'
 
 const Learn = () => {
     return (
-        <>
+        <> 
 
-            <div className=' bg-[#d2e823] min-h-screen pt-[40vh] ' >
+            <section className=' bg-[#d2e823] min-h-screen pt-[40vh] ' >
 
                 <div className="flex justify-between items-start  mx-[5vh]  text-[#000] pb-[-45] " >
                     <h2 className='font-extrabold text-9xl tracking-[-0.075em] ' >
@@ -30,9 +30,9 @@ const Learn = () => {
                     <button className=' hover:bg-[#000] hover:text-white text-[#0b0c01] bg-[#bdd01f] p-9 py-6 mx-2 rounded-full font-semibold' >Product News</button>
                     <button className=' hover:bg-[#000] hover:text-white text-[#0b0c01] bg-[#bdd01f] p-9 py-6 mx-2 rounded-full font-semibold' >Success Stories</button>
                 </div>
-            </div>
+            </section>
 
-            <div className='min-h-screen w-full'>
+            <section className='min-h-screen w-full'>
 
                 <div className=' grid grid-cols-3 w-[90vw] mx-auto ml-[61px] gap-x-5 min-h-screen py-40'>
 
@@ -89,7 +89,7 @@ const Learn = () => {
 
                 </div>
 
-            </div>
+            </section>
         </>
     )
 }

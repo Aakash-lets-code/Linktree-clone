@@ -5,10 +5,10 @@ const Learn = () => {
     return (
         <>
 
-            <section className=' bg-[#d2e823] min-h-screen pt-[40vh] ' >
+            <section className=' bg-[#d2e823] min-h-screen pt-[40vh] px-[10vh] ' >
 
-                <div className="flex justify-between items-start  mx-[5vh]  text-[#000] pb-[-45] " >
-                    <h2 className='font-extrabold text-9xl tracking-[-0.075em] ' >
+                <div className="flex justify-between items-start   text-[#000] pb-[45] " >
+                    <h2 className='font-extrabold text-9xl tracking-[-0.075em] leading-24 ' >
                         LINKTREE
                         <br />
                         BLOG
@@ -19,7 +19,7 @@ const Learn = () => {
                     </h2>
                 </div>
 
-                <div className=' mt-20 mx-[5vh]' >
+                <div className=' mt-20' >
 
                     <Link href="/learn"> <button className=' bg-[#000] text-white p-9 py-6 mx-2 rounded-full font-semibold' >
                         All

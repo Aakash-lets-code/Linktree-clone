@@ -55,7 +55,7 @@ const Learn = () => {
 
                     <div className='group w-full overflow-hidden'>
                         <div className='max-h-[450px] wfull overflow-hidden ' >
-                            <img src="learn-scroll.jpg" alt="image" className='object-cover origin-center duration-300 transition-all group-hover:scale-105 ' />
+                            <img src="learn-scroll-second(2).png" alt="image" className='object-cover origin-center duration-300 transition-all group-hover:scale-105 ' />
                         </div>
                         <div className="text space-y-3 mt-7 group-hover:scale-[100.5%] origin-center duration-300 transition-all ">
                             <div className=' text-black-400 flex flex-row gap-x-4 ' >
@@ -72,7 +72,7 @@ const Learn = () => {
 
                     <div className='group w-full overflow-hidden'>
                         <div className='max-h-[450px] wfull overflow-hidden ' >
-                            <img src="learn-scroll.jpg" alt="image" className='object-cover origin-center duration-300 transition-all group-hover:scale-105 ' />
+                            <img src="learn-scroll-second(3).png" alt="image" className='object-cover origin-center duration-300 transition-all group-hover:scale-105 ' />
                         </div>
                         <div className="text space-y-3 mt-7 group-hover:scale-[100.5%] origin-center duration-300 transition-all ">
                             <div className=' text-black-400 flex flex-row gap-x-4 ' >

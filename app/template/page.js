@@ -8,7 +8,7 @@ const Template = () => {
 
                 <div className=' h-[85vh]  flex flex-col gap-4 items-center justify-center pt-28 px-[5vh]' >
 
-                    <h2 className='text-7xl font-extrabold text-[#1e2330] text-center' >
+                    <h2 className='text-7xl font-extrabold text-[#1e2330] text-center tracking-tight leading-[70px] ' >
                         A Linktree Template To Suit
                         <br /> Every Brand And Creator
                     </h2>
@@ -42,7 +42,7 @@ const Template = () => {
                         <div className='flex flex-wrap gap-8  items-center' >
 
                             <div className="relative w-[300px] h-[80vh] mb-16 ">
-                                <div className="w-full h-full group overflow-hidden">
+                                <div className="w-full h-full group overflow-hidden rounded-4xl ">
 
                                     <img src="warburton-for-learn.png" alt="image" className="w-full h-full rounded-4xl object-cover origin-center duration-300 group-hover:opacity-15 transition-all group-hover:scale-110 " />
 
@@ -55,7 +55,7 @@ const Template = () => {
                             </div>
 
                             <div className="relative w-[300px] h-[80vh] mb-16 ">
-                                <div className="w-full h-full group overflow-hidden">
+                                <div className="w-full h-full group overflow-hidden rounded-4xl ">
 
                                     <img src="warburton-for-learn.png" alt="image" className="w-full h-full rounded-4xl object-cover origin-center duration-300 group-hover:opacity-15 transition-all group-hover:scale-110 " />
 
@@ -68,7 +68,7 @@ const Template = () => {
                             </div>
 
                             <div className="relative w-[300px] h-[80vh] mb-16 ">
-                                <div className="w-full h-full group overflow-hidden">
+                                <div className="w-full h-full group overflow-hidden rounded-4xl ">
 
                                     <img src="warburton-for-learn.png" alt="image" className="w-full h-full rounded-4xl object-cover origin-center duration-300 group-hover:opacity-15 transition-all group-hover:scale-110 " />
 
@@ -81,7 +81,7 @@ const Template = () => {
                             </div>
 
                             <div className="relative w-[300px] h-[80vh] mb-16 ">
-                                <div className="w-full h-full group overflow-hidden">
+                                <div className="w-full h-full group overflow-hidden rounded-4xl ">
 
                                     <img src="warburton-for-learn.png" alt="image" className="w-full h-full rounded-4xl object-cover origin-center duration-300 group-hover:opacity-15 transition-all group-hover:scale-110 " />
 
@@ -94,7 +94,7 @@ const Template = () => {
                             </div>
 
                             <div className="relative w-[300px] h-[80vh] mb-16 ">
-                                <div className="w-full h-full group overflow-hidden">
+                                <div className="w-full h-full group overflow-hidden rounded-4xl ">
 
                                     <img src="warburton-for-learn.png" alt="image" className="w-full h-full rounded-4xl object-cover origin-center duration-300 group-hover:opacity-15 transition-all group-hover:scale-110 " />
 
@@ -107,7 +107,7 @@ const Template = () => {
                             </div> 
 
                             <div className="relative w-[300px] h-[80vh] mb-16 ">
-                                <div className="w-full h-full group overflow-hidden">
+                                <div className="w-full h-full group overflow-hidden rounded-4xl ">
 
                                     <img src="warburton-for-learn.png" alt="image" className="w-full h-full rounded-4xl object-cover origin-center duration-300 group-hover:opacity-15 transition-all group-hover:scale-110 " />
 
@@ -120,7 +120,7 @@ const Template = () => {
                             </div> 
 
                             <div className="relative w-[300px] h-[80vh] mb-16 ">
-                                <div className="w-full h-full group overflow-hidden">
+                                <div className="w-full h-full group overflow-hidden rounded-4xl ">
 
                                     <img src="warburton-for-learn.png" alt="image" className="w-full h-full rounded-4xl object-cover origin-center duration-300 group-hover:opacity-15 transition-all group-hover:scale-110 " />
 

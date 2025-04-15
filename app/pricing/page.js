@@ -20,8 +20,8 @@ const Pricing = () => {
 
                 <div className="button h-14 w-52 bg-white rounded-full flex items-center justify-center shadow-md mb-12 p-1 py-0.5 ">
 
-                    <button>Monthly</button>
-                    <button>Annually</button>
+                    <button onClick={() => setIsClicked("left")} className={`${isClicked === "left" ? 'bg-[#1e2330] text-white' : ' bg-white '} rounded-full w-full h-full transition-colors duration-300 ease-in-out`} >Monthly</button>
+                    <button onClick={() => setIsClicked("right")} className={`${isClicked === "right" ? 'bg-[#1e2330]  text-white ' : ' bg-white '}rounded-full w-full h-full transition-colors duration-300 ease-in-out`} >Annually</button>
 
                 </div>
 

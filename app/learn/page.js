@@ -37,8 +37,8 @@ const Learn = () => {
                 <div className=' grid grid-cols-3 w-[90vw] mx-auto ml-[61px] gap-x-5 min-h-screen py-40'>
 
                     <div className='group w-full overflow-hidden'>
-                        <div className='max-h-[450px] w-full overflow-hidden ' >
-                            <img src="learn-scroll.jpg" alt="image" className='object-cover origin-center duration-300 transition-all group-hover:scale-105 ' />
+                        <div className='overflow-hidden ' >
+                            <img src="learn-scroll.jpg" alt="image" className=' max-h-[450px] w-full object-cover origin-center duration-300 transition-all group-hover:scale-105 ' />
                         </div>
                         <div className="text space-y-3 mt-7 group-hover:scale-[100.5%] origin-center duration-300 transition-all ">
                             <div className=' text-black-400 flex flex-row gap-x-4 ' >
@@ -54,8 +54,8 @@ const Learn = () => {
                     </div>
 
                     <div className='group w-full overflow-hidden'>
-                        <div className='max-h-[450px] w-full overflow-hidden ' >
-                            <img src="learn-scroll-second(2).png" alt="image" className='object-cover origin-center duration-300 transition-all group-hover:scale-105 ' />
+                        <div className='overflow-hidden ' >
+                            <img src="learn-scroll-second(2).png" alt="image" className=' max-h-[450px] w-full object-cover origin-center duration-300 transition-all group-hover:scale-105 ' />
                         </div>
                         <div className="text space-y-3 mt-7 group-hover:scale-[100.5%] origin-center duration-300 transition-all ">
                             <div className=' text-black-400 flex flex-row gap-x-4 ' >
@@ -71,8 +71,8 @@ const Learn = () => {
                     </div>
 
                     <div className='group w-full overflow-hidden'>
-                        <div className='max-h-[450px] w-full overflow-hidden ' >
-                            <img src="learn-scroll-second(3).png" alt="image" className='object-cover origin-center duration-300 transition-all group-hover:scale-105 ' />
+                        <div className='overflow-hidden ' >
+                            <img src="learn-scroll-second(3).png" alt="image" className=' max-h-[450px] w-full object-cover origin-center duration-300 transition-all group-hover:scale-105 ' />
                         </div>
                         <div className="text space-y-3 mt-7 group-hover:scale-[100.5%] origin-center duration-300 transition-all ">
                             <div className=' text-black-400 flex flex-row gap-x-4 ' >

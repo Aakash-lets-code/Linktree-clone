@@ -136,6 +136,22 @@ export default function Home() {
 
       </section>
 
+      <section className="bg-[#f3f3f1] w-full text-center " >
+
+        <div className=" px-6 pb-8 gap-y-5 " >
+
+          <div className="" >
+            <h2 className="text-7xl font-extrabold tracking-tight" > The only link in bio trusted by 50M+ </h2>
+          </div>
+
+          <div className="text-blue-500 font-extrabold text-5xl tracking-tight" >
+            <p>Athlete</p>
+          </div> 
+
+        </div>
+
+      </section>
+
     </main>
   );
 }

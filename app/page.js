@@ -1,16 +1,28 @@
 "use client"
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
 export default function Home() {
 
   const [text, setText] = useState("")
   const router = useRouter()
+  const slideTexts = ['Athlete', 'Baker', 'Influencer', 'Retailers', 'Musician', 'Artist', 'Creator', 'Coach', 'Business', 'Non-profit', 'Podcaster', 'Shopify', 'YouTuber', 'TikTokers', 'Instagrammer', 'Health Educator'];
+
 
   const createTree = () => {
     router.push(`/generate?handle=${text}`)
   }
+
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prev) => (prev + 1) % slideTexts.length);
+    }, 3500); 
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <main>
@@ -138,15 +150,25 @@ export default function Home() {
 
       <section className="bg-[#f3f3f1] w-full text-center " >
 
-        <div className=" px-6 pb-8 gap-y-5 " >
+        <div className=" px-6 pb-8 space-y-3.5 " >
 
           <div className="" >
             <h2 className="text-7xl font-extrabold tracking-tight" > The only link in bio trusted by 50M+ </h2>
           </div>
 
-          <div className="text-blue-500 font-extrabold text-5xl tracking-tight" >
+          {/* <div className="text-blue-500 font-extrabold text-5xl tracking-tight" >
             <p>Athlete</p>
-          </div> 
+          </div>  */}
+
+          <div className="relative h-20 w-full text-center overflow-hidden">
+            <div className="transition-transform duration-500" style={{ transform: `translateY(-${index * 5}rem)` }} >
+              {slideTexts.map((text, i) => (
+                <div key={i} className="h-20 flex items-center justify-center text-5xl font-extrabold text-[#2665d6] ">
+                  {text}
+                </div>
+              ))}
+            </div>
+          </div>
 
         </div>
 

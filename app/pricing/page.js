@@ -30,8 +30,31 @@ const Pricing = () => {
 
                         </div>
 
-                        <div className='plans min-h-screen w-[96%] bg-black ' >
-
+                        <div className='plans min-h-screen w-[96%] bg-black pt-8 grid grid-cols-4 gap-4 mb-36 ' >
+                            <div className='h-full w-full bg-[#fff] rounded-4xl min-h-[150vh] '> 
+                                <div className='type pt-12 pb-6 px-6 bg-[#bbbeac] text-3xl font-semibold rounded-t-4xl'>
+                                    <h3>Free</h3>
+                                </div>
+                                <div className="text"></div>
+                            </div>
+                            <div className='h-full w-full bg-[#fff] rounded-4xl min-h-[150vh] '> 
+                                <div className='type pt-12 pb-6 px-6 bg-[#bbbeac] text-3xl font-semibold rounded-t-4xl'>
+                                    <h3>Starter</h3>
+                                </div>
+                                <div className="text"></div>
+                            </div>
+                            <div className='h-full w-full bg-[#fff] text-white rounded-4xl min-h-[150vh] '> 
+                                <div className='type pt-12 pb-6 px-6 bg-[#502274] text-3xl font-semibold rounded-t-4xl'>
+                                    <h3>Pro</h3>
+                                </div>
+                                <div className="text"></div>
+                            </div>
+                            <div className='h-full w-full bg-[#fff] rounded-4xl min-h-[150vh] '> 
+                                <div className='type pt-12 pb-6 px-6 bg-[#bbbeac] text-3xl font-semibold rounded-t-4xl'>
+                                    <h3>Premium</h3>
+                                </div>
+                                <div className="text"></div>
+                            </div>
                         </div>
 
                     </div>

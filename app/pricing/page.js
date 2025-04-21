@@ -103,31 +103,31 @@ const Pricing = () => {
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Schedule a link to go live and disappear at specific dates and times
+                                               <strong>Schedule</strong> a link to go live and disappear at specific dates and times
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Add animations to your most important links to highlight what's important
+                                                Add <strong>animations</strong> to your most important links to highlight what's important
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Customize your button colors and shapes, and choose the font that aligns with your brand or style
+                                                <strong>Customize</strong> your button colors and shapes, and choose the font that aligns with your brand or style
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Spotlight a link so that the content is already on display when a visitor lands on your Linktree
+                                                <strong>Spotlight</strong> a link so that the content is already on display when a visitor lands on your Linktree
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                View the performance of a specific link or social icon and track your commerce revenue
+                                                View the <strong>performance</strong> of a specific link or social icon and track your commerce revenue
                                             </p>
                                         </div>
                                     </div>
@@ -159,25 +159,25 @@ const Pricing = () => {
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Create a bespoke Linktree that matches your branding or style. Add text, images, thumbnails and animated backgrounds
+                                                Create a <strong>bespoke</strong> Linktree that matches your branding or style. Add text, images, thumbnails and animated backgrounds
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Gain deeper insights with comprehensive location/referrer based analytics and conversion tracking
+                                                Gain deeper <strong>insights</strong> with comprehensive location/referrer based analytics and conversion tracking
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Collect email addresses and phone numbers directly from your Linktree to build your own visitor list
+                                                Collect <strong>email addresses and phone numbers</strong> directly from your Linktree to build your own visitor list
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Marketing tech capabilities including SEO settings, Google Analytics, Zapier and Mailchimp integrations.
+                                            <strong>Marketing tech</strong> capabilities including SEO settings, Google Analytics, Zapier and Mailchimp integrations.
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
@@ -214,25 +214,25 @@ const Pricing = () => {
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Get tailored onboarding to help you get setup and optimise your Linktree from day one
+                                                Get <strong>tailored onboarding</strong> to help you get setup and optimise your Linktree from day one
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Priority customer support with a response time of 4 hours or less
+                                                Priority <strong>customer support</strong> with a response time of 4 hours or less
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Access to unlimited historical insights from the lifetime of your Linktree
+                                                Access to <strong>unlimited historical insights</strong> from the lifetime of your Linktree
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Export your analytics data
+                                            <strong>Export</strong> your analytics data
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >

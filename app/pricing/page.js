@@ -31,7 +31,7 @@ const Pricing = () => {
                         </div>
 
                         <div className='plans min-h-screen w-[96%] bg-black pt-8 grid grid-cols-4 gap-4 mb-36 ' >
-                            
+
                             <div className='h-full w-full bg-[#fff] rounded-4xl min-h-[150vh] '>
 
                                 <div className='type pt-12 pb-6 px-6 bg-[#bbbeac] text-3xl font-semibold rounded-t-4xl'>
@@ -40,7 +40,7 @@ const Pricing = () => {
                                 <div className="text my-5 px-6 text-[#1e2330] font-semibold text-[20px] gap-y-3 flex flex-col justify-center">
 
                                     <p>Boost your digital presence <br /> and monetize your socials</p>
-                                    <p className='text-sm' >Key features: <br /> </p>
+                                    <p className='text-[15px]' >Key features: <br /> </p>
                                     <div className="mt-6 mb-10">
 
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
@@ -76,7 +76,7 @@ const Pricing = () => {
                                     </div>
                                     <div className='mt-[100%] mb-8 flex flex-col items-start gap-1' >
                                         <div className=' text-3xl font-semibold' >
-                                           Rs.0
+                                            Rs.0
                                         </div>
                                         <div className=' text-sm' >
                                             Free, forever
@@ -89,57 +89,57 @@ const Pricing = () => {
                             </div>
 
                             <div className='h-full w-full bg-[#fff] rounded-4xl min-h-[150vh] '>
-                                
+
                                 <div className='type pt-12 pb-6 px-6 bg-[#bbbeac] text-3xl font-semibold rounded-t-4xl'>
 
                                     <h3>Starter</h3>
                                 </div>
-                               <div className="text my-5 px-6 text-[#1e2330] font-semibold text-[20px] gap-y-3 flex flex-col justify-center">
+                                <div className="text my-5 px-6 text-[#1e2330] font-semibold text-[20px] gap-y-3 flex flex-col justify-center">
 
-                                    <p>Boost your digital presence <br /> and monetize your socials</p>
-                                    <p className='text-sm' >Key features: <br /> </p>
+                                    <p>Capture attention and engage visitors effortlessly</p>
+                                    <p className='text-[15px]' >Everything in Free, plus:<br /> </p>
                                     <div className="mt-6 mb-10">
 
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                <strong> Unlimited link </strong>
+                                                Schedule a link to go live and disappear at specific dates and times
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                <strong> Multi-factor authentication </strong> for an additional layer of security
+                                                Add animations to your most important links to highlight what's important
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Drive your offline traffic online with  <strong> QR codes </strong>
+                                                Customize your button colors and shapes, and choose the font that aligns with your brand or style
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Grow your <strong> cross-channel following </strong> and connect all of your social profiles with one easy link
+                                                Spotlight a link so that the content is already on display when a visitor lands on your Linktree
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Sell your merchandise and affiliate products with our <strong> Shop </strong> tab
+                                                View the performance of a specific link or social icon and track your commerce revenue
                                             </p>
                                         </div>
                                     </div>
                                     <div className='mt-[100%] mb-8 flex flex-col items-start gap-1' >
                                         <div className=' text-3xl font-semibold' >
-                                           Rs.0
+                                            Rs.0
                                         </div>
                                         <div className=' text-sm' >
                                             Free, forever
                                         </div>
                                     </div>
-                                    <a href="#" className='text-center rounded-full border-[1px] border-[#d1c3cd] py-5 w-full text-sm font-semibold' >Join for free</a>
+                                    <a href="#" className='text-center rounded-full border-[1px] border-[#d1c3cd] py-5 w-full text-sm font-semibold' >Get Started</a>
 
                                 </div>
 
@@ -150,52 +150,52 @@ const Pricing = () => {
                                 <div className='type pt-12 pb-6 px-6 bg-[#502274] text-3xl font-semibold rounded-t-4xl'>
                                     <h3>Pro</h3>
                                 </div>
-                              <div className="text my-5 px-6 text-[#1e2330] font-semibold text-[20px] gap-y-3 flex flex-col justify-center">
+                                <div className="text my-5 px-6 text-[#1e2330] font-semibold text-[20px] gap-y-3 flex flex-col justify-center">
 
-                                    <p>Boost your digital presence <br /> and monetize your socials</p>
-                                    <p className='text-sm' >Key features: <br /> </p>
+                                    <p>Elevate your brand, unlock insights and supercharge growth</p>
+                                    <p className='text-[15px]' >Everything in Starter, plus:</p>
                                     <div className="mt-6 mb-10">
 
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                <strong> Unlimited link </strong>
+                                                Create a bespoke Linktree that matches your branding or style. Add text, images, thumbnails and animated backgrounds
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                <strong> Multi-factor authentication </strong> for an additional layer of security
+                                                Gain deeper insights with comprehensive location/referrer based analytics and conversion tracking
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Drive your offline traffic online with  <strong> QR codes </strong>
+                                                Collect email addresses and phone numbers directly from your Linktree to build your own visitor list
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Grow your <strong> cross-channel following </strong> and connect all of your social profiles with one easy link
+                                                Marketing tech capabilities including SEO settings, Google Analytics, Zapier and Mailchimp integrations.
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Sell your merchandise and affiliate products with our <strong> Shop </strong> tab
+
                                             </p>
                                         </div>
                                     </div>
                                     <div className='mt-[100%] mb-8 flex flex-col items-start gap-1' >
                                         <div className=' text-3xl font-semibold' >
-                                           Rs.0
+                                            Rs.0
                                         </div>
                                         <div className=' text-sm' >
                                             Free, forever
                                         </div>
                                     </div>
-                                    <a href="#" className='text-center rounded-full border-[1px] border-[#d1c3cd] py-5 w-full text-sm font-semibold' >Join for free</a>
+                                    <a href="#" className='text-center rounded-full border-[1px] border-[#d1c3cd] bg-[#e9c0e9] py-5 w-full text-sm font-semibold' >Try Pro for free</a>
 
                                 </div>
 
@@ -207,50 +207,50 @@ const Pricing = () => {
                                 </div>
                                 <div className="text my-5 px-6 text-[#1e2330] font-semibold text-[20px] gap-y-3 flex flex-col justify-center">
 
-                                    <p>Boost your digital presence <br /> and monetize your socials</p>
-                                    <p className='text-sm' >Key features: <br /> </p>
+                                    <p>Gain personalized, high touch support to build your best Linktree</p>
+                                    <p className='text-[15px]' >Everything in Pro, plus:<br /> </p>
                                     <div className="mt-6 mb-10">
 
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                <strong> Unlimited link </strong>
+                                                Get tailored onboarding to help you get setup and optimise your Linktree from day one
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                <strong> Multi-factor authentication </strong> for an additional layer of security
+                                                Priority customer support with a response time of 4 hours or less
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Drive your offline traffic online with  <strong> QR codes </strong>
+                                                Access to unlimited historical insights from the lifetime of your Linktree
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Grow your <strong> cross-channel following </strong> and connect all of your social profiles with one easy link
+                                                Export your analytics data
                                             </p>
                                         </div>
                                         <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
                                             <img src="check.svg" alt="check" />
                                             <p>
-                                                Sell your merchandise and affiliate products with our <strong> Shop </strong> tab
+
                                             </p>
                                         </div>
                                     </div>
                                     <div className='mt-[100%] mb-8 flex flex-col items-start gap-1' >
                                         <div className=' text-3xl font-semibold' >
-                                           Rs.0
+                                            Rs.0
                                         </div>
                                         <div className=' text-sm' >
                                             Free, forever
                                         </div>
                                     </div>
-                                    <a href="#" className='text-center rounded-full border-[1px] border-[#d1c3cd] py-5 w-full text-sm font-semibold' >Join for free</a>
+                                    <a href="#" className='text-center rounded-full border-[1px] border-[#d1c3cd] py-5 w-full text-sm font-semibold' >Get Premium</a>
 
                                 </div>
 

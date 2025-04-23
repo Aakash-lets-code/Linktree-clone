@@ -80,7 +80,7 @@ const Pricing = () => {
                                         <div className=' text-3xl font-semibold' >
                                             Rs.0
                                         </div>
-                                        <div className='text-sm' >
+                                        <div className='text-[15px]' >
                                             Free, forever
                                         </div>
                                         <a href="#" className='text-center rounded-full border-[1px] border-[#d1c3cd] py-5 w-full text-sm font-semibold mt-8' >Join for free</a>
@@ -138,10 +138,10 @@ const Pricing = () => {
 
                                     <div className='flex flex-col items-start gap-1 mt-28' >
                                         <div className=' text-3xl font-semibold' >
-                                            Rs.0
+                                        Rs.150
                                         </div>
-                                        <div className='text-sm' >
-                                            Free, forever
+                                        <div className='text-[15px]' >
+                                        INR/month, billed annually
                                         </div>
                                         <a href="#" className='text-center rounded-full border-[1px] border-[#d1c3cd] py-5 w-full text-sm font-semibold mt-8' >Get Started</a>
                                     </div>
@@ -153,7 +153,10 @@ const Pricing = () => {
                             <div className='w-full bg-[#fff] rounded-4xl h-auto '>
 
                                 <div className='type pt-12 pb-6 px-6 bg-[#502274] text-3xl text-white font-semibold rounded-t-4xl'>
+                                    <div className='flex justify-between items-center' >
                                     <h3>Pro</h3>
+                                    <p className='p-3 py-1.5 bg-[#d2e823] rounded-lg text-black text-sm'>Most Popular</p>
+                                    </div>
                                 </div>
                                 <div className="text my-5 px-6 text-[#1e2330] font-semibold text-[20px] gap-y-3 flex flex-col justify-center">
 
@@ -188,12 +191,16 @@ const Pricing = () => {
                                             </div>                                    
                                         </div>
                                     </div>
-                                    <div className='flex flex-col items-start gap-1 mt-24' >
-                                        <div className=' text-3xl font-semibold' >
-                                            Rs.0
+                                    <div className='flex flex-col items-start gap-1 mt-[51px]' >
+                                        <div className='flex items-center justify-start text-sm text-[#979991] gap-2' >
+                                            <img src="graph-icon-for-pro-plan.svg" alt="upward graph" width={19} />
+                                            <p>Pro users get more engagement</p>
                                         </div>
-                                        <div className='text-sm' >
-                                            Free, forever
+                                        <div className=' text-3xl font-semibold' >
+                                        Free for 7 days
+                                        </div>
+                                        <div className='text-[15px]' >
+                                        Rs.300 INR per month after, billed annually
                                         </div>
                                         <a href="#" className='text-center rounded-full border-[1px] border-[#d1c3cd] bg-[#e9c0e9] py-5 w-full text-sm font-semibold mt-8' >Try Pro for free</a>
                                     </div>
@@ -241,10 +248,10 @@ const Pricing = () => {
                                     </div>
                                     <div className='flex flex-col items-start gap-1 mt-[232px]' >
                                         <div className=' text-3xl font-semibold' >
-                                            Rs.0
+                                        Rs.900
                                         </div>
-                                        <div className='text-sm' >
-                                            Free, forever
+                                        <div className='text-[15px]' >
+                                        INR/month, billed annually
                                         </div>
                                         <a href="#" className='text-center rounded-full border-[1px] border-[#d1c3cd] py-5 w-full text-sm font-semibold mt-8' >Get Premium</a>
                                     </div>

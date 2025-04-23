@@ -80,7 +80,7 @@ const Pricing = () => {
                                         <div className=' text-3xl font-semibold' >
                                             Rs.0
                                         </div>
-                                        <div className=' text-sm' >
+                                        <div className='text-sm' >
                                             Free, forever
                                         </div>
                                         <a href="#" className='text-center rounded-full border-[1px] border-[#d1c3cd] py-5 w-full text-sm font-semibold mt-8' >Join for free</a>
@@ -140,7 +140,7 @@ const Pricing = () => {
                                         <div className=' text-3xl font-semibold' >
                                             Rs.0
                                         </div>
-                                        <div className=' text-sm' >
+                                        <div className='text-sm' >
                                             Free, forever
                                         </div>
                                         <a href="#" className='text-center rounded-full border-[1px] border-[#d1c3cd] py-5 w-full text-sm font-semibold mt-8' >Get Started</a>
@@ -185,20 +185,14 @@ const Pricing = () => {
                                                 <p>
                                                     <strong>Marketing tech</strong> capabilities including SEO settings, Google Analytics, Zapier and Mailchimp integrations.
                                                 </p>
-                                            </div>
-                                            <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
-                                                <img src="check.svg" alt="check" />
-                                                <p>
-
-                                                </p>
-                                            </div>
+                                            </div>                                    
                                         </div>
                                     </div>
-                                    <div className='flex flex-col items-start gap-1 mt-9' >
+                                    <div className='flex flex-col items-start gap-1 mt-24' >
                                         <div className=' text-3xl font-semibold' >
                                             Rs.0
                                         </div>
-                                        <div className=' text-sm' >
+                                        <div className='text-sm' >
                                             Free, forever
                                         </div>
                                         <a href="#" className='text-center rounded-full border-[1px] border-[#d1c3cd] bg-[#e9c0e9] py-5 w-full text-sm font-semibold mt-8' >Try Pro for free</a>
@@ -243,19 +237,13 @@ const Pricing = () => {
                                                     <strong>Export</strong> your analytics data
                                                 </p>
                                             </div>
-                                            <div className='py-4 pr-4 flex items-start border-y-[1.5px] border-[#d1c3cd] gap-2 text-sm' >
-                                                <img src="check.svg" alt="check" />
-                                                <p>
-
-                                                </p>
-                                            </div>
                                         </div>
                                     </div>
-                                    <div className='flex flex-col items-start gap-1 mt-[170px]' >
+                                    <div className='flex flex-col items-start gap-1 mt-[232px]' >
                                         <div className=' text-3xl font-semibold' >
                                             Rs.0
                                         </div>
-                                        <div className=' text-sm' >
+                                        <div className='text-sm' >
                                             Free, forever
                                         </div>
                                         <a href="#" className='text-center rounded-full border-[1px] border-[#d1c3cd] py-5 w-full text-sm font-semibold mt-8' >Get Premium</a>

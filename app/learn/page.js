@@ -59,7 +59,7 @@ const Learn = () => {
                         </div>
                         <div className="text space-y-3 mt-7 group-hover:scale-[100.5%] origin-center duration-300 transition-all ">
                             <div className=' text-black-400 flex flex-row gap-x-4 ' >
-                                <span>April 3, 2025 </span>| <span>Branding</span> | <span>5 min read</span>
+                                <span>April 2, 2025</span>| <span>Blog</span> | <span>7 min read </span>
                             </div>
                             <h3 className='text-3xl font-extrabold text-black tracking-tighter mb-4'>
                                 Lissette Calveiro's Tips for Building a Personal Brand
@@ -79,10 +79,10 @@ const Learn = () => {
                                 <span>April 3, 2025 </span>| <span>Branding</span> | <span>5 min read</span>
                             </div>
                             <h3 className='text-3xl font-extrabold text-black tracking-tighter mb-4'>
-                                Lissette Calveiro's Tips for Building a Personal Brand
+                                Linktree's Creator Commerce Report
                             </h3>
                             <div className='text-lg text-black'>
-                                Business coach Lissette Calveiro shares expert strategies on audience trust, monetization, and leveraging tools like Linktree to turn your passion
+                                Want to step up your social commerce game? Don’t go anywhere ‘til you’ve read Linktree’s Creator Commerce Report, packed with stats
                             </div>
                         </div>
                     </div>

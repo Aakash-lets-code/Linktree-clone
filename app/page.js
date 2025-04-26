@@ -19,7 +19,7 @@ export default function Home() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % slideTexts.length);
-    }, 3500); 
+    }, 3500);
 
     return () => clearInterval(interval);
   }, []);

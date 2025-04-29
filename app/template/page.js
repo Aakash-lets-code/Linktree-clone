@@ -33,6 +33,7 @@ const Template = () => {
                             <button className='text-lg font hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-1 rounded-full font-medium' >Sports</button>
                             <button className='text-lg font hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-1 rounded-full font-medium' >Success Stories</button>
                             <button className='text-lg font hover:bg-[#000] hover:text-white text-black border-[1px] border-solid border-slate-400  p-4 py-2 my-1 mx-1 rounded-full font-medium' >Social Media</button>
+                            <a href="#" className='block text-blue-600 underline text-xl my-1' >View all</a>
                         </div>
 
                     </div>
@@ -104,7 +105,7 @@ const Template = () => {
 
                                 </div>
                                 <span className="font-bold text-lg text-slate-800 block mt-2 ">Warburton</span>
-                            </div> 
+                            </div>
 
                             <div className="relative w-[300px] h-[80vh] mb-16 ">
                                 <div className="w-full h-full group overflow-hidden rounded-4xl ">
@@ -117,7 +118,7 @@ const Template = () => {
 
                                 </div>
                                 <span className="font-bold text-lg text-slate-800 block mt-2 ">Warburton</span>
-                            </div> 
+                            </div>
 
                             <div className="relative w-[300px] h-[80vh] mb-16 ">
                                 <div className="w-full h-full group overflow-hidden rounded-4xl ">
@@ -130,7 +131,7 @@ const Template = () => {
 
                                 </div>
                                 <span className="font-bold text-lg text-slate-800 block mt-2 ">Warburton</span>
-                            </div> 
+                            </div>
 
                         </div>
 

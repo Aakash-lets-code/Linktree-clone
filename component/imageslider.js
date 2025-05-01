@@ -21,7 +21,7 @@ const ImageSlider = () => {
     return (
 
 
-        <div className="relative w-64 h-64 overflow-hidden">
+        <div className="relative w-72 h-72 overflow-hidden">
 
             {images.map((src, index) => (
                 <img key={index} src={src} alt={`Image ${index + 1}`} className={`absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000 ease-in-out ${currentImageIndex === index ? 'opacity-100' : 'opacity-0'

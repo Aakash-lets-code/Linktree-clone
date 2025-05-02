@@ -22,11 +22,11 @@ const Navbar = () => {
             <Link href={"/"} > <img className='h-6' src="linktree.svg" alt="linktree" /> </Link>
 
             <ul className='flex text-[#72766b] items-center space-x-1.5'>
-                <Link href="/template"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Templates</li> </Link>
-                <Link href="/marketplace"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Marketplace</li> </Link>
+                <Link href="/template"> <li className=' hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg' >Templates</li> </Link>
+                <Link href="/marketplace"> <li className=' hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg' >Marketplace</li> </Link>
                 <Link href="/">
 
-                    <li onMouseEnter={handlediscoverEnter} onMouseLeave={handlediscoverLeave} className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg relative' >Discover
+                    <li onMouseEnter={handlediscoverEnter} onMouseLeave={handlediscoverLeave} className=' hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg relative' >Discover
 
                         {isDiscoverHovered && <> <div className='absolute left-0 top-full w-56 z-10 origin-top duration-500 bg-transparent'>
                             <div className='mt-7 px-2 py-1 bg-white rounded-lg shadow-lg'>
@@ -41,11 +41,11 @@ const Navbar = () => {
 
                 </Link>
 
-                <Link href="/pricing"> <li className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg' >Pricing</li> </Link>
+                <Link href="/pricing"> <li className=' hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg' >Pricing</li> </Link>
 
                 <Link href="/learn">
 
-                    <li onMouseEnter={handleLearnEnter} onMouseLeave={handleLearnLeave} className=' hover:bg-[#eff0ec] text-[#74776d] px-4 py-3 rounded-lg relative' > Learn
+                    <li onMouseEnter={handleLearnEnter} onMouseLeave={handleLearnLeave} className=' hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg relative' > Learn
 
                         {isLearnHovered && <> <div className='absolute left-0 top-full w-80 z-10 origin-top duration-500 bg-transparent' >
                             <div className='mt-7 px-2 py-1 bg-white rounded-lg shadow-lg '>

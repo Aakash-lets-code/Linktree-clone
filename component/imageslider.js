@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 
-const images = [
-    '/search.svg',
-    '/check.svg',
-    '/file.svg',
-    '/globe.svg'
-];
+// const images = [
+//     '/search.svg',
+//     '/check.svg',
+//     '/file.svg',
+//     '/globe.svg'
+// ];
 
-const ImageSlider = () => {
+const ImageSlider = ({images}) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     useEffect(() => {

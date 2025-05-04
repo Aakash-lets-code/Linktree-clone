@@ -30,6 +30,83 @@ const Markerplace = () => {
 
             </section>
 
+            <section className='bg-white ' >
+
+                <div className=' mx-[12vh] min-h-screen px-2' >
+
+                    <div className='flex justify-between items-center text-black pt-40 mb-12 ' >
+                        <h2 className=' text-4xl font-bold ' >Share your content</h2>
+                        <a href='#' className=' text-blue-600 underline text-2xl' >See 26 Apps</a>
+                    </div>
+
+                    <div className='flex flex-wrap items-center space-x-4 space-y-2 ' >
+
+                        <div className='bg-purple-700 w-96 flex items-center gap-4' >
+                            <div>
+                                <img src="marketplace-scroll-second.svg" alt="" />
+                            </div>
+                            <div className=' flex flex-col items-start justify-center' > 
+                                <p className='text-2xl' >Audiomack</p>
+                                <p className='text-[15px]' >Add an Audiomac player to your Linktree</p>
+                            </div>
+                        </div>
+
+                        <div className='bg-purple-700 w-96 flex items-center gap-4' >
+                            <div>
+                                <img src="marketplace-scroll-second.svg" alt="" />
+                            </div>
+                            <div className=' flex flex-col items-start justify-center' > 
+                                <p className='text-2xl' >Audiomack</p>
+                                <p className='text-[15px]' >Add an Audiomac player to your Linktree</p>
+                            </div>
+                        </div>
+
+                        <div className='bg-purple-700 w-96 flex items-center gap-4' >
+                            <div>
+                                <img src="marketplace-scroll-second.svg" alt="" />
+                            </div>
+                            <div className=' flex flex-col items-start justify-center' > 
+                                <p className='text-2xl' >Audiomack</p>
+                                <p className='text-[15px]' >Add an Audiomac player to your Linktree</p>
+                            </div>
+                        </div>
+
+                        <div className='bg-purple-700 w-96 flex items-center gap-4' >
+                            <div>
+                                <img src="marketplace-scroll-second.svg" alt="" />
+                            </div>
+                            <div className=' flex flex-col items-start justify-center' > 
+                                <p className='text-2xl' >Audiomack</p>
+                                <p className='text-[15px]' >Add an Audiomac player to your Linktree</p>
+                            </div>
+                        </div>
+
+                        <div className='bg-purple-700 w-96 flex items-center gap-4' >
+                            <div>
+                                <img src="marketplace-scroll-second.svg" alt="" />
+                            </div>
+                            <div className=' flex flex-col items-start justify-center' > 
+                                <p className='text-2xl' >Audiomack</p>
+                                <p className='text-[15px]' >Add an Audiomac player to your Linktree</p>
+                            </div>
+                        </div>
+
+                        <div className='bg-purple-700 w-96 flex items-center gap-4' >
+                            <div>
+                                <img src="marketplace-scroll-second.svg" alt="" />
+                            </div>
+                            <div className=' flex flex-col items-start justify-center' > 
+                                <p className='text-2xl' >Audiomack</p>
+                                <p className='text-[15px]' >Add an Audiomac player to your Linktree</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
         </>
     )
 }

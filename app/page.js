@@ -31,7 +31,7 @@ export default function Home() {
 
         <div className=" text-[#d2e823] flex flex-col justify-center items-start ml-[5vw] gap-10 ">
 
-          <p className=" font-extrabold text-6xl" >
+          <p className=" font-extrabold text-6xl font-poppins " >
             Everything you are.
             <br /> In one, simple link in
             <br />bio.

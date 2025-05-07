@@ -37,7 +37,7 @@ export default function Home() {
             <br />bio.
           </p>
 
-          <p className="text-lg font-semibold" >Join 50M+ people using Linktree for their link in bio. One link to help you share everything you create, curate and sell from your Instagram, TikTok, Twitter, YouTube and other social media profiles.</p>
+          <p className="text-lg font-semibold font-roboto " >Join 50M+ people using Linktree for their link in bio. One link to help you share everything you create, curate and sell from your Instagram, TikTok, Twitter, YouTube and other social media profiles.</p>
 
           <div className="buttons w-full " >
 

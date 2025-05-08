@@ -31,13 +31,13 @@ export default function Home() {
 
         <div className=" text-[#d2e823] flex flex-col justify-center items-start ml-[5vw] gap-10 ">
 
-          <p className=" font-extrabold text-6xl font-poppins " >
+          <p className=" font-extrabold text-6xl font-notoSans " >
             Everything you are.
             <br /> In one, simple link in
             <br />bio.
           </p>
 
-          <p className="text-lg font-semibold font-roboto " >Join 50M+ people using Linktree for their link in bio. One link to help you share everything you create, curate and sell from your Instagram, TikTok, Twitter, YouTube and other social media profiles.</p>
+          <p className="text-lg font-semibold font-poppins " >Join 50M+ people using Linktree for their link in bio. One link to help you share everything you create, curate and sell from your Instagram, TikTok, Twitter, YouTube and other social media profiles.</p>
 
           <div className="buttons w-full " >
 

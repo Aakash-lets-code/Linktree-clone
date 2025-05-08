@@ -15,7 +15,7 @@ const Navbar = () => {
     const handlediscoverEnter = () => setIsDiscoverHovered(true)
     const handlediscoverLeave = () => setIsDiscoverHovered(false)
 
-    return (<>{showNavbar && <nav className='w-[90vw] flex items-center justify-between fixed top-12 right-[5vw] left-[5vw] rounded-full pl-10 pr-3.5 py-2.5 bg-white z-50 '>
+    return (<>{showNavbar && <nav className='w-[90vw] flex items-center justify-between fixed top-12 right-[5vw] left-[5vw] rounded-full pl-10 pr-3.5 py-2.5 bg-white z-50 font-roboto '>
 
         <div className="logo flex items-center gap-16 " >
 

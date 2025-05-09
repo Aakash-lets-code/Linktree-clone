@@ -9,11 +9,30 @@ const Navbar = () => {
     const showNavbar = ["/", "/generate", "/learn", "/template", "/pricing", "/marketplace"].includes(pathname)
     const [isLearnHovered, setIsLearnHovered] = useState(false)
     const [isDiscoverHovered, setIsDiscoverHovered] = useState(false)
+    const [isProductHovered, setIsProductHovered] = useState(false)
+    const [subItemHovered, setSubItemHovered] = useState(null);
 
     const handleLearnEnter = () => setIsLearnHovered(true)
     const handleLearnLeave = () => setIsLearnHovered(false)
     const handlediscoverEnter = () => setIsDiscoverHovered(true)
     const handlediscoverLeave = () => setIsDiscoverHovered(false)
+
+
+    const handleProductEnter = () => {
+        setIsProductHovered(true);
+    };
+
+    const handleProductLeave = () => {
+        setIsProductHovered(false);
+    };
+
+    const handleSubItemEnter = (index) => {
+        setSubItemHovered(index);
+    };
+
+    const handleSubItemLeave = () => {
+        setSubItemHovered(null);
+    };
 
     return (<>{showNavbar && <nav className='w-[90vw] flex items-center justify-between fixed top-12 right-[5vw] left-[5vw] rounded-full pl-10 pr-3.5 py-2.5 bg-white z-50 font-roboto '>
 
@@ -63,6 +82,29 @@ const Navbar = () => {
                     </li>
 
                 </Link>
+
+                <li onMouseEnter={handleProductEnter} onMouseLeave={handleProductLeave} className="hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg relative"    >
+                    Product
+                    {isProductHovered && (<div className="absolute left-0 top-full w-56 z-10 origin-top duration-500 bg-transparent">
+                        <div className="mt-7 px-2 py-1 bg-white rounded-lg shadow-lg">
+
+                            {["Link in bio + tools", "Manage your social media", "Monetize your followings", "Measure your success"].map((platform, index) => (
+
+                                <div key={platform} className="p-4 py-3 rounded-lg hover:bg-[#eff0ec] my-1 relative" onMouseEnter={() => handleSubItemEnter(index)} onMouseLeave={handleSubItemLeave}>
+
+                                    {`${platform}`}
+
+                                    {subItemHovered === index && (<div className="absolute left-60 top-full mt-2 w-56 p-2 bg-gray-100 rounded-md shadow-md">
+                                        <p className="text-sm text-gray-600">Subcontent for {platform}</p>
+                                    </div>
+
+                                    )}
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                    )}
+                </li>
             </ul>
 
         </div>

@@ -34,6 +34,14 @@ const Navbar = () => {
         setSubItemHovered(null);
     };
 
+    // Content for each sub-item's dropdown list
+    const subItemContents = [
+        ["Subitem 1 for Link in bio + tools", "Subitem 2 for Link in bio + tools"], // Link in bio + tools
+        ["Subitem 1 for Manage your social media", "Subitem 2 for Manage your social media"], // Manage your social media
+        ["Subitem 1 for Monetize your followings", "Subitem 2 for Monetize your followings"], // Monetize your followings
+        ["Subitem 1 for Measure your success", "Subitem 2 for Measure your success"], // Measure your success
+    ];
+
     return (<>{showNavbar && <nav className='w-[90vw] flex items-center justify-between fixed top-12 right-[5vw] left-[5vw] rounded-full pl-10 pr-3.5 py-2.5 bg-white z-50 font-roboto '>
 
         <div className="logo flex items-center gap-16 " >
@@ -90,12 +98,16 @@ const Navbar = () => {
 
                             {["Link in bio + tools", "Manage your social media", "Monetize your followings", "Measure your success"].map((platform, index) => (
 
-                                <div key={platform} className="p-4 py-3 rounded-lg hover:bg-[#eff0ec] my-1 relative" onMouseEnter={() => handleSubItemEnter(index)} onMouseLeave={handleSubItemLeave}>
-
-                                    {`${platform}`}
-
-                                    {subItemHovered === index && (<div className="absolute left-60 top-full mt-2 w-56 p-2 bg-gray-100 rounded-md shadow-md">
-                                        <p className="text-sm text-gray-600">Subcontent for {platform}</p>
+                                <div key={platform} className="p-4 py-3 rounded-lg hover:bg-[#eff0ec] my-1 relative" onMouseEnter={() => handleSubItemEnter(index)} onMouseLeave={handleSubItemLeave} >
+                                    {platform}
+                                    {subItemHovered === index && (<div className="absolute left-56 top-[-11] mt-2 w-56 p-2 bg-gray-100 rounded-md shadow-md">
+                                        <ul>
+                                            {subItemContents[index].map((subItem, subIndex) => (
+                                                <li key={subIndex} className="p-2 text-sm text-gray-600">
+                                                    {subItem}
+                                                </li>
+                                            ))}
+                                        </ul>
                                     </div>
 
                                     )}

@@ -9,8 +9,6 @@ const Navbar = () => {
     const showNavbar = ["/", "/generate", "/learn", "/template", "/pricing", "/marketplace"].includes(pathname)
     const [isLearnHovered, setIsLearnHovered] = useState(false)
     const [isDiscoverHovered, setIsDiscoverHovered] = useState(false)
-    const [isProductHovered, setIsProductHovered] = useState(false)
-    const [subItemHovered, setSubItemHovered] = useState(null);
 
     const handleLearnEnter = () => setIsLearnHovered(true)
     const handleLearnLeave = () => setIsLearnHovered(false)
@@ -18,29 +16,6 @@ const Navbar = () => {
     const handlediscoverLeave = () => setIsDiscoverHovered(false)
 
 
-    const handleProductEnter = () => {
-        setIsProductHovered(true);
-    };
-
-    const handleProductLeave = () => {
-        setIsProductHovered(false);
-    };
-
-    const handleSubItemEnter = (index) => {
-        setSubItemHovered(index);
-    };
-
-    const handleSubItemLeave = () => {
-        setSubItemHovered(null);
-    };
-
-    // Content for each sub-item's dropdown list
-    const subItemContents = [
-        ["Subitem 1 for Link in bio + tools", "Subitem 2 for Link in bio + tools"], // Link in bio + tools
-        ["Subitem 1 for Manage your social media", "Subitem 2 for Manage your social media"], // Manage your social media
-        ["Subitem 1 for Monetize your followings", "Subitem 2 for Monetize your followings"], // Monetize your followings
-        ["Subitem 1 for Measure your success", "Subitem 2 for Measure your success"], // Measure your success
-    ];
 
     return (<>{showNavbar && <nav className='w-[90vw] flex items-center justify-between fixed top-12 right-[5vw] left-[5vw] rounded-full pl-10 pr-3.5 py-2.5 bg-white z-50 font-roboto '>
 
@@ -91,32 +66,7 @@ const Navbar = () => {
 
                 </Link>
 
-                <li onMouseEnter={handleProductEnter} onMouseLeave={handleProductLeave} className="hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg relative"    >
-                    Product
-                    {isProductHovered && (<div className="absolute left-0 top-full w-56 z-10 origin-top duration-500 bg-transparent">
-                        <div className="mt-7 px-2 py-1 bg-white rounded-lg shadow-lg">
-
-                            {["Link in bio + tools", "Manage your social media", "Monetize your followings", "Measure your success"].map((platform, index) => (
-
-                                <div key={platform} className="p-4 py-3 rounded-lg hover:bg-[#eff0ec] my-1 relative" onMouseEnter={() => handleSubItemEnter(index)} onMouseLeave={handleSubItemLeave} >
-                                    {platform}
-                                    {subItemHovered === index && (<div className="absolute left-56 top-[-11] mt-2 w-56 p-2 bg-gray-100 rounded-md shadow-md">
-                                        <ul>
-                                            {subItemContents[index].map((subItem, subIndex) => (
-                                                <li key={subIndex} className="p-2 text-sm text-gray-600">
-                                                    {subItem}
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-
-                                    )}
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                    )}
-                </li>
+                
             </ul>
 
         </div>

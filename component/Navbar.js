@@ -9,11 +9,14 @@ const Navbar = () => {
     const showNavbar = ["/", "/generate", "/learn", "/template", "/pricing", "/marketplace"].includes(pathname)
     const [isLearnHovered, setIsLearnHovered] = useState(false)
     const [isDiscoverHovered, setIsDiscoverHovered] = useState(false)
+    const [isProductsHovered, setIsProductsHovered] = useState(false)
 
     const handleLearnEnter = () => setIsLearnHovered(true)
     const handleLearnLeave = () => setIsLearnHovered(false)
     const handlediscoverEnter = () => setIsDiscoverHovered(true)
     const handlediscoverLeave = () => setIsDiscoverHovered(false)
+    const handleProductsEnter = () => setIsProductsHovered(true)
+    const handleProductsLeave = () => setIsDiscoverHovered(false)
 
 
 
@@ -66,7 +69,33 @@ const Navbar = () => {
 
                 </Link>
 
-                
+                <li onMouseEnter={handleProductsEnter} onMouseLeave={handleProductsLeave} className=' hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg relative'>
+                    Product
+                    <div className='top-full left-[-220] absolute w-auto h-80 flex bg-blue-500' >
+
+                        <div className='w-56 h-full  mt-9 bg-amber-500' >
+                            <p>amber</p>
+                            <p>amber</p>
+                            <p>amber</p>
+                            <p>amber</p>
+                        </div>
+                        <div className='w-56 h-full  mt-9 bg-amber-500' >
+                            <p>amber</p>
+                            <p>amber</p>
+                            <p>amber</p>
+                            <p>amber</p>
+                        </div>
+                        <div className='w-56 h-full  mt-9 bg-amber-500' >
+                            <p>amber</p>
+                            <p>amber</p>
+                            <p>amber</p>
+                            <p>amber</p>
+                        </div>
+
+                    </div>
+                </li>
+
+
             </ul>
 
         </div>

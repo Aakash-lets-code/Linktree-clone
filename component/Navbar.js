@@ -71,25 +71,84 @@ const Navbar = () => {
 
                 <li onMouseEnter={handleProductsEnter} onMouseLeave={handleProductsLeave} className=' hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg relative'>
                     Product
-                    <div className='top-full left-[-220] absolute w-auto h-80 flex bg-blue-500' >
+                    <div className='top-full left-[-40vw] absolute w-auto h-auto flex bg-blue-500 p-3 pt-0' >
 
-                        <div className='w-56 h-full  mt-9 bg-amber-500' >
-                            <p>amber</p>
-                            <p>amber</p>
-                            <p>amber</p>
-                            <p>amber</p>
+                        <div className=' h-full mt-9 bg-amber-500  ' >
+                            <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] ' >
+                                <div className='flex items-center justify-between' >
+                                    <p className='flex items-center gap-2' >
+                                        <img src="products-in-navbar/link.svg" alt="link" width={30} className='font-bold' />
+                                        Link in bio + tools
+                                    </p>
+                                    <img src="products-in-navbar/right-arrow.svg" alt="right-arrow" width={30} className='' />
+                                </div>
+                            </div>
+
+                            <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] ' >
+                                <div className='flex items-center justify-between' >
+                                    <p className='flex items-center gap-2' >
+                                        <img src="products-in-navbar/link.svg" alt="link" width={30} className='font-bold' />
+                                        Link in bio + tools
+                                    </p>
+                                    <img src="products-in-navbar/right-arrow.svg" alt="right-arrow" width={30} className='' />
+                                </div>
+                            </div>
+
+                            <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] ' >
+                                <div className='flex items-center justify-between' >
+                                    <p className='flex items-center gap-2' >
+                                        <img src="products-in-navbar/link.svg" alt="link" width={30} className='font-bold' />
+                                        Link in bio + tools
+                                    </p>
+                                    <img src="products-in-navbar/right-arrow.svg" alt="right-arrow" width={30} className='' />
+                                </div>
+                            </div>
+
+                            <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] ' >
+                                <div className='flex items-center justify-between' >
+                                    <p className='flex items-center gap-2' >
+                                        <img src="products-in-navbar/link.svg" alt="link" width={30} className='font-bold' />
+                                        Link in bio + tools
+                                    </p>
+                                    <img src="products-in-navbar/right-arrow.svg" alt="right-arrow" width={30} className='' />
+                                </div>
+                            </div>
+
                         </div>
-                        <div className='w-56 h-full  mt-9 bg-amber-500' >
-                            <p>amber</p>
-                            <p>amber</p>
-                            <p>amber</p>
-                            <p>amber</p>
+                        <div className='h-full mt-9 bg-amber-500 border-x-2' >
+                            <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] ' >
+                                <div className='flex flex-col  justify-between gap-0.5' >
+                                    <p className='text-sm' >  Link in bio  </p>
+                                    <p className='text-xs text-gray-400' > Customize your Linktree</p>
+                                </div>
+                            </div>
+
+                            <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] ' >
+                                <div className='flex flex-col  justify-between gap-0.5' >
+                                    <p className='text-sm' >  Link in bio  </p>
+                                    <p className='text-xs text-gray-400' > Customize your Linktree</p>
+                                </div>
+                            </div>
+
+                             <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] ' >
+                                <div className='flex flex-col  justify-between gap-0.5' >
+                                    <p className='text-sm' >  Link in bio  </p>
+                                    <p className='text-xs text-gray-400' > Customize your Linktree</p>
+                                </div>
+                            </div>
+
+                             <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] ' >
+                                <div className='flex flex-col  justify-between gap-0.5' >
+                                    <p className='text-sm' >  Link in bio  </p>
+                                    <p className='text-xs text-gray-400' > Customize your Linktree</p>
+                                </div>
+                            </div>
                         </div>
-                        <div className='w-56 h-full  mt-9 bg-amber-500' >
-                            <p>amber</p>
-                            <p>amber</p>
-                            <p>amber</p>
-                            <p>amber</p>
+                        <div className='h-full mt-9 bg-amber-500' >
+                            <p className=' w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] '>amber</p>
+                            <p className=' w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] '>amber</p>
+                            <p className=' w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] '>amber</p>
+                            <p className=' w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] '>amber</p>
                         </div>
 
                     </div>

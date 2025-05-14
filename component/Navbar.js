@@ -73,10 +73,10 @@ const Navbar = () => {
                     Product
                     <div className='top-full left-[-40vw] absolute w-auto h-auto flex bg-transparent' >
 
-                        <div className='mt-9 px-2 pb-2 bg-white flex justify-center' >
+                        <div className='mt-7 px-2 pb-2 bg-white flex justify-center rounded-2xl font-semibold ' >
 
-                            <div className=' h-auto  bg-white ' >
-                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 ' >
+                            <div className=' h-auto  bg-white rounded-2xl ' >
+                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
                                     <div className='flex items-center justify-between' >
                                         <p className='flex items-center gap-2' >
                                             <img src="products-in-navbar/link.svg" alt="link" width={30} className='font-bold' />
@@ -86,7 +86,7 @@ const Navbar = () => {
                                     </div>
                                 </div>
 
-                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 ' >
+                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
                                     <div className='flex items-center justify-between' >
                                         <p className='flex items-center gap-2' >
                                             <img src="products-in-navbar/link.svg" alt="link" width={30} className='font-bold' />
@@ -96,7 +96,7 @@ const Navbar = () => {
                                     </div>
                                 </div>
 
-                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 ' >
+                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
                                     <div className='flex items-center justify-between' >
                                         <p className='flex items-center gap-2' >
                                             <img src="products-in-navbar/link.svg" alt="link" width={30} className='font-bold' />
@@ -106,7 +106,7 @@ const Navbar = () => {
                                     </div>
                                 </div>
 
-                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 ' >
+                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
                                     <div className='flex items-center justify-between' >
                                         <p className='flex items-center gap-2' >
                                             <img src="products-in-navbar/link.svg" alt="link" width={30} className='font-bold' />
@@ -118,42 +118,44 @@ const Navbar = () => {
 
                             </div>
                             <div className='h-auto border-x-2 border-gray-300 bg-white' >
-                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-1 ' >
+                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
                                     <div className='flex flex-col  justify-between ' >
                                         <p className='text-sm' >  Link in bio  </p>
                                         <p className='text-xs text-gray-400' > Customize your Linktree</p>
                                     </div>
                                 </div>
 
-                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-1 ' >
+                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
                                     <div className='flex flex-col  justify-between ' >
                                         <p className='text-sm' >  Link shortner  </p>
                                         <p className='text-xs text-gray-400' > Create trackable , shareable short links</p>
                                     </div>
                                 </div>
 
-                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-1 ' >
+                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
                                     <div className='flex flex-col  justify-between ' >
                                         <p className='text-sm' >  QR code generator  </p>
                                         <p className='text-xs text-gray-400' > Turn links into scanable QR codes </p>
                                     </div>
                                 </div>
 
-                                <hr className='border-b-1 border-gray-300' />
+                                <hr className='border-b-1 border-gray-300 mx-4' />
 
-                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-1 ' >
+                                <div className='w-[25vw] p-4 py-3 rounded-lg m-2 my-3 ' >
                                     <div className='flex flex-col  justify-between ' >
                                         <p className='text-sm' >  Linktree for every day social platform  </p>
                                         <p className='text-xs text-gray-400' > Grow and engage your audience everywhere</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className='h-auto bg-white' >
-                                <div className='w-[25vw] p-4 py-3'>
+                            <div className='h-auto bg-white rounded-2xl m-2 my-3' >
+                                <div className='w-[25vw] p-4 py-3 space-y-3 '>
                                     <p>Featured</p>
                                     <img src="products-in-navbar/first.png" alt="image" className='w-auto' />
-                                    <p>Join 70M+ using Linktree as their link in bio</p>
-                                    <p>One link to share everything you create, curate, and sell across all your socials.</p>
+                                    <div>
+                                        <p>Join 70M+ using Linktree as their link in bio</p>
+                                        <p className='text-gray-400 text-sm' >One link to share everything you create, curate, and sell across all your socials.</p>
+                                    </div>
                                 </div>
                             </div>
 

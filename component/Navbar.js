@@ -145,6 +145,12 @@ const Navbar = () => {
                                     <div className='flex flex-col  justify-between ' >
                                         <p className='text-sm' >  Linktree for every day social platform  </p>
                                         <p className='text-xs text-gray-400' > Grow and engage your audience everywhere</p>
+                                        <div className='flex items-center gap-2 mt-3' >
+                                            <img src="products-in-navbar/insta.svg" alt="insta" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:text-white hover:invert' />
+                                            <img src="products-in-navbar/tiktok.svg" alt="tiktok" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:text-white hover:invert' />
+                                            <img src="products-in-navbar/linkedin.svg" alt="linkedin" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:text-white hover:invert' />
+                                            <img src="products-in-navbar/twitter.svg" alt="twitter" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:text-white hover:invert' />
+                                        </div>
                                     </div>
                                 </div>
                             </div>

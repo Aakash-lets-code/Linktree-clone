@@ -16,7 +16,7 @@ const Navbar = () => {
     const handlediscoverEnter = () => setIsDiscoverHovered(true)
     const handlediscoverLeave = () => setIsDiscoverHovered(false)
     const handleProductsEnter = () => setIsProductsHovered(true)
-    const handleProductsLeave = () => setIsDiscoverHovered(false)
+    const handleProductsLeave = () => setIsProductsHovered(false)
 
 
 
@@ -79,40 +79,40 @@ const Navbar = () => {
                                 <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
                                     <div className='flex items-center justify-between' >
                                         <p className='flex items-center gap-2' >
-                                            <img src="products-in-navbar/link.svg" alt="link" width={30} className='font-bold' />
+                                            <img src="products-in-navbar/link.svg" alt="link" width={25} className='font-bold' />
                                             Link in bio + tools
                                         </p>
-                                        <img src="products-in-navbar/right-arrow.svg" alt="right-arrow" width={30} className='' />
+                                        <img src="products-in-navbar/right-arrow.svg" alt="right-arrow" width={25} className='' />
                                     </div>
                                 </div>
 
                                 <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
                                     <div className='flex items-center justify-between' >
                                         <p className='flex items-center gap-2' >
-                                            <img src="products-in-navbar/link.svg" alt="link" width={30} className='font-bold' />
-                                            Link in bio + tools
+                                            <img src="products-in-navbar/manage.svg" alt="link" width={25} className='font-bold' />
+                                            Manage your social media
                                         </p>
-                                        <img src="products-in-navbar/right-arrow.svg" alt="right-arrow" width={30} className='' />
+                                        <img src="products-in-navbar/right-arrow.svg" alt="right-arrow" width={25} className='' />
                                     </div>
                                 </div>
 
                                 <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
                                     <div className='flex items-center justify-between' >
                                         <p className='flex items-center gap-2' >
-                                            <img src="products-in-navbar/link.svg" alt="link" width={30} className='font-bold' />
-                                            Link in bio + tools
+                                            <img src="products-in-navbar/dollar.svg" alt="link" width={25} className='font-bold' />
+                                            Monetize your followings
                                         </p>
-                                        <img src="products-in-navbar/right-arrow.svg" alt="right-arrow" width={30} className='' />
+                                        <img src="products-in-navbar/right-arrow.svg" alt="right-arrow" width={25} className='' />
                                     </div>
                                 </div>
 
                                 <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
                                     <div className='flex items-center justify-between' >
                                         <p className='flex items-center gap-2' >
-                                            <img src="products-in-navbar/link.svg" alt="link" width={30} className='font-bold' />
-                                            Link in bio + tools
+                                            <img src="products-in-navbar/graph.svg" alt="link" width={25} className='font-bold' />
+                                            Measure your success
                                         </p>
-                                        <img src="products-in-navbar/right-arrow.svg" alt="right-arrow" width={30} className='' />
+                                        <img src="products-in-navbar/right-arrow.svg" alt="right-arrow" width={25} className='' />
                                     </div>
                                 </div>
 

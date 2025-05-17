@@ -10,6 +10,7 @@ const Navbar = () => {
     const [isLearnHovered, setIsLearnHovered] = useState(false)
     const [isDiscoverHovered, setIsDiscoverHovered] = useState(false)
     const [isProductsHovered, setIsProductsHovered] = useState(false)
+    const [subProducts, setsubProducts] = useState(null)
 
     const handleLearnEnter = () => setIsLearnHovered(true)
     const handleLearnLeave = () => setIsLearnHovered(false)
@@ -76,7 +77,7 @@ const Navbar = () => {
                         <div className='mt-7 px-2 pb-2 bg-white flex justify-center rounded-2xl font-semibold ' >
 
                             <div className=' h-auto  bg-white rounded-2xl ' >
-                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
+                                <div onMouseEnter={() => setsubProducts("first")} className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
                                     <div className='flex items-center justify-between' >
                                         <p className='flex items-center gap-2' >
                                             <img src="products-in-navbar/link.svg" alt="link" width={25} className='font-bold' />
@@ -86,7 +87,7 @@ const Navbar = () => {
                                     </div>
                                 </div>
 
-                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
+                                <div onMouseEnter={() => setsubProducts("second")} className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
                                     <div className='flex items-center justify-between' >
                                         <p className='flex items-center gap-2' >
                                             <img src="products-in-navbar/manage.svg" alt="link" width={25} className='font-bold' />
@@ -96,7 +97,7 @@ const Navbar = () => {
                                     </div>
                                 </div>
 
-                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
+                                <div onMouseEnter={() => setsubProducts("third")} className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
                                     <div className='flex items-center justify-between' >
                                         <p className='flex items-center gap-2' >
                                             <img src="products-in-navbar/dollar.svg" alt="link" width={25} className='font-bold' />
@@ -106,7 +107,7 @@ const Navbar = () => {
                                     </div>
                                 </div>
 
-                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
+                                <div onMouseEnter={() => setsubProducts("fourth")} className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
                                     <div className='flex items-center justify-between' >
                                         <p className='flex items-center gap-2' >
                                             <img src="products-in-navbar/graph.svg" alt="link" width={25} className='font-bold' />
@@ -117,43 +118,173 @@ const Navbar = () => {
                                 </div>
 
                             </div>
-                            <div className='h-auto border-x-2 border-gray-300 bg-white' >
-                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
-                                    <div className='flex flex-col  justify-between ' >
-                                        <p className='text-sm' >  Link in bio  </p>
-                                        <p className='text-xs text-gray-400' > Customize your Linktree</p>
+                           
+                            {subProducts === "first" && <>
+                                <div className='h-auto border-x-2 border-gray-300 bg-white' >
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                        <div className='flex flex-col  justify-between ' >
+                                            <p className='text-sm' >  Link in bio  </p>
+                                            <p className='text-xs text-gray-400' > Customize your Linktree</p>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
-                                    <div className='flex flex-col  justify-between ' >
-                                        <p className='text-sm' >  Link shortner  </p>
-                                        <p className='text-xs text-gray-400' > Create trackable , shareable short links</p>
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                        <div className='flex flex-col  justify-between ' >
+                                            <p className='text-sm' >  Link shortner  </p>
+                                            <p className='text-xs text-gray-400' > Create trackable , shareable short links</p>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
-                                    <div className='flex flex-col  justify-between ' >
-                                        <p className='text-sm' >  QR code generator  </p>
-                                        <p className='text-xs text-gray-400' > Turn links into scanable QR codes </p>
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                        <div className='flex flex-col  justify-between ' >
+                                            <p className='text-sm' >  QR code generator  </p>
+                                            <p className='text-xs text-gray-400' > Turn links into scanable QR codes </p>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <hr className='border-b-1 border-gray-300 mx-4' />
+                                    <hr className='border-b-1 border-gray-300 mx-4' />
 
-                                <div className='w-[25vw] p-4 py-3 rounded-lg m-2 my-3 ' >
-                                    <div className='flex flex-col  justify-between ' >
-                                        <p className='text-sm' >  Linktree for every day social platform  </p>
-                                        <p className='text-xs text-gray-400' > Grow and engage your audience everywhere</p>
-                                        <div className='flex items-center gap-2 mt-3' >
-                                            <img src="products-in-navbar/insta.svg" alt="insta" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
-                                            <img src="products-in-navbar/tiktok.svg" alt="tiktok" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
-                                            <img src="products-in-navbar/linkedin.svg" alt="linkedin" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
-                                            <img src="products-in-navbar/twitter.svg" alt="twitter" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg m-2 my-3 ' >
+                                        <div className='flex flex-col  justify-between ' >
+                                            <p className='text-sm' >  Linktree for every day social platform  </p>
+                                            <p className='text-xs text-gray-400' > Grow and engage your audience everywhere</p>
+                                            <div className='flex items-center gap-2 mt-3' >
+                                                <img src="products-in-navbar/insta.svg" alt="insta" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                <img src="products-in-navbar/tiktok.svg" alt="tiktok" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                <img src="products-in-navbar/linkedin.svg" alt="linkedin" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                <img src="products-in-navbar/twitter.svg" alt="twitter" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </>} 
+
+                             {subProducts === "second" && <>
+                                <div className='h-auto border-x-2 border-gray-300 bg-white' >
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                        <div className='flex flex-col  justify-between ' >
+                                            <p className='text-sm' >  Schedule and auto-post  </p>
+                                            <p className='text-xs text-gray-400' > Hands-free, hassle-free social media planning </p>
+                                        </div>
+                                    </div>
+
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                        <div className='flex flex-col  justify-between ' >
+                                            <p className='text-sm' >  Instagram auto reply  </p>
+                                            <p className='text-xs text-gray-400' > Automated replies and DMs triggered by comments </p>
+                                        </div>
+                                    </div>
+
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                        <div className='flex flex-col  justify-between ' >
+                                            <p className='text-sm' >  AI content & caption generator  </p>
+                                            <p className='text-xs text-gray-400' >I nstant AI-powered post ideas and captions  </p>
+                                        </div>
+                                    </div>
+
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                        <div className='flex flex-col  justify-between ' >
+                                            <p className='text-sm' > Hashtag generator </p>
+                                            <p className='text-xs text-gray-400' >I Trending hashtag suggestions for better reach  </p>
+                                        </div>
+                                    </div>
+
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                        <div className='flex flex-col  justify-between ' >
+                                            <p className='text-sm' > Social integration for every social platform </p>
+                                            <p className='text-xs text-gray-400' >IPlan, auto post, and share across all platforms   </p>
+                                        </div>
+                                    </div>
+
+                                    <hr className='border-b-1 border-gray-300 mx-4' />
+
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg m-2 my-3 ' >
+                                        <div className='flex flex-col  justify-between ' >
+                                            <p className='text-sm' >    </p>
+                                            <p className='text-xs text-gray-400' > </p>
+                                            <div className='flex items-center gap-2 mt-3' >
+                                                <img src="products-in-navbar/insta.svg" alt="insta" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                <img src="products-in-navbar/tiktok.svg" alt="tiktok" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                <img src="products-in-navbar/linkedin.svg" alt="linkedin" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                <img src="products-in-navbar/twitter.svg" alt="twitter" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </>} 
+
+                            {subProducts === "third" && <>
+                                <div className='h-auto border-x-2 border-gray-300 bg-white' >
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                        <div className='flex flex-col  justify-between ' >
+                                            <p className='text-sm' >  Earn with a Linktree Shop  </p>
+                                            <p className='text-xs text-gray-400' >Sell products and earn commission </p>
+                                        </div>
+                                    </div>
+
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                        <div className='flex flex-col  justify-between ' >
+                                            <p className='text-sm' >  Sell an online course  </p>
+                                            <p className='text-xs text-gray-400' > Create and sell your expertise easily </p>
+                                        </div>
+                                    </div>
+
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                        <div className='flex flex-col  justify-between ' >
+                                            <p className='text-sm' >  Host digital products  </p>
+                                            <p className='text-xs text-gray-400' > Sell digital products and build your email list </p>
+                                        </div>
+                                    </div>
+
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                        <div className='flex flex-col  justify-between ' >
+                                            <p className='text-sm' > Earn by hosting sponsored links </p>
+                                            <p className='text-xs text-gray-400' > Share brand offers and earn for every sign-up or sale </p>
+                                        </div>
+                                    </div>
+
+                                    <hr className='border-b-1 border-gray-300 mx-4' />
+
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg m-2 my-3 ' >
+                                        <div className='flex flex-col  justify-between ' >
+                                            <p className='text-sm' >    </p>
+                                            <p className='text-xs text-gray-400' > </p>
+                                            <div className='flex items-center gap-2 mt-3' >
+                                                <img src="products-in-navbar/insta.svg" alt="insta" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                <img src="products-in-navbar/tiktok.svg" alt="tiktok" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                <img src="products-in-navbar/linkedin.svg" alt="linkedin" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                <img src="products-in-navbar/twitter.svg" alt="twitter" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </>}
+                              {subProducts === "fourth" && <>
+                                <div className='h-auto border-x-2 border-gray-300 bg-white' >
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                        <div className='flex flex-col  justify-between ' >
+                                            <p className='text-sm' >  Social + link analytics  </p>
+                                            <p className='text-xs text-gray-400' > Track clicks, engagement and audience insights  </p>
+                                        </div>
+                                    </div>
+                                    
+                                    <hr className='border-b-1 border-gray-300 mx-4' />
+
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg m-2 my-3 ' >
+                                        <div className='flex flex-col  justify-between ' >
+                                            <p className='text-sm' >    </p>
+                                            <p className='text-xs text-gray-400' > </p>
+                                            <div className='flex items-center gap-2 mt-3' >
+                                                <img src="products-in-navbar/insta.svg" alt="insta" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                <img src="products-in-navbar/tiktok.svg" alt="tiktok" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                <img src="products-in-navbar/linkedin.svg" alt="linkedin" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                <img src="products-in-navbar/twitter.svg" alt="twitter" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </>}
+
                             <div className='h-auto bg-white rounded-2xl m-2 my-3' >
                                 <div className='w-[25vw] p-4 py-3 space-y-3 '>
                                     <p>Featured</p>

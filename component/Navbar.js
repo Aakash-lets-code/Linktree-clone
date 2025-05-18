@@ -121,24 +121,24 @@ const Navbar = () => {
                            
                             {subProducts === "first" && <>
                                 <div className='h-auto border-x-2 border-gray-300 bg-white' >
-                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
                                         <div className='flex flex-col  justify-between ' >
-                                            <p className='text-sm' >  Link in bio  </p>
-                                            <p className='text-xs text-gray-400' > Customize your Linktree</p>
+                                            <p className='text-[14px]' >  Link in bio  </p>
+                                            <p className='text-[12px] text-gray-400' > Customize your Linktree</p>
                                         </div>
                                     </div>
 
-                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
                                         <div className='flex flex-col  justify-between ' >
-                                            <p className='text-sm' >  Link shortner  </p>
-                                            <p className='text-xs text-gray-400' > Create trackable , shareable short links</p>
+                                            <p className='text-[14px]' >  Link shortner  </p>
+                                            <p className='text-[12px] text-gray-400' > Create trackable , shareable short links</p>
                                         </div>
                                     </div>
 
-                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
                                         <div className='flex flex-col  justify-between ' >
-                                            <p className='text-sm' >  QR code generator  </p>
-                                            <p className='text-xs text-gray-400' > Turn links into scanable QR codes </p>
+                                            <p className='text-[14px]' >  QR code generator  </p>
+                                            <p className='text-[12px] text-gray-400' > Turn links into scanable QR codes </p>
                                         </div>
                                     </div>
 
@@ -146,8 +146,8 @@ const Navbar = () => {
 
                                     <div className='w-[25vw] p-4 py-3 rounded-lg m-2 my-3 ' >
                                         <div className='flex flex-col  justify-between ' >
-                                            <p className='text-sm' >  Linktree for every day social platform  </p>
-                                            <p className='text-xs text-gray-400' > Grow and engage your audience everywhere</p>
+                                            <p className='text-[14px]' >  Linktree for every day social platform  </p>
+                                            <p className='text-[12px] text-gray-400' > Grow and engage your audience everywhere</p>
                                             <div className='flex items-center gap-2 mt-3' >
                                                 <img src="products-in-navbar/insta.svg" alt="insta" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
                                                 <img src="products-in-navbar/tiktok.svg" alt="tiktok" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
@@ -161,38 +161,38 @@ const Navbar = () => {
 
                              {subProducts === "second" && <>
                                 <div className='h-auto border-x-2 border-gray-300 bg-white' >
-                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
                                         <div className='flex flex-col  justify-between ' >
-                                            <p className='text-sm' >  Schedule and auto-post  </p>
-                                            <p className='text-xs text-gray-400' > Hands-free, hassle-free social media planning </p>
+                                            <p className='text-[14px]' >  Schedule and auto-post  </p>
+                                            <p className='text-[12px] text-gray-400' > Hands-free, hassle-free social media planning </p>
                                         </div>
                                     </div>
 
-                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
                                         <div className='flex flex-col  justify-between ' >
-                                            <p className='text-sm' >  Instagram auto reply  </p>
-                                            <p className='text-xs text-gray-400' > Automated replies and DMs triggered by comments </p>
+                                            <p className='text-[14px]' >  Instagram auto reply  </p>
+                                            <p className='text-[12px] text-gray-400' > Automated replies and DMs triggered by comments </p>
                                         </div>
                                     </div>
 
-                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
                                         <div className='flex flex-col  justify-between ' >
-                                            <p className='text-sm' >  AI content & caption generator  </p>
-                                            <p className='text-xs text-gray-400' >I nstant AI-powered post ideas and captions  </p>
+                                            <p className='text-[14px]' >  AI content & caption generator  </p>
+                                            <p className='text-[12px] text-gray-400' >I nstant AI-powered post ideas and captions  </p>
                                         </div>
                                     </div>
 
-                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
                                         <div className='flex flex-col  justify-between ' >
-                                            <p className='text-sm' > Hashtag generator </p>
-                                            <p className='text-xs text-gray-400' >I Trending hashtag suggestions for better reach  </p>
+                                            <p className='text-[14px]' > Hashtag generator </p>
+                                            <p className='text-[12px] text-gray-400' >I Trending hashtag suggestions for better reach  </p>
                                         </div>
                                     </div>
 
-                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
                                         <div className='flex flex-col  justify-between ' >
-                                            <p className='text-sm' > Social integration for every social platform </p>
-                                            <p className='text-xs text-gray-400' >IPlan, auto post, and share across all platforms   </p>
+                                            <p className='text-[14px]' > Social integration for every social platform </p>
+                                            <p className='text-[12px] text-gray-400' >IPlan, auto post, and share across all platforms   </p>
                                         </div>
                                     </div>
 
@@ -200,8 +200,8 @@ const Navbar = () => {
 
                                     <div className='w-[25vw] p-4 py-3 rounded-lg m-2 my-3 ' >
                                         <div className='flex flex-col  justify-between ' >
-                                            <p className='text-sm' >    </p>
-                                            <p className='text-xs text-gray-400' > </p>
+                                            <p className='text-[14px]' >    </p>
+                                            <p className='text-[12px] text-gray-400' > </p>
                                             <div className='flex items-center gap-2 mt-3' >
                                                 <img src="products-in-navbar/insta.svg" alt="insta" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
                                                 <img src="products-in-navbar/tiktok.svg" alt="tiktok" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
@@ -215,31 +215,31 @@ const Navbar = () => {
 
                             {subProducts === "third" && <>
                                 <div className='h-auto border-x-2 border-gray-300 bg-white' >
-                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
                                         <div className='flex flex-col  justify-between ' >
-                                            <p className='text-sm' >  Earn with a Linktree Shop  </p>
-                                            <p className='text-xs text-gray-400' >Sell products and earn commission </p>
+                                            <p className='text-[14px]' >  Earn with a Linktree Shop  </p>
+                                            <p className='text-[12px] text-gray-400' >Sell products and earn commission </p>
                                         </div>
                                     </div>
 
-                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
                                         <div className='flex flex-col  justify-between ' >
-                                            <p className='text-sm' >  Sell an online course  </p>
-                                            <p className='text-xs text-gray-400' > Create and sell your expertise easily </p>
+                                            <p className='text-[14px]' >  Sell an online course  </p>
+                                            <p className='text-[12px] text-gray-400' > Create and sell your expertise easily </p>
                                         </div>
                                     </div>
 
-                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
                                         <div className='flex flex-col  justify-between ' >
-                                            <p className='text-sm' >  Host digital products  </p>
-                                            <p className='text-xs text-gray-400' > Sell digital products and build your email list </p>
+                                            <p className='text-[14px]' >  Host digital products  </p>
+                                            <p className='text-[12px] text-gray-400' > Sell digital products and build your email list </p>
                                         </div>
                                     </div>
 
-                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
                                         <div className='flex flex-col  justify-between ' >
-                                            <p className='text-sm' > Earn by hosting sponsored links </p>
-                                            <p className='text-xs text-gray-400' > Share brand offers and earn for every sign-up or sale </p>
+                                            <p className='text-[14px]' > Earn by hosting sponsored links </p>
+                                            <p className='text-[12px] text-gray-400' > Share brand offers and earn for every sign-up or sale </p>
                                         </div>
                                     </div>
 
@@ -247,8 +247,8 @@ const Navbar = () => {
 
                                     <div className='w-[25vw] p-4 py-3 rounded-lg m-2 my-3 ' >
                                         <div className='flex flex-col  justify-between ' >
-                                            <p className='text-sm' >    </p>
-                                            <p className='text-xs text-gray-400' > </p>
+                                            <p className='text-[14px]' >    </p>
+                                            <p className='text-[12px] text-gray-400' > </p>
                                             <div className='flex items-center gap-2 mt-3' >
                                                 <img src="products-in-navbar/insta.svg" alt="insta" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
                                                 <img src="products-in-navbar/tiktok.svg" alt="tiktok" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
@@ -261,10 +261,10 @@ const Navbar = () => {
                             </>}
                               {subProducts === "fourth" && <>
                                 <div className='h-auto border-x-2 border-gray-300 bg-white' >
-                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-3 ' >
+                                    <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
                                         <div className='flex flex-col  justify-between ' >
-                                            <p className='text-sm' >  Social + link analytics  </p>
-                                            <p className='text-xs text-gray-400' > Track clicks, engagement and audience insights  </p>
+                                            <p className='text-[14px]' >  Social + link analytics  </p>
+                                            <p className='text-[12px] text-gray-400' > Track clicks, engagement and audience insights  </p>
                                         </div>
                                     </div>
                                     
@@ -272,8 +272,8 @@ const Navbar = () => {
 
                                     <div className='w-[25vw] p-4 py-3 rounded-lg m-2 my-3 ' >
                                         <div className='flex flex-col  justify-between ' >
-                                            <p className='text-sm' >    </p>
-                                            <p className='text-xs text-gray-400' > </p>
+                                            <p className='text-[14px]' >    </p>
+                                            <p className='text-[12px] text-gray-400' > </p>
                                             <div className='flex items-center gap-2 mt-3' >
                                                 <img src="products-in-navbar/insta.svg" alt="insta" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
                                                 <img src="products-in-navbar/tiktok.svg" alt="tiktok" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />

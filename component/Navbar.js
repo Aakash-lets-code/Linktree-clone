@@ -72,6 +72,7 @@ const Navbar = () => {
 
                 <li onMouseEnter={handleProductsEnter} onMouseLeave={handleProductsLeave} className=' hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg relative'>
                     Product
+                    {isProductsHovered && <>
                     <div className='top-full left-[-40vw] absolute w-auto h-auto flex bg-transparent' >
 
                         <div className='mt-7 px-2 pb-2 bg-white flex justify-center rounded-2xl font-semibold ' >
@@ -342,6 +343,7 @@ const Navbar = () => {
                         </div>
 
                     </div>
+                    </>}
                 </li>
 
 

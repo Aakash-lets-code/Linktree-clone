@@ -118,7 +118,7 @@ const Navbar = () => {
                                 </div>
 
                             </div>
-                           
+
                             {subProducts === "first" && <>
                                 <div className='h-auto border-x-2 border-gray-300 bg-white' >
                                     <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
@@ -157,9 +157,9 @@ const Navbar = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </>} 
+                            </>}
 
-                             {subProducts === "second" && <>
+                            {subProducts === "second" && <>
                                 <div className='h-auto border-x-2 border-gray-300 bg-white' >
                                     <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
                                         <div className='flex flex-col  justify-between ' >
@@ -211,7 +211,7 @@ const Navbar = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </>} 
+                            </>}
 
                             {subProducts === "third" && <>
                                 <div className='h-auto border-x-2 border-gray-300 bg-white' >
@@ -259,7 +259,7 @@ const Navbar = () => {
                                     </div>
                                 </div>
                             </>}
-                              {subProducts === "fourth" && <>
+                            {subProducts === "fourth" && <>
                                 <div className='h-auto border-x-2 border-gray-300 bg-white' >
                                     <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
                                         <div className='flex flex-col  justify-between ' >
@@ -267,7 +267,7 @@ const Navbar = () => {
                                             <p className='text-[12px] text-gray-400' > Track clicks, engagement and audience insights  </p>
                                         </div>
                                     </div>
-                                    
+
                                     <hr className='border-b-1 border-gray-300 mx-4' />
 
                                     <div className='w-[25vw] p-4 py-3 rounded-lg m-2 my-3 ' >
@@ -285,16 +285,59 @@ const Navbar = () => {
                                 </div>
                             </>}
 
-                            <div className='h-auto bg-white rounded-2xl m-2 my-3' >
-                                <div className='w-[25vw] p-4 py-3 space-y-3 '>
-                                    <p>Featured</p>
-                                    <img src="products-in-navbar/first.png" alt="image" className='w-auto' />
-                                    <div>
-                                        <p>Join 70M+ using Linktree as their link in bio</p>
-                                        <p className='text-gray-400 text-sm' >One link to share everything you create, curate, and sell across all your socials.</p>
+
+                            {subProducts === "first" && <>
+                                <div className='h-auto bg-white rounded-2xl m-2 my-3' >
+                                    <div className='w-[25vw] p-4 py-3 space-y-3 '>
+                                        <p>Featured</p>
+                                        <img src="products-in-navbar/first.png" alt="image" className='w-auto' />
+                                        <div>
+                                            <p>Join 70M+ using Linktree as their link in bio</p>
+                                            <p className='text-gray-400 text-sm' > One link to share everything you create, curate, and sell across all your socials. </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </>}
+
+                            {subProducts === "second" && <>
+                                <div className='h-auto bg-white rounded-2xl m-2 my-3' >
+                                    <div className='w-[25vw] p-4 py-3 space-y-3 '>
+                                        <p>What's New</p>
+                                        <img src="products-in-navbar/second.png" alt="image" className='w-auto' />
+                                        <div>
+                                            <p>Boost sales with Instagram Auto-reply</p>
+                                            <p className='text-gray-400 text-sm' >Instantly reply to comments, send traffic to your offers, and turn engagement into sales—automatically.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </>}
+
+                            {subProducts === "third" && <>
+                                <div className='h-auto bg-white rounded-2xl m-2 my-3' >
+                                    <div className='w-[25vw] p-4 py-3 space-y-3 '>
+                                        <p>Featured</p>
+                                        <img src="products-in-navbar/third.png" alt="image" className='w-auto' />
+                                        <div>
+                                            <p> Turn Your Linktree into a Storefront That Pays </p>
+                                            <p className='text-gray-400 text-sm' >Add affiliate products, share what you love, and start earning in minutes with industry-leading commissions.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </>}
+
+                            {subProducts === "fourth" && <>
+                                <div className='h-auto bg-white rounded-2xl m-2 my-3' >
+                                    <div className='w-[25vw] p-4 py-3 space-y-3 '>
+                                        <p>Featured</p>
+                                        <img src="products-in-navbar/fourth.png" alt="image" className='w-auto' />
+                                        <div>
+                                            <p>Grow engagement with analytics</p>
+                                            <p className='text-gray-400 text-sm' >Make data-driven decisions for your Linktree and social media platforms with analytics that are easy to understand.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </>}
+
 
                         </div>
 

@@ -16,7 +16,7 @@ const Navbar = () => {
     const handleLearnLeave = () => setIsLearnHovered(false)
     const handlediscoverEnter = () => setIsDiscoverHovered(true)
     const handlediscoverLeave = () => setIsDiscoverHovered(false)
-    const handleProductsEnter = () => setIsProductsHovered(true)
+    const handleProductsEnter = () => {setIsProductsHovered(true) , setsubProducts("first")}
     const handleProductsLeave = () => setIsProductsHovered(false)
 
 
@@ -78,7 +78,7 @@ const Navbar = () => {
                         <div className='mt-7 px-2 pb-2 bg-white flex justify-center rounded-2xl font-semibold ' >
 
                             <div className=' h-auto  bg-white rounded-2xl ' >
-                                <div onMouseEnter={() => setsubProducts("first")} className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
+                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
                                     <div className='flex items-center justify-between' >
                                         <p className='flex items-center gap-2' >
                                             <img src="products-in-navbar/link.svg" alt="link" width={25} className='font-bold' />

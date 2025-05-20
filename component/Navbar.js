@@ -203,11 +203,14 @@ const Navbar = () => {
                                         <div className='flex flex-col  justify-between ' >
                                             <p className='text-[14px]' >    </p>
                                             <p className='text-[12px] text-gray-400' > </p>
-                                            <div className='flex items-center gap-2 mt-3' >
+                                            <div className='flex items-center flex-wrap gap-2 mt-3' >
                                                 <img src="products-in-navbar/insta.svg" alt="insta" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
                                                 <img src="products-in-navbar/tiktok.svg" alt="tiktok" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
                                                 <img src="products-in-navbar/linkedin.svg" alt="linkedin" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
-                                                <img src="products-in-navbar/twitter.svg" alt="twitter" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                <img src="products-in-navbar/facebook.svg" alt="facebook" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                <img src="products-in-navbar/pinterest.svg" alt="pinterest" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                <img src="products-in-navbar/thread.svg" alt="thread" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                <img src="products-in-navbar/youtube.svg" alt="youtube" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
                                             </div>
                                         </div>
                                     </div>

@@ -11,8 +11,9 @@ const Navbar = () => {
     const [isDiscoverHovered, setIsDiscoverHovered] = useState(false)
     const [isProductsHovered, setIsProductsHovered] = useState(false)
     const [subProducts, setsubProducts] = useState(null)
+    const [sublearns, setsublearns] = useState(null)
 
-    const handleLearnEnter = () => setIsLearnHovered(true)
+    const handleLearnEnter = () => { setIsLearnHovered(true), setsublearns("learnFirst") }
     const handleLearnLeave = () => setIsLearnHovered(false)
     const handlediscoverEnter = () => setIsDiscoverHovered(true)
     const handlediscoverLeave = () => setIsDiscoverHovered(false)
@@ -53,18 +54,161 @@ const Navbar = () => {
 
                     <li onMouseEnter={handleLearnEnter} onMouseLeave={handleLearnLeave} className=' hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg relative' > Learn
 
-                        {isLearnHovered && <> <div className='absolute left-0 top-full w-80 z-10 origin-top duration-500 bg-transparent' >
-                            <div className='mt-7 px-2 py-1 bg-white rounded-lg shadow-lg '>
-                                <div className=' p-4 py-2 rounded-lg hover:bg-[#eff0ec] my-1 ' >The 2024 Creator Report</div>
-                                <div className=' p-4 py-2 rounded-lg hover:bg-[#eff0ec] my-1 ' >All Article</div>
-                                <div className=' p-4 py-2 rounded-lg hover:bg-[#eff0ec] my-1 ' >Creator</div>
-                                <div className=' p-4 py-2 rounded-lg hover:bg-[#eff0ec] my-1 ' >Trends</div>
-                                <div className=' p-4 py-2 rounded-lg hover:bg-[#eff0ec] my-1 ' >Best Practices</div>
-                                <div className=' p-4 py-2 rounded-lg hover:bg-[#eff0ec] my-1 ' >Company</div>
-                                <div className=' p-4 py-2 rounded-lg hover:bg-[#eff0ec] my-1 ' >Product News</div>
-                                <div className=' p-4 py-2 rounded-lg hover:bg-[#eff0ec] my-1 ' >Help</div>
+                        {isLearnHovered && <>
+                            <div className='top-full left-[-40vw] absolute w-auto h-auto flex bg-transparent' >
+
+                                <div className='mt-7 px-2 pb-2 bg-white flex justify-center rounded-2xl font-semibold ' >
+
+                                    <div className=' h-auto  bg-white rounded-2xl ' >
+
+                                        <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
+                                            <div className='flex items-center justify-between' >
+                                                <p className='flex items-center gap-2' >
+                                                    <img src="products-in-navbar/link.svg" alt="link" width={25} className='font-bold' />
+                                                    Link in bio + tools
+                                                </p>
+                                                <img src="products-in-navbar/right-arrow.svg" alt="right-arrow" width={25} className='' />
+                                            </div>
+                                        </div>
+
+                                        <div onMouseEnter={() => setsublearns("learnSecond")} className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
+                                            <div className='flex items-center justify-between' >
+                                                <p className='flex items-center gap-2' >
+                                                    <img src="products-in-navbar/manage.svg" alt="link" width={25} className='font-bold' />
+                                                    Manage your social media
+                                                </p>
+                                                <img src="products-in-navbar/right-arrow.svg" alt="right-arrow" width={25} className='' />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {sublearns === "learnFirst" && <>
+                                            <div className='h-auto border-x-2 border-gray-300 bg-white' >
+                                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
+                                                    <div className='flex flex-col  justify-between ' >
+                                                        <p className='text-[14px]' >  Link in bio  </p>
+                                                        <p className='text-[12px] text-gray-400' > Customize your Linktree</p>
+                                                    </div>
+                                                </div>
+
+                                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
+                                                    <div className='flex flex-col  justify-between ' >
+                                                        <p className='text-[14px]' >  Link shortner  </p>
+                                                        <p className='text-[12px] text-gray-400' > Create trackable , shareable short links</p>
+                                                    </div>
+                                                </div>
+
+                                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
+                                                    <div className='flex flex-col  justify-between ' >
+                                                        <p className='text-[14px]' >  QR code generator  </p>
+                                                        <p className='text-[12px] text-gray-400' > Turn links into scanable QR codes </p>
+                                                    </div>
+                                                </div>
+
+                                                <hr className='border-b-1 border-gray-300 mx-4' />
+
+                                                <div className='w-[25vw] p-4 py-3 rounded-lg m-2 my-3 ' >
+                                                    <div className='flex flex-col  justify-between ' >
+                                                        <p className='text-[14px]' >  Linktree for every day social platform  </p>
+                                                        <p className='text-[12px] text-gray-400' > Grow and engage your audience everywhere</p>
+                                                        <div className='flex items-center gap-2 mt-3' >
+                                                            <img src="products-in-navbar/insta.svg" alt="insta" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                            <img src="products-in-navbar/tiktok.svg" alt="tiktok" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                            <img src="products-in-navbar/linkedin.svg" alt="linkedin" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                            <img src="products-in-navbar/twitter.svg" alt="twitter" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </>}
+
+                                        {sublearns === "learnSecond" && <>
+                                            <div className='h-auto border-x-2 border-gray-300 bg-white' >
+                                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
+                                                    <div className='flex flex-col  justify-between ' >
+                                                        <p className='text-[14px]' >  Schedule and auto-post  </p>
+                                                        <p className='text-[12px] text-gray-400' > Hands-free, hassle-free social media planning </p>
+                                                    </div>
+                                                </div>
+
+                                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
+                                                    <div className='flex flex-col  justify-between ' >
+                                                        <p className='text-[14px]' >  Instagram auto reply  </p>
+                                                        <p className='text-[12px] text-gray-400' > Automated replies and DMs triggered by comments </p>
+                                                    </div>
+                                                </div>
+
+                                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
+                                                    <div className='flex flex-col  justify-between ' >
+                                                        <p className='text-[14px]' >  AI content & caption generator  </p>
+                                                        <p className='text-[12px] text-gray-400' >I nstant AI-powered post ideas and captions  </p>
+                                                    </div>
+                                                </div>
+
+                                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
+                                                    <div className='flex flex-col  justify-between ' >
+                                                        <p className='text-[14px]' > Hashtag generator </p>
+                                                        <p className='text-[12px] text-gray-400' >I Trending hashtag suggestions for better reach  </p>
+                                                    </div>
+                                                </div>
+
+                                                <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
+                                                    <div className='flex flex-col  justify-between ' >
+                                                        <p className='text-[14px]' > Social integration for every social platform </p>
+                                                        <p className='text-[12px] text-gray-400' >IPlan, auto post, and share across all platforms   </p>
+                                                    </div>
+                                                </div>
+
+                                                <hr className='border-b-1 border-gray-300 mx-4' />
+
+                                                <div className='w-[25vw] p-4 py-3 rounded-lg m-2 my-3 ' >
+                                                    <div className='flex flex-col  justify-between ' >
+                                                        <p className='text-[14px]' >    </p>
+                                                        <p className='text-[12px] text-gray-400' > </p>
+                                                        <div className='flex items-center flex-wrap gap-2 mt-3' >
+                                                            <img src="products-in-navbar/insta.svg" alt="insta" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                            <img src="products-in-navbar/tiktok.svg" alt="tiktok" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                            <img src="products-in-navbar/linkedin.svg" alt="linkedin" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                            <img src="products-in-navbar/facebook.svg" alt="facebook" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                            <img src="products-in-navbar/pinterest.svg" alt="pinterest" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                            <img src="products-in-navbar/thread.svg" alt="thread" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                            <img src="products-in-navbar/youtube.svg" alt="youtube" width={45} className='text-black p-3 py-2.5 bg-gray-200 rounded-2xl hover:invert' />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </>}
+
+                                        {sublearns === "learnFirst" && <>
+                                            <div className='h-auto bg-white rounded-2xl m-2 my-3' >
+                                                <div className='w-[25vw] p-4 py-3 space-y-3 '>
+                                                    <p>Featured</p>
+                                                    <img src="products-in-navbar/first.png" alt="image" className='w-auto' />
+                                                    <div>
+                                                        <p>Join 70M+ using Linktree as their link in bio</p>
+                                                        <p className='text-gray-400 text-sm' > One link to share everything you create, curate, and sell across all your socials. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </>}
+
+                                        {sublearns === "learnSecond" && <>
+                                            <div className='h-auto bg-white rounded-2xl m-2 my-3' >
+                                                <div className='w-[25vw] p-4 py-3 space-y-3 '>
+                                                    <p>What's New</p>
+                                                    <img src="products-in-navbar/second.png" alt="image" className='w-auto' />
+                                                    <div>
+                                                        <p>Boost sales with Instagram Auto-reply</p>
+                                                        <p className='text-gray-400 text-sm' >Instantly reply to comments, send traffic to your offers, and turn engagement into sales—automatically.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </>}
+
+                                </div>
+
                             </div>
-                        </div></>}
+                        </>}
 
                     </li>
 

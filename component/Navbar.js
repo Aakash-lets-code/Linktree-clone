@@ -52,7 +52,8 @@ const Navbar = () => {
 
                 <Link href="/learn">
 
-                    <li onMouseEnter={handleLearnEnter} onMouseLeave={handleLearnLeave} className=' hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg relative' > Learn
+                    <li onMouseEnter={handleLearnEnter} onMouseLeave={handleLearnLeave} className=' hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg relative' >
+                        Learn
 
                         {isLearnHovered && <>
                             <div className='top-full left-[-40vw] absolute w-auto h-auto flex bg-transparent' >

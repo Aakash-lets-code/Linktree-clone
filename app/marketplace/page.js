@@ -39,65 +39,65 @@ const Markerplace = () => {
                         <a href='#' className=' text-blue-600 underline text-2xl' >See 26 Apps</a>
                     </div>
 
-                    <div className='flex flex-wrap items-center space-x-10 space-y-2 bg-blue-800 ' >
+                    <div className='flex flex-wrap items-center justify-around bg-blue-800 ' >
 
-                        <div className='bg-purple-700 w-96 flex items-center gap-4' >
+                        <div className='bg-purple-700 w-auto flex items-center p-2 my-5 gap-2 '>
                             <div>
-                                <img src="marketplace-scroll-second.svg" alt="" />
+                                <img src="marketplace-scroll-second.svg" alt="icons" />
                             </div>
-                            <div className=' flex flex-col items-start justify-center' > 
-                                <p className='text-2xl' >Audiomack</p>
-                                <p className='text-[15px]' >Add an Audiomac player to your Linktree</p>
+                            <div className=' flex flex-col items-start justify-center tracking-wider leading-6' >
+                                <p className='text-[20px] font-semibold ' >Audiomack</p>
+                                <p className='text-[16px]' >Add an Audiomac player to your Linktree</p>
                             </div>
                         </div>
 
-                        <div className='bg-purple-700 w-96 flex items-center gap-4' >
+                        <div className='bg-purple-700 w-auto flex items-center p-2 my-5 gap-2 '>
                             <div>
-                                <img src="marketplace-scroll-second.svg" alt="" />
+                                <img src="marketplace-scroll-second.svg" alt="icons" />
                             </div>
-                            <div className=' flex flex-col items-start justify-center' > 
-                                <p className='text-2xl' >Audiomack</p>
-                                <p className='text-[15px]' >Add an Audiomac player to your Linktree</p>
+                            <div className=' flex flex-col items-start justify-center tracking-wider leading-6' >
+                                <p className='text-[20px] font-semibold ' >Audiomack</p>
+                                <p className='text-[16px]' >Add an Audiomac player to your Linktree</p>
                             </div>
                         </div>
 
-                        <div className='bg-purple-700 w-96 flex items-center gap-4' >
+                        <div className='bg-purple-700 w-auto flex items-center p-2 my-5 gap-2 '>
                             <div>
-                                <img src="marketplace-scroll-second.svg" alt="" />
+                                <img src="marketplace-scroll-second.svg" alt="icons" />
                             </div>
-                            <div className=' flex flex-col items-start justify-center' > 
-                                <p className='text-2xl' >Audiomack</p>
-                                <p className='text-[15px]' >Add an Audiomac player to your Linktree</p>
+                            <div className=' flex flex-col items-start justify-center tracking-wider leading-6' >
+                                <p className='text-[20px] font-semibold ' >Audiomack</p>
+                                <p className='text-[16px]' >Add an Audiomac player to your Linktree</p>
                             </div>
                         </div>
 
-                        <div className='bg-purple-700 w-96 flex items-center gap-4' >
+                        <div className='bg-purple-700 w-auto flex items-center p-2 my-5 gap-2 '>
                             <div>
-                                <img src="marketplace-scroll-second.svg" alt="" />
+                                <img src="marketplace-scroll-second.svg" alt="icons" />
                             </div>
-                            <div className=' flex flex-col items-start justify-center' > 
-                                <p className='text-2xl' >Audiomack</p>
-                                <p className='text-[15px]' >Add an Audiomac player to your Linktree</p>
+                            <div className=' flex flex-col items-start justify-center tracking-wider leading-6' >
+                                <p className='text-[20px] font-semibold ' >Audiomack</p>
+                                <p className='text-[16px]' >Add an Audiomac player to your Linktree</p>
                             </div>
                         </div>
 
-                        <div className='bg-purple-700 w-96 flex items-center gap-4' >
+                        <div className='bg-purple-700 w-auto flex items-center p-2 my-5 gap-2 '>
                             <div>
-                                <img src="marketplace-scroll-second.svg" alt="" />
+                                <img src="marketplace-scroll-second.svg" alt="icons" />
                             </div>
-                            <div className=' flex flex-col items-start justify-center' > 
-                                <p className='text-2xl' >Audiomack</p>
-                                <p className='text-[15px]' >Add an Audiomac player to your Linktree</p>
+                            <div className=' flex flex-col items-start justify-center tracking-wider leading-6' >
+                                <p className='text-[20px] font-semibold ' >Audiomack</p>
+                                <p className='text-[16px]' >Add an Audiomac player to your Linktree</p>
                             </div>
                         </div>
 
-                        <div className='bg-purple-700 w-96 flex items-center gap-4' >
+                        <div className='bg-purple-700 w-auto flex items-center p-2 my-5 gap-2 '>
                             <div>
-                                <img src="marketplace-scroll-second.svg" alt="" />
+                                <img src="marketplace-scroll-second.svg" alt="icons" />
                             </div>
-                            <div className=' flex flex-col items-start justify-center' > 
-                                <p className='text-2xl' >Audiomack</p>
-                                <p className='text-[15px]' >Add an Audiomac player to your Linktree</p>
+                            <div className=' flex flex-col items-start justify-center tracking-wider leading-6' >
+                                <p className='text-[20px] font-semibold ' >Audiomack</p>
+                                <p className='text-[16px]' >Add an Audiomac player to your Linktree</p>
                             </div>
                         </div>
 

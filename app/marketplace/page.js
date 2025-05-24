@@ -39,7 +39,7 @@ const Markerplace = () => {
                         <a href='#' className=' text-blue-600 underline text-2xl' >See 26 Apps</a>
                     </div>
 
-                    <div className='flex flex-wrap items-center space-x-4 space-y-2 ' >
+                    <div className='flex flex-wrap items-center space-x-10 space-y-2 bg-blue-800 ' >
 
                         <div className='bg-purple-700 w-96 flex items-center gap-4' >
                             <div>

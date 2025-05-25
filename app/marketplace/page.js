@@ -39,9 +39,9 @@ const Markerplace = () => {
                         <a href='#' className=' text-blue-600 underline text-2xl' >See 26 Apps</a>
                     </div>
 
-                    <div className='flex flex-wrap items-center justify-around bg-blue-800 ' >
+                    <div className='flex flex-wrap items-center justify-around' >
 
-                        <div className='bg-purple-700 w-auto flex items-center p-2 my-5 gap-2 '>
+                        <div className='w-auto flex items-center p-2 my-5 gap-2 '>
                             <div>
                                 <img src="marketplace-scroll-second.svg" alt="icons" />
                             </div>
@@ -51,7 +51,7 @@ const Markerplace = () => {
                             </div>
                         </div>
 
-                        <div className='bg-purple-700 w-auto flex items-center p-2 my-5 gap-2 '>
+                        <div className='w-auto flex items-center p-2 my-5 gap-2 '>
                             <div>
                                 <img src="marketplace-scroll-second.svg" alt="icons" />
                             </div>
@@ -61,7 +61,7 @@ const Markerplace = () => {
                             </div>
                         </div>
 
-                        <div className='bg-purple-700 w-auto flex items-center p-2 my-5 gap-2 '>
+                        <div className='w-auto flex items-center p-2 my-5 gap-2 '>
                             <div>
                                 <img src="marketplace-scroll-second.svg" alt="icons" />
                             </div>
@@ -71,7 +71,7 @@ const Markerplace = () => {
                             </div>
                         </div>
 
-                        <div className='bg-purple-700 w-auto flex items-center p-2 my-5 gap-2 '>
+                        <div className='w-auto flex items-center p-2 my-5 gap-2 '>
                             <div>
                                 <img src="marketplace-scroll-second.svg" alt="icons" />
                             </div>
@@ -81,7 +81,7 @@ const Markerplace = () => {
                             </div>
                         </div>
 
-                        <div className='bg-purple-700 w-auto flex items-center p-2 my-5 gap-2 '>
+                        <div className='w-auto flex items-center p-2 my-5 gap-2 '>
                             <div>
                                 <img src="marketplace-scroll-second.svg" alt="icons" />
                             </div>
@@ -91,7 +91,7 @@ const Markerplace = () => {
                             </div>
                         </div>
 
-                        <div className='bg-purple-700 w-auto flex items-center p-2 my-5 gap-2 '>
+                        <div className='w-auto flex items-center p-2 my-5 gap-2 '>
                             <div>
                                 <img src="marketplace-scroll-second.svg" alt="icons" />
                             </div>

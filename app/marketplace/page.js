@@ -108,7 +108,7 @@ const Markerplace = () => {
                         <a href='#' className=' text-blue-600 underline text-2xl' >See 11 Apps</a>
                     </div>
 
-                    <div className='flex flex-wrap items-center justify-around' >
+                    <div className='flex flex-wrap items-center justify-around mb-32' >
 
                         <div className='w-auto flex items-center p-2 my-5 gap-4 '>
                             <div>
@@ -140,6 +140,15 @@ const Markerplace = () => {
                             </div>
                         </div>
 
+                    </div>
+
+                    <div className="h-96 w-full bg-[#b69faf] text-[#1e2330] relative rounded-4xl grid grid-cols-2 items-center mb-32" >
+                        <div className='pl-14 py-7 space-y-5 ' >
+                            <p className='leading-14 text-6xl font-extrabold ' >Join our developer program</p>
+                            <p className='font-semibold text-xl text-slate-800 mb-6'> We're expanding access to our APIs and SDKs. </p>
+                            <button className='p-4 px-10 rounded-full font-semibold text-xl text-white bg-black text-center' >Register</button>
+                        </div>
+                        <img src="marketplace/marketplace-scroll-third-backgroundimage.svg" alt="background" className='absolute right-0 top-0 rounded-r-4xl h-full' />
                     </div>
 
                 </div>

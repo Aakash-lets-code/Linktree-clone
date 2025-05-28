@@ -151,6 +151,134 @@ const Markerplace = () => {
                         <img src="marketplace/marketplace-scroll-third-backgroundimage.svg" alt="background" className='absolute right-0 top-0 rounded-r-4xl h-full' />
                     </div>
 
+                    <div className='flex justify-between items-center text-black pt-20 mb-12 ' >
+                        <h2 className=' text-4xl font-bold ' >Grow your following</h2>
+                        <a href='#' className=' text-blue-600 underline text-2xl' >See 18 Apps</a>
+                    </div>
+
+                    <div className='flex flex-wrap items-center justify-around mb-32' >
+
+                        <div className='w-auto flex items-center p-2 my-5 gap-4 '>
+                            <div>
+                                <img src="marketplace/marketplace-scroll-fourth-snapchat.svg" alt="icons" width={60} />
+                            </div>
+                            <div className=' flex flex-col items-start justify-center tracking-wider gap-1.5 leading-6' >
+                                <p className='text-[20px] font-bold ' >Snapchat</p>
+                                <p className='text-[16px]' >Promote your Public Profile</p>
+                            </div>
+                        </div>
+
+                        <div className='w-auto flex items-center p-2 my-5 gap-4 '>
+                            <div>
+                                <img src="marketplace/marketplace-scroll-fourth-reddit.svg" alt="icons" width={60} />
+                            </div>
+                            <div className=' flex flex-col items-start justify-center tracking-wider gap-1.5 leading-6' >
+                                <p className='text-[20px] font-bold ' >Reddit</p>
+                                <p className='text-[16px]' >Showcase your Reddit profile</p>
+                            </div>
+                        </div>
+
+                        <div className='w-auto flex items-center p-2 my-5 gap-4 '>
+                            <div>
+                                <img src="marketplace/marketplace-scroll-fourth-contactdetails.svg" alt="icons" width={60} />
+                            </div>
+                            <div className=' flex flex-col items-start justify-center tracking-wider gap-1.5 leading-6' >
+                                <p className='text-[20px] font-bold ' >Contact Details</p>
+                                <p className='text-[16px]' >Easily share downloadable contact details</p>
+                            </div>
+                        </div>
+
+                        <div className='w-auto flex items-center p-2 my-5 gap-4 '>
+                            <div>
+                                <img src="marketplace/marketplace-scroll-fourth-communitysms.svg" alt="icons" width={60} />
+                            </div>
+                            <div className=' flex flex-col items-start justify-center tracking-wider gap-1.5 leading-6' >
+                                <p className='text-[20px] font-bold ' >  Community SMS</p>
+                                <p className='text-[16px]' >Build an SMS subscriber list</p>
+                            </div>
+                        </div>
+
+                        <div className='w-auto flex items-center p-2 my-5 gap-4 '>
+                            <div>
+                                <img src="marketplace/marketplace-scroll-fourth-gleam.svg" alt="icons" width={60} />
+                            </div>
+                            <div className=' flex flex-col items-start justify-center tracking-wider gap-1.5 leading-6' >
+                                <p className='text-[20px] font-bold ' >Gleam</p>
+                                <p className='text-[16px]' >Run campaigns to grow your audience</p>
+                            </div>
+                        </div>
+
+                        <div className='w-auto flex items-center p-2 my-5 gap-4 '>
+                            <div>
+                                <img src="marketplace/marketplace-scroll-fourth-form.svg" alt="icons" width={60} />
+                            </div>
+                            <div className=' flex flex-col items-start justify-center tracking-wider gap-1.5 leading-6' >
+                                <p className='text-[20px] font-bold ' >Form</p>
+                                <p className='text-[16px]' >Collect info with a custom form</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className='flex justify-between items-center text-black pt-20 mb-12 ' >
+                        <h2 className=' text-4xl font-bold ' >All link apps and integrations</h2>
+                        <a href='#' className=' text-blue-600 underline text-2xl' >See All</a>
+                    </div>
+
+                    <div className='flex flex-wrap items-center justify-around mb-32' >
+
+                        <div className='w-auto flex items-center p-2 my-5 gap-4 '>
+                            <div>
+                                <img src="marketplace/marketplace-scroll-fourth-opensea.svg" alt="icons" width={60} />
+                            </div>
+                            <div className=' flex flex-col items-start justify-center tracking-wider gap-1.5 leading-6' >
+                                <p className='text-[20px] font-bold ' >OpenSea</p>
+                                <p className='text-[16px]' >Showcase NFTs on your Linktree</p>
+                            </div>
+                        </div>
+
+                        <div className='w-auto flex items-center p-2 my-5 gap-4 '>
+                            <div>
+                                <img src="marketplace/marketplace-scroll-fourth-spotify.svg" alt="icons" width={60} />
+                            </div>
+                            <div className=' flex flex-col items-start justify-center tracking-wider gap-1.5 leading-6' >
+                                <p className='text-[20px] font-bold ' >Spotify</p>
+                                <p className='text-[16px]' >Share your latest or favorite music</p>
+                            </div>
+                        </div>
+
+                        <div className='w-auto flex items-center p-2 my-5 gap-4 '>
+                            <div>
+                                <img src="marketplace/marketplace-scroll-fourth-facebook.svg" alt="icons" width={60} />
+                            </div>
+                            <div className=' flex flex-col items-start justify-center tracking-wider gap-1.5 leading-6' >
+                                <p className='text-[20px] font-bold ' >Facebook</p>
+                                <p className='text-[16px]' >Add Facebook videos to your Linktree</p>
+                            </div>
+                        </div>
+
+                        <div className='w-auto flex items-center p-2 my-5 gap-4 '>
+                            <div>
+                                <img src="marketplace/marketplace-scroll-fourth-pinterest.svg" alt="icons" width={60} />
+                            </div>
+                            <div className=' flex flex-col items-start justify-center tracking-wider gap-1.5 leading-6' >
+                                <p className='text-[20px] font-bold ' >Pinterest</p>
+                                <p className='text-[16px]' >Showcase Pins, boards and more</p>
+                            </div>
+                        </div>
+
+                        <div className='w-auto flex items-center p-2 my-5 gap-4 '>
+                            <div>
+                                <img src="marketplace/marketplace-scroll-fourth-podcast.svg" alt="icons" width={60} />
+                            </div>
+                            <div className=' flex flex-col items-start justify-center tracking-wider gap-1.5 leading-6' >
+                                <p className='text-[20px] font-bold ' >Podcasts</p>
+                                <p className='text-[16px]' >Get more podcast listeners and subscribers</p>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
 
             </section>

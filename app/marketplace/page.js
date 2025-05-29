@@ -39,7 +39,7 @@ const Markerplace = () => {
                         <a href='#' className=' text-blue-600 underline text-2xl' >See 26 Apps</a>
                     </div>
 
-                    <div className='flex flex-wrap items-center justify-around' >
+                    <div className='grid grid-cols-3 mb-28' >
 
                         <div className='w-auto flex items-center p-2 my-5 gap-4 '>
                             <div>
@@ -108,7 +108,7 @@ const Markerplace = () => {
                         <a href='#' className=' text-blue-600 underline text-2xl' >See 11 Apps</a>
                     </div>
 
-                    <div className='flex flex-wrap items-center justify-around mb-32' >
+                    <div className='grid grid-cols-3 mb-28' >
 
                         <div className='w-auto flex items-center p-2 my-5 gap-4 '>
                             <div>
@@ -156,7 +156,7 @@ const Markerplace = () => {
                         <a href='#' className=' text-blue-600 underline text-2xl' >See 18 Apps</a>
                     </div>
 
-                    <div className='flex flex-wrap items-center justify-around mb-32' >
+                    <div className='grid grid-cols-3 mb-28' >
 
                         <div className='w-auto flex items-center p-2 my-5 gap-4 '>
                             <div>
@@ -225,7 +225,7 @@ const Markerplace = () => {
                         <a href='#' className=' text-blue-600 underline text-2xl' >See All</a>
                     </div>
 
-                    <div className='flex flex-wrap items-center justify-around mb-32' >
+                    <div className='grid grid-cols-3 mb-28' >
 
                         <div className='w-auto flex items-center p-2 my-5 gap-4 '>
                             <div>

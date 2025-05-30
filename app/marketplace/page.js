@@ -283,6 +283,11 @@ const Markerplace = () => {
 
             </section>
 
+            <section className='bg-[#f3f3f1] min-h-screen py-52' >
+                
+
+            </section>
+
         </>
     )
 }

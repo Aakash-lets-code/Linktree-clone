@@ -284,7 +284,37 @@ const Markerplace = () => {
             </section>
 
             <section className='bg-[#f3f3f1] min-h-screen py-52' >
-                
+
+                <div className='bg-white h-[50vh] mx-[12vh] rounded-3xl p-14' >
+
+                    <div className='h-[60%] flex justify-between  ' >
+
+                        <div className=' space-x-1.5 ' >
+                            <button className="login bg-[#eff0ec] rounded-lg text-black p-4 px-6 ">Log in </button>
+                            <button className="signup bg-[#d717e7] rounded-full py-5 px-7 text-white hover:bg-[#d617e7e1]">Sign up free</button>
+                        </div>
+
+                        <div className='grid grid-cols-3 space-x-28 space-y-4 text-sm font-semibold text-[#535761]' >
+                            <p>About Linktree</p>
+                            <p>Blog</p>
+                            <p>Press</p>
+                            <p>Social Good</p>
+                            <p>Contact</p>
+                            <p>Careers</p>
+                            <p>Getting Started</p>
+                            <p>Features and How-Tos</p>
+                            <p>FAQs</p>
+                            <p>Report a Violation</p>
+                            <p>Terms and Conditions</p>
+                            <p>Privacy Policy</p>
+                            <p>Cookie Notice</p>
+                            <p>Trust Center</p>
+                            <p>Cookie Preferences</p>
+                        </div>
+
+                    </div>
+
+                </div>
 
             </section>
 

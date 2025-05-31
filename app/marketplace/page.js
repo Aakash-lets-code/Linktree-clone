@@ -314,6 +314,21 @@ const Markerplace = () => {
 
                     </div>
 
+                    <div className='flex items-center justify-between pt-14' >
+                        <div className='w-[720] text-sm font-semibold text-[#535761] ' >
+                            <p>We acknowledge the Traditional Custodians of the land on which our office stands, The Wurundjeri people of the Kulin Nation, and pay our respects to Elders past, present and emerging.</p>
+                        </div>
+                        <div className='flex items-center space-x-5 pr-14'>
+                            <img src="marketplace/twitter.svg" alt="twitter" />
+                            <img src="marketplace/instagram.svg" alt="instagram" />
+                            <img src="marketplace/youtube.svg" alt="youtube" />
+                            <img src="marketplace/tiktok.svg" alt="tiktok" />
+                            <img src="marketplace/linktree.svg" alt="linktree" />
+                        </div>
+
+
+                    </div>
+
                 </div>
 
             </section>

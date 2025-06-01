@@ -283,9 +283,9 @@ const Markerplace = () => {
 
             </section>
 
-            <section className='bg-[#f3f3f1] min-h-screen py-52' >
+            <section className='bg-[#f3f3f1] min-h-screen py-44 space-y-5' >
 
-                <div className='bg-white h-[50vh] mx-[12vh] rounded-3xl p-14' >
+                <div className='bg-white h-[50vh] mx-[12vh] rounded-4xl p-14' >
 
                     <div className='h-[60%] flex justify-between  ' >
 
@@ -294,7 +294,7 @@ const Markerplace = () => {
                             <button className="signup bg-[#d717e7] rounded-full py-5 px-7 text-white hover:bg-[#d617e7e1]">Sign up free</button>
                         </div>
 
-                        <div className='grid grid-cols-3 space-x-28 space-y-4 text-sm font-semibold text-[#535761]' >
+                        <div className='grid grid-cols-3 space-x-24 space-y-4 text-sm font-semibold text-[#535761]' >
                             <p>About Linktree</p>
                             <p>Blog</p>
                             <p>Press</p>
@@ -315,6 +315,7 @@ const Markerplace = () => {
                     </div>
 
                     <div className='flex items-center justify-between pt-14' >
+
                         <div className='w-[720] text-sm font-semibold text-[#535761] ' >
                             <p>We acknowledge the Traditional Custodians of the land on which our office stands, The Wurundjeri people of the Kulin Nation, and pay our respects to Elders past, present and emerging.</p>
                         </div>
@@ -326,10 +327,15 @@ const Markerplace = () => {
                             <img src="marketplace/linktree.svg" alt="linktree" />
                         </div>
 
-
                     </div>
 
                 </div>
+
+                 <div className='bg-[#d6a336] h-auto mx-[12vh] rounded-[60] p-28 py-32 flex items-center justify-center ' >
+
+                    <img src="linktree.svg" alt="linktree-logo" width={800} />
+                    
+                 </div>
 
             </section>
 

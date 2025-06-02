@@ -1,20 +1,20 @@
 "use client"
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/navigation"
 
 export default function Home() {
 
   const [text, setText] = useState("")
   const router = useRouter()
   const slideTexts = ['Athlete', 'Baker', 'Influencer', 'Retailers', 'Musician', 'Artist', 'Creator', 'Coach', 'Business', 'Non-profit', 'Podcaster', 'Shopify', 'YouTuber', 'TikTokers', 'Instagrammer', 'Health Educator'];
+  const [index, setIndex] = useState(0);
+  const [visible, setVisible] = useState(true);
 
 
   const createTree = () => {
     router.push(`/generate?handle=${text}`)
   }
-
-  const [index, setIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -26,6 +26,20 @@ export default function Home() {
 
   return (
     <main>
+
+      {visible && <section className=" mb-4" >
+
+        <div className="fixed top-0 left-0 w-full z-auto bg-[#e9c0e9] text-[#6b3e88] text-sm md:text-base px-4 py-3 flex justify-between items-center shadow-md">
+          <p className="mr-4">
+            We have updated our Terms and Conditions. By continuing to use Linktree, you acknowledge that you have read,
+            understood and agree to be bound by the updated Terms and Conditions.
+          </p>
+          <button className="text-white text-xl font-bold leading-none focus:outline-none" onClick={() => setVisible(false)}>
+            &times;
+          </button>
+        </div>
+
+      </section>}
 
       <section className="bg-[#254f1a] min-h-[100vh] grid grid-cols-2 pt-[40vh] pb-[20vh] " >
 

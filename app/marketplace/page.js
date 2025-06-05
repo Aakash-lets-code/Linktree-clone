@@ -283,7 +283,7 @@ const Markerplace = () => {
 
             </section>
 
-            <section className='bg-[#f3f3f1] min-h-screen py-44 space-y-5' >
+            <section className='bg-[#f3f3f1] min-h-screen py-24 space-y-5' >
 
                 <div className='bg-white h-[50vh] mx-[12vh] rounded-4xl p-14' >
 
@@ -331,7 +331,7 @@ const Markerplace = () => {
 
                 </div>
 
-                 <div className='bg-[#d6a336] h-auto mx-[12vh] rounded-[60] p-28 py-32 flex items-center justify-center ' >
+                 <div className='bg-[#d6a336] h-auto mx-[12vh] rounded-[60] p-20 py-32 flex items-center justify-center ' >
 
                     <img src="linktree.svg" alt="linktree-logo" width={800} />
                     

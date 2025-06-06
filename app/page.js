@@ -30,11 +30,11 @@ export default function Home() {
       {visible && <section className="" >
 
         <div className="fixed top-0 left-0 w-full z-auto bg-[#e9c0e9] text-[#632c88] md:text-base py-2 flex justify-center items-center shadow-md">
-          <p className="text-[14px] font-bold">
+          <p className="text-[15px] font-bold">
             We have updated our <a href="#"><u>Terms and Conditions.</u></a> By continuing to use Linktree, you acknowledge that you have read,
             understood and agree to be bound by the updated <a href="#"><u>Terms and Conditions.</u></a>
           </p>
-          <button className="text-[#632c88] text-xl leading-none focus:outline-none absolute right-4" onClick={() => setVisible(false)}>
+          <button className="text-[#632c88] text-2xl leading-none focus:outline-none absolute right-4 text-center" onClick={() => setVisible(false)}>
             &times;
           </button>
         </div>

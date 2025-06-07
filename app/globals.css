@@ -5,3 +5,21 @@
     --font-roboto:var(--font-roboto);
     --font-notoSans:var(--font-notoSans);
 }
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide {
+  animation: slide 15s linear infinite;
+  animation-play-state: running;
+}
+
+.hover\:pause-animation:hover {
+  animation-play-state: paused;
+}

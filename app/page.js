@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation"
+import ImageGallery from "@/component/imageslider";
 
 export default function Home() {
 
@@ -183,6 +184,11 @@ export default function Home() {
               ))}
             </div>
           </div>
+
+        </div>
+
+        <div>
+          <ImageGallery />
 
         </div>
 

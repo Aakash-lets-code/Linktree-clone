@@ -38,7 +38,7 @@ const Learn = () => {
 
                     <div className='group w-full overflow-hidden'>
                         <div className='overflow-hidden ' >
-                            <img src="learn-scroll.jpg" alt="image" className=' max-h-[450px] w-full object-cover origin-center duration-300 transition-all group-hover:scale-105 ' />
+                            <img src="learn/learn-scroll.jpg" alt="image" className=' max-h-[450px] w-full object-cover origin-center duration-300 transition-all group-hover:scale-105 ' />
                         </div>
                         <div className="text space-y-3 mt-7 group-hover:scale-[100.5%] origin-center duration-300 transition-all ">
                             <div className=' text-black-400 flex flex-row gap-x-4 ' >
@@ -55,7 +55,7 @@ const Learn = () => {
 
                     <div className='group w-full overflow-hidden'>
                         <div className='overflow-hidden ' >
-                            <img src="learn-scroll-second(2).png" alt="image" className=' max-h-[450px] w-full object-cover origin-center duration-300 transition-all group-hover:scale-105 ' />
+                            <img src="learn/learn-scroll-second(2).png" alt="image" className=' max-h-[450px] w-full object-cover origin-center duration-300 transition-all group-hover:scale-105 ' />
                         </div>
                         <div className="text space-y-3 mt-7 group-hover:scale-[100.5%] origin-center duration-300 transition-all ">
                             <div className=' text-black-400 flex flex-row gap-x-4 ' >
@@ -72,7 +72,7 @@ const Learn = () => {
 
                     <div className='group w-full overflow-hidden'>
                         <div className='overflow-hidden ' >
-                            <img src="learn-scroll-second(3).png" alt="image" className=' max-h-[450px] w-full object-cover origin-center duration-300 transition-all group-hover:scale-105 ' />
+                            <img src="learn/learn-scroll-second(3).png" alt="image" className=' max-h-[450px] w-full object-cover origin-center duration-300 transition-all group-hover:scale-105 ' />
                         </div>
                         <div className="text space-y-3 mt-7 group-hover:scale-[100.5%] origin-center duration-300 transition-all ">
                             <div className=' text-black-400 flex flex-row gap-x-4 ' >
@@ -99,7 +99,7 @@ const Learn = () => {
                     <div className='bg-[#43e660] h-fit w-fit rounded-3xl grid grid-cols-2 px-10'>
 
                         <div className="image flex justify-center items-center w-[90%] rounded-3xl ">
-                            <img src="learn-scroll-third(1).avif" alt="image" />
+                            <img src="learn/learn-scroll-third(1).avif" alt="image" />
                         </div>
 
                         <div className="text text-black flex flex-col justify-center items-start gap-y-4 px-4 py-10" >
@@ -115,7 +115,7 @@ const Learn = () => {
                     <div className='bg-[#cc01dd] h-fit w-fit rounded-3xl grid grid-cols-2 px-10'>
 
                         <div className="image flex justify-center items-center w-[90%] rounded-3xl  ">
-                            <img src="learn-scroll-third(2).avif" alt="image" />
+                            <img src="learn/learn-scroll-third(2).avif" alt="image" />
                         </div>
 
                         <div className="text text-white flex flex-col justify-center items-start gap-y-4 px-4 py-10" >

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const images = [
-  { src: "globe.svg", alt: "Image 1", text: "Image 1"},
+  { src: "globe.svg", alt: "Image 1", text: "Image 1", width: "w-24", height: "h-64", rounded: "rounded-lg" },
   { src: "globe.svg", alt: "Image 2", text: "Image 2" },
   { src: "globe.svg", alt: "Image 3", text: "Image 3" }
 ];

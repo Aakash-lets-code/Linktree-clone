@@ -1,9 +1,11 @@
 import { useState } from "react";
 
 const images = [
-  { src: "globe.svg", alt: "Image 1", text: "Image 1", width: "w-24", height: "h-64", rounded: "rounded-lg" },
-  { src: "globe.svg", alt: "Image 2", text: "Image 2" },
-  { src: "globe.svg", alt: "Image 3", text: "Image 3" }
+  { src: "home-scroll-fifth/comedycentral.webp", alt: "Image 1", text: "Image 1", width: "w-24", height: "h-64", rounded: "rounded-lg" },
+  { src: "home-scroll-fifth/tonyhawk.webp", alt: "Image 2", text: "Image 2" },
+  { src: "home-scroll-fifth/funkynnutmeg.webp", alt: "Image 3", text: "Image 3" },
+  { src: "home-scroll-fifth/hbo.webp", alt: "Image 3", text: "Image 3" },
+  { src: "home-scroll-fifth/pharrell.webp", alt: "Image 3", text: "Image 3" }
 ];
 
 const ImageGallery = () => {

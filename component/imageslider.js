@@ -1,28 +1,59 @@
 import { useState } from "react";
 
 const images = [
-  { src: "home-scroll-fifth/comedycentral.webp", alt: "Image 1", text: "Image 1", width: "w-24", height: "h-64", rounded: "rounded-lg" },
-  { src: "home-scroll-fifth/tonyhawk.webp", alt: "Image 2", text: "Image 2" },
-  { src: "home-scroll-fifth/funkynnutmeg.webp", alt: "Image 3", text: "Image 3" },
-  { src: "home-scroll-fifth/hbo.webp", alt: "Image 3", text: "Image 3" },
-  { src: "home-scroll-fifth/pharrell.webp", alt: "Image 3", text: "Image 3" }
+  {
+    src: "home-scroll-fifth/funkynnutmeg.webp",
+    alt: "Image",
+    text: "/funkynnutmeg",
+    width: "w-72",
+    height: "h-56",
+    rounded: "rounded-full"
+  },
+  {
+    src: "home-scroll-fifth/hbo.webp",
+    alt: "Image",
+    text: "/hbo",
+    width: "w-96",
+    height: "h-72",
+    rounded: "rounded-3xl"
+  },
+  {
+    src: "home-scroll-fifth/comedycentral.webp",
+    alt: "Image",
+    text: "/comedycentral",
+    width: "w-96",
+    height: "h-64",
+    rounded: "rounded-4xl"
+  },
+  {
+    src: "home-scroll-fifth/pharrell.webp",
+    alt: "Image",
+    text: "/pharrell",
+    width: "w-64",
+    height: "h-64",
+    rounded: "rounded-full"
+  },
+  {
+    src: "home-scroll-fifth/tonyhawk.webp",
+    alt: "Image",
+    text: "/tonyhawk",
+    width: "w-96",
+    height: "h-48",
+    rounded: "rounded-lg"
+  },
 ];
 
 const ImageGallery = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className="overflow-hidden w-full">
-      <div className="relative flex space-x-4 animate-slide group hover:pause-animation" onMouseEnter={() => setHoveredIndex(true)} onMouseLeave={() => setHoveredIndex(false)}
-      >
+    <div className="overflow-hidden w-full py-5">
+      <div className="relative flex space-x-4 animate-slide group hover:pause-animation" onMouseEnter={() => setHoveredIndex(true)} onMouseLeave={() => setHoveredIndex(false)}>
         {images.map((image, index) => (
-          <div key={index} className="relative w-64 h-64 overflow-hidden" onMouseEnter={() => setHoveredIndex(index)} onMouseLeave={() => setHoveredIndex(null)}
-          >
-            <img src={image.src} alt={image.alt} className={`w-full h-full object-cover transition-all duration-300 ${
-                hoveredIndex === index ? "rotate-180 bg-blue-500 text-white" : ""  }`}
-            />
+          <div key={index} className="relative overflow-hidden" onMouseEnter={() => setHoveredIndex(index)} onMouseLeave={() => setHoveredIndex(null)}>
+            <img src={image.src} alt={image.alt} className={`${image.width} ${image.height} ${image.rounded} w-full h-full object-cover transition-all duration-300 ${hoveredIndex === index ? "rotate-180 bg-blue-500 text-white" : ""}`} />
             {hoveredIndex === index && (
-              <div className="absolute inset-0 flex items-center justify-center opacity-100 transition-all duration-300">
+              <div className="absolute inset-0 flex items-center justify-center opacity-100 transition-all duration-300 w">
                 <span className="text-center text-xl">{image.text}</span>
               </div>
             )}

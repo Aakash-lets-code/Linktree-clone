@@ -23,3 +23,24 @@
 .hover\:pause-animation:hover {
   animation-play-state: paused;
 }
+
+@keyframes rotateY {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+.rotate-y-180 {
+  animation: rotateY 1s forwards;
+}
+
+.rotate-y-0 {
+  transform: rotateY(0deg);
+}
+
+.bg-blue-500 {
+  background-color: #3b82f6; /* Tailwind's blue-500 */
+}

@@ -37,7 +37,7 @@ const images = [
     src: "home-scroll-fifth/tonyhawk.webp",
     alt: "Image",
     text: "/tonyhawk",
-    width: "w-96",
+    width: "w-[500px]",
     height: "h-48",
     rounded: "rounded-lg"
   },
@@ -48,15 +48,13 @@ const ImageGallery = () => {
 
   return (
     <div className="overflow-hidden w-full py-5">
-      <div className="relative flex space-x-4 animate-slide group hover:pause-animation" onMouseEnter={() => setHoveredIndex(true)} onMouseLeave={() => setHoveredIndex(false)}>
+      <div className="relative flex space-x-4 animate-slide group hover:pause-animation">
         {images.map((image, index) => (
-          <div key={index} className="relative overflow-hidden" onMouseEnter={() => setHoveredIndex(index)} onMouseLeave={() => setHoveredIndex(null)}>
-            <img src={image.src} alt={image.alt} className={`${image.width} ${image.height} ${image.rounded} w-full h-full object-cover transition-all duration-300 ${hoveredIndex === index ? "rotate-180 bg-blue-500 text-white" : ""}`} />
-            {hoveredIndex === index && (
-              <div className="absolute inset-0 flex items-center justify-center opacity-100 transition-all duration-300 w">
-                <span className="text-center text-xl">{image.text}</span>
-              </div>
-            )}
+          <div key={index} className="relative overflow-hidden" onMouseEnter={() => setHoveredIndex(index)} onMouseLeave={() => setHoveredIndex(null)} >
+            <div className={`relative w-full h-full transition-all duration-300 transform ${hoveredIndex === index ? "rotate-y-180 bg-blue-500" : "rotate-y-0"}`} >
+              <img src={image.src} alt={image.alt} className={`${image.width} ${image.height} ${image.rounded} w-full h-full object-cover transition-all duration-300`} />
+              {hoveredIndex === index && (<div className="absolute inset-0 flex items-center justify-center opacity-100 transition-all duration-300">  <span className="text-center text-xl text-white">{image.text}</span> </div>)}
+            </div>
           </div>
         ))}
       </div>

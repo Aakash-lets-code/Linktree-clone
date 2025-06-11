@@ -40,7 +40,3 @@
 .rotate-y-0 {
   transform: rotateY(0deg);
 }
-
-.bg-blue-500 {
-  background-color: #3b82f6; /* Tailwind's blue-500 */
-}

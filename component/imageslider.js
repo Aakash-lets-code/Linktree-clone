@@ -51,9 +51,9 @@ const ImageGallery = () => {
       <div className="relative flex space-x-4 animate-slide group hover:pause-animation">
         {images.map((image, index) => (
           <div key={index} className="relative overflow-hidden" onMouseEnter={() => setHoveredIndex(index)} onMouseLeave={() => setHoveredIndex(null)} >
-            <div className={`relative w-full h-full transition-all duration-300 transform ${hoveredIndex === index ? "rotate-y-180 bg-blue-500" : "rotate-y-0"}`} >
+            <div className={`relative w-full h-full transition-all duration-300 transform ${hoveredIndex === index ? "rotate-y-180 bg-blue-500" : "rotate-y-0 transition-transform"}`} >
               <img src={image.src} alt={image.alt} className={`${image.width} ${image.height} ${image.rounded} w-full h-full object-cover transition-all duration-300`} />
-              {hoveredIndex === index && (<div className="absolute inset-0 flex items-center justify-center opacity-100 transition-all duration-300">  <span className="text-center text-xl text-white">{image.text}</span> </div>)}
+              {hoveredIndex === index && (<div className="absolute inset-0 flex items-center justify-center opacity-100 transition-all duration-300">  <span className="text-center text-xl text-invert">{image.text}</span> </div>)}
             </div>
           </div>
         ))}

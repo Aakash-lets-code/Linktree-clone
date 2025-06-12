@@ -34,9 +34,13 @@
 }
 
 .rotate-y-180 {
-  animation: rotateY 1s forwards;
+  animation: rotateY 800ms forwards;
 }
 
 .rotate-y-0 {
   transform: rotateY(0deg);
+}
+
+.relative {
+  perspective: 1200px;
 }

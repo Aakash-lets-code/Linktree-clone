@@ -57,15 +57,15 @@ const ImageGallery = () => {
 
               <img src={image.src} alt={image.alt} className={`${image.width} ${image.height} ${image.rounded} w-full h-full object-cover transition-all duration-300`} />
 
-              {hoveredIndex === index && (
-                <div className={`absolute inset-0 flex items-center justify-center opacity-100 transition-all duration-300 bg-blue-500 ${image.rounded}`}>
-                  <span className="text-center text-xl text-white">{image.text}</span>
-                </div>
-              )}
-
             </div>
 
+            {hoveredIndex === index && (
+              <div className={`absolute inset-0 flex items-center justify-center opacity-100 transition-all duration-300 bg-blue-500 ${image.rounded}`}>
+                <span className="text-center text-xl text-white">{image.text}</span>
+              </div>
+            )}
           </div>
+          
         ))}
       </div>
     </div>

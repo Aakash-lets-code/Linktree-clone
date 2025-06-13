@@ -7,7 +7,8 @@ const images = [
     text: "/funkynnutmeg",
     width: "w-72",
     height: "h-56",
-    rounded: "rounded-full"
+    rounded: "rounded-full",
+    background: "bg-blue-500"
   },
   {
     src: "home-scroll-fifth/hbo.webp",
@@ -15,7 +16,8 @@ const images = [
     text: "/hbo",
     width: "w-96",
     height: "h-72",
-    rounded: "rounded-3xl"
+    rounded: "rounded-3xl",
+    background: "bg-amber-800"
   },
   {
     src: "home-scroll-fifth/comedycentral.webp",
@@ -23,7 +25,8 @@ const images = [
     text: "/comedycentral",
     width: "w-96",
     height: "h-64",
-    rounded: "rounded-4xl"
+    rounded: "rounded-4xl",
+    background: "bg-fuchsia-900"
   },
   {
     src: "home-scroll-fifth/pharrell.webp",
@@ -31,7 +34,8 @@ const images = [
     text: "/pharrell",
     width: "w-64",
     height: "h-64",
-    rounded: "rounded-full"
+    rounded: "rounded-full",
+    background: "bg-purple-600"
   },
   {
     src: "home-scroll-fifth/tonyhawk.webp",
@@ -39,7 +43,8 @@ const images = [
     text: "/tonyhawk",
     width: "w-[500px]",
     height: "h-48",
-    rounded: "rounded-lg"
+    rounded: "rounded-lg",
+    background: "bg-red-700"
   },
 ];
 
@@ -60,7 +65,7 @@ const ImageGallery = () => {
             </div>
 
             {hoveredIndex === index && (
-              <div className={`absolute inset-0 flex items-center justify-center opacity-100 transition-all duration-300 bg-blue-500 ${image.rounded}`}>
+              <div className={`absolute inset-0 flex items-center justify-center opacity-100 transition-all duration-300 ${image.background} ${image.rounded} `}>
                 <span className="text-center text-xl text-white">{image.text}</span>
               </div>
             )}

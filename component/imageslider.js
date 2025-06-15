@@ -66,7 +66,7 @@ const ImageGallery = () => {
 
             {hoveredIndex === index && (
               <div className={`absolute inset-0 flex items-center justify-center opacity-100 transition-all duration-300 ${image.background} ${image.rounded} `}>
-                <span className="text-center text-xl text-white">{image.text}</span>
+                <span className="text-center text-xs text-black p-3 px-4 rounded-full bg-white font-bold">{image.text}</span>
               </div>
             )}
           </div>

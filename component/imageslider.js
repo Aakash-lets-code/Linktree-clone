@@ -49,8 +49,8 @@ const images = [
   {
     src: "home-scroll-fifth/ladippers.webp",
     alt: "Image",
-    text: "/tonyhawk",
-    width: "w-[500px]",
+    text: "/ladippers",
+    width: "w-80",
     height: "h-48",
     rounded: "rounded-lg",
     background: "bg-red-700"
@@ -58,8 +58,8 @@ const images = [
   {
     src: "home-scroll-fifth/selena-gomez.webp",
     alt: "Image",
-    text: "/tonyhawk",
-    width: "w-[500px]",
+    text: "/selenagomez",
+    width: "w-72",
     height: "h-48",
     rounded: "rounded-lg",
     background: "bg-red-700"

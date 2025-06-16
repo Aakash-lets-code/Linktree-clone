@@ -46,6 +46,24 @@ const images = [
     rounded: "rounded-lg",
     background: "bg-red-700"
   },
+  {
+    src: "home-scroll-fifth/ladippers.webp",
+    alt: "Image",
+    text: "/tonyhawk",
+    width: "w-[500px]",
+    height: "h-48",
+    rounded: "rounded-lg",
+    background: "bg-red-700"
+  },
+  {
+    src: "home-scroll-fifth/selena-gomez.webp",
+    alt: "Image",
+    text: "/tonyhawk",
+    width: "w-[500px]",
+    height: "h-48",
+    rounded: "rounded-lg",
+    background: "bg-red-700"
+  },
 ];
 
 const ImageGallery = () => {

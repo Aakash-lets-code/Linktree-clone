@@ -47,7 +47,7 @@ const images = [
     background: "bg-red-700"
   },
   {
-    src: "home-scroll-fifth/ladippers.webp",
+    src: "home-scroll-fifth/laclippers.webp",
     alt: "Image",
     text: "/ladippers",
     width: "w-80",

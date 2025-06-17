@@ -6,7 +6,7 @@ const images = [
     alt: "Image",
     text: "/funkynnutmeg",
     width: "w-72",
-    height: "h-56",
+    height: "h-96",
     rounded: "rounded-full",
     background: "bg-blue-500"
   },
@@ -15,7 +15,7 @@ const images = [
     alt: "Image",
     text: "/hbo",
     width: "w-96",
-    height: "h-72",
+    height: "h-96",
     rounded: "rounded-3xl",
     background: "bg-amber-800"
   },
@@ -24,7 +24,7 @@ const images = [
     alt: "Image",
     text: "/comedycentral",
     width: "w-96",
-    height: "h-64",
+    height: "h-96",
     rounded: "rounded-4xl",
     background: "bg-fuchsia-900"
   },
@@ -33,7 +33,7 @@ const images = [
     alt: "Image",
     text: "/pharrell",
     width: "w-64",
-    height: "h-64",
+    height: "h-96",
     rounded: "rounded-full",
     background: "bg-purple-600"
   },
@@ -42,7 +42,7 @@ const images = [
     alt: "Image",
     text: "/tonyhawk",
     width: "w-[500px]",
-    height: "h-48",
+    height: "h-96",
     rounded: "rounded-lg",
     background: "bg-red-700"
   },
@@ -51,7 +51,7 @@ const images = [
     alt: "Image",
     text: "/ladippers",
     width: "w-80",
-    height: "h-48",
+    height: "h-96",
     rounded: "rounded-lg",
     background: "bg-red-700"
   },
@@ -60,7 +60,7 @@ const images = [
     alt: "Image",
     text: "/selenagomez",
     width: "w-72",
-    height: "h-48",
+    height: "h-96",
     rounded: "rounded-lg",
     background: "bg-red-700"
   },
@@ -76,7 +76,7 @@ const ImageGallery = () => {
         {images.map((image, index) => (
           <div key={index} className="relative overflow-hidden" onMouseEnter={() => setHoveredIndex(index)} onMouseLeave={() => setHoveredIndex(null)} >
 
-            <div className={`relative transition-all duration-300 transform ${hoveredIndex === index ? "rotate-y-180" : "rotate-y-0 "}`} >
+            <div className={`h-fit w-fit relative transition-all duration-300 transform ${hoveredIndex === index ? "rotate-y-180" : "rotate-y-0 "}`} >
 
               <img src={image.src} alt={image.alt} className={`${image.width} ${image.height} ${image.rounded} object-cover transition-all duration-300`} />
 

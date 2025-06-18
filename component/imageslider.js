@@ -66,7 +66,7 @@ const images = [
   },
 ];
 
-const ImageGallery = () => {
+const ImageSlider = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
@@ -95,4 +95,4 @@ const ImageGallery = () => {
   );
 };
 
-export default ImageGallery;
+export default ImageSlider;

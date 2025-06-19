@@ -5,7 +5,7 @@ const images = [
     src: "home-scroll-fifth/funkynnutmeg.webp",
     alt: "Image",
     text: "/funkynnutmeg",
-    width: "w-72",
+    width: "300px",
     height: "h-96",
     rounded: "rounded-full",
     background: "bg-blue-500"
@@ -14,7 +14,7 @@ const images = [
     src: "home-scroll-fifth/hbo.webp",
     alt: "Image",
     text: "/hbo",
-    width: "w-96",
+    width: "450px",
     height: "h-96",
     rounded: "rounded-3xl",
     background: "bg-amber-800"
@@ -23,7 +23,7 @@ const images = [
     src: "home-scroll-fifth/comedycentral.webp",
     alt: "Image",
     text: "/comedycentral",
-    width: "w-96",
+    width: "300px",
     height: "h-96",
     rounded: "rounded-4xl",
     background: "bg-fuchsia-900"
@@ -32,7 +32,7 @@ const images = [
     src: "home-scroll-fifth/pharrell.webp",
     alt: "Image",
     text: "/pharrell",
-    width: "w-64",
+    width: "250px",
     height: "h-96",
     rounded: "rounded-full",
     background: "bg-purple-600"
@@ -41,7 +41,7 @@ const images = [
     src: "home-scroll-fifth/tonyhawk.webp",
     alt: "Image",
     text: "/tonyhawk",
-    width: "w-[500px]",
+    width: "450px",
     height: "h-96",
     rounded: "rounded-lg",
     background: "bg-red-700"
@@ -50,7 +50,7 @@ const images = [
     src: "home-scroll-fifth/laclippers.webp",
     alt: "Image",
     text: "/ladippers",
-    width: "w-80",
+    width: "250px",
     height: "h-96",
     rounded: "rounded-lg",
     background: "bg-red-700"
@@ -59,7 +59,7 @@ const images = [
     src: "home-scroll-fifth/selena-gomez.webp",
     alt: "Image",
     text: "/selenagomez",
-    width: "w-72",
+    width: "250px",
     height: "h-96",
     rounded: "rounded-lg",
     background: "bg-red-700"

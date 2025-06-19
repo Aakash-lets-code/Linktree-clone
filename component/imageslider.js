@@ -78,7 +78,7 @@ const ImageSlider = () => {
 
             <div className={`relative transition-all duration-300 transform ${hoveredIndex === index ? "rotate-y-180" : "rotate-y-0 "}`} >
 
-              <img src={image.src} alt={image.alt} className={`${image.width} ${image.height} ${image.rounded} object-cover transition-all duration-300`} />
+              <img src={image.src} alt={image.alt} style={{ width: image.width }} className={`${image.height} ${image.rounded} object-cover transition-all duration-300`} />
 
             </div>
 

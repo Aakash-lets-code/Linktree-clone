@@ -71,7 +71,7 @@ const ImageSlider = () => {
 
   return (
     <div className="overflow-hidden w-full py-5">
-      <div className="relative flex space-x-4 animate-slide group hover:pause-animation">
+      <div className="relative flex space-x-4 animate-slide group hover:pause-animation min-w-max">
 
         {images.map((image, index) => (
           <div key={index} className="relative overflow-hidden" onMouseEnter={() => setHoveredIndex(index)} onMouseLeave={() => setHoveredIndex(null)} >

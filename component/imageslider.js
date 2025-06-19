@@ -76,7 +76,7 @@ const ImageSlider = () => {
         {images.map((image, index) => (
           <div key={index} className="relative overflow-hidden" onMouseEnter={() => setHoveredIndex(index)} onMouseLeave={() => setHoveredIndex(null)} >
 
-            <div className={`h-fit w-fit relative transition-all duration-300 transform ${hoveredIndex === index ? "rotate-y-180" : "rotate-y-0 "}`} >
+            <div className={`relative transition-all duration-300 transform ${hoveredIndex === index ? "rotate-y-180" : "rotate-y-0 "}`} >
 
               <img src={image.src} alt={image.alt} className={`${image.width} ${image.height} ${image.rounded} object-cover transition-all duration-300`} />
 

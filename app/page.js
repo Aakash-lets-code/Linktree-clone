@@ -187,7 +187,7 @@ export default function Home() {
 
         </div>
 
-        <div className="min-w-screen" >
+        <div className="min-w-[97vw]" >
           
           <ImageSlider />
 

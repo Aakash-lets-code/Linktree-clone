@@ -22,6 +22,7 @@
 
 .hover\:pause-animation:hover {
   animation-play-state: paused;
+  transition: transform 1s ease-out;
 }
 
 @keyframes rotateY {

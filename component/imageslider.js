@@ -53,7 +53,7 @@ const images = [
     width: "280px",
     height: "h-96",
     rounded: "rounded-[60px]",
-    background: "bg-red-700"
+    background: "bg-green-800"
   },
   {
     src: "home-scroll-fifth/selena-gomez.webp",
@@ -62,7 +62,7 @@ const images = [
     width: "280px",
     height: "h-96",
     rounded: "rounded-[60px]",
-    background: "bg-red-700"
+    background: "bg-amber-400"
   },
 ];
 

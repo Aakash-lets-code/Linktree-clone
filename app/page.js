@@ -188,8 +188,22 @@ export default function Home() {
         </div>
 
         <div className="min-w-[97vw]" >
-          
+
           <ImageSlider />
+
+        </div>
+
+      </section>
+
+      <section className="bg-[#f3f3f1] flex justify-center items-center " >
+
+        <div className="min-h-screen grid grid-cols-2">
+
+          <div className="w-[30vw] h-92 bg-blue-500" >
+            <div></div>
+            <div></div>
+          </div>
+          <div className="w-[30vw] h-92 bg-blue-800" ></div>
 
         </div>
 

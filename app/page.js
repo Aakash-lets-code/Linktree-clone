@@ -199,16 +199,19 @@ export default function Home() {
 
         <div className="min-h-screen flex justify-center items-center">
 
-          <div className="w-[42vw] h-auto bg-blue-500" >
+          <div className="w-[42vw] h-[80vh] bg-blue-500" >
             <div className="bg-[#e9c0e9] p-4 "> 
               <img src="home-scroll-sixth/things.png" alt="things" />
+              <p>Share your content in limitless ways on your Linktree.</p>
             </div>
             <div className="bg-[#d2e823] p-4 "> 
               <img src="home-scroll-sixth/products.png" alt="products" />
+              <p>Sell products and collect payments. It’s monetization made simple.</p>
             </div>
           </div>
-          <div className="w-[42vw] h-auto bg-[#061492]">
+          <div className="w-[42vw] h-[80vh] bg-[#061492]">
             <img src="home-scroll-sixth/group.png" alt="group" />
+            <p>Grow, own and engage your audience by unifying them in one place.</p>
           </div>
 
         </div>

@@ -195,15 +195,21 @@ export default function Home() {
 
       </section>
 
-      <section className="bg-[#f3f3f1] flex justify-center items-center " >
+      <section className="bg-[#f3f3f1]  my-auto " >
 
-        <div className="min-h-screen grid grid-cols-2">
+        <div className="min-h-screen flex justify-center items-center">
 
-          <div className="w-[30vw] h-92 bg-blue-500" >
-            <div></div>
-            <div></div>
+          <div className="w-[42vw] h-auto bg-blue-500" >
+            <div className="bg-[#e9c0e9] p-4 "> 
+              <img src="home-scroll-sixth/things.png" alt="things" />
+            </div>
+            <div className="bg-[#d2e823] p-4 "> 
+              <img src="home-scroll-sixth/products.png" alt="products" />
+            </div>
           </div>
-          <div className="w-[30vw] h-92 bg-blue-800" ></div>
+          <div className="w-[42vw] h-auto bg-[#061492]">
+            <img src="home-scroll-sixth/group.png" alt="group" />
+          </div>
 
         </div>
 

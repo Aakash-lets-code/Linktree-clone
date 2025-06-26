@@ -199,7 +199,7 @@ export default function Home() {
 
         <div className=" flex justify-center space-x-3 pt-32 pb-16">
 
-          <div className="w-[42vw] h-auto bg-blue-500 space-y-4" >
+          <div className="w-[42vw] h-auto space-y-4" >
 
             <div className="bg-[#e9c0e9] flex flex-col items-center space-y-3 rounded-4xl">
               <img src="home-scroll-sixth/things.png" alt="things" className=" pt-12 pb-8 px-8" />

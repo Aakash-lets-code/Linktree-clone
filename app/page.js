@@ -203,12 +203,12 @@ export default function Home() {
 
             <div className="bg-[#e9c0e9] flex flex-col items-center space-y-3 rounded-4xl">
               <img src="home-scroll-sixth/things.png" alt="things" className=" pt-12 pb-8 px-8" />
-              <p className="font-semibold text-2xl py-8 px-2.5 text-[#1e2330] " >Share your content in limitless ways on your Linktree.</p>
+              <p className="font-[630] text-2xl py-8 px-2.5 text-[#1e2330] " >Share your content in limitless ways on your Linktree.</p>
             </div>
 
             <div className="bg-[#d2e823] flex flex-col items-center space-y-3 rounded-4xl">
               <img src="home-scroll-sixth/products.png" alt="products" className=" pt-12 pb-8 px-20" />
-              <p className="font-semibold text-2xl py-8 px-6 text-[#1e2330] " >Sell products and collect payments. It's monetization made simple.</p>
+              <p className="font-[630] text-2xl py-8 px-6 text-[#1e2330] " >Sell products and collect payments. It's monetization made simple.</p>
             </div>
 
           </div>
@@ -216,7 +216,7 @@ export default function Home() {
           <div className="w-[42vw] h-auto bg-[#061492] p-4 flex flex-col justify-center items-center space-y-3 rounded-4xl" >
 
             <img src="home-scroll-sixth/group.png" alt="group" className=" w-[500] py-10 px-4 pb-6 "/>
-            <p className="font-semibold text-2xl text-white pb-5" >Grow, own and engage your audience by unifying them in one place.</p>
+            <p className="font-[630] text-2xl text-white pb-5" >Grow, own and engage your audience by unifying them in one place.</p>
 
           </div>
 

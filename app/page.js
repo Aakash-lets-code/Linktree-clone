@@ -197,9 +197,9 @@ export default function Home() {
 
       <section className="bg-[#f3f3f1] min-h-screen my-auto" >
 
-        <div className=" flex justify-center space-x-3 pt-32 pb-16">
+        <div className=" flex justify-center space-x-4 pt-32 pb-16">
 
-          <div className="w-[42vw] h-auto space-y-4" >
+          <div className="w-[42vw] h-auto space-y-3.5" >
 
             <div className="bg-[#e9c0e9] flex flex-col items-center space-y-3 rounded-4xl">
               <img src="home-scroll-sixth/things.png" alt="things" className=" pt-12 pb-8 px-8" />

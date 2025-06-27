@@ -215,12 +215,24 @@ export default function Home() {
 
           <div className="w-[42vw] h-auto bg-[#061492] p-4 flex flex-col justify-center items-center space-y-3 rounded-4xl" >
 
-            <img src="home-scroll-sixth/group.png" alt="group" className=" w-[500] py-10 px-4 pb-6 "/>
+            <img src="home-scroll-sixth/group.png" alt="group" className=" w-[500] py-10 px-4 pb-6 " />
             <p className="font-[630] text-2xl text-white pb-4 px-6" >Grow, own and engage your audience by unifying them in one place.</p>
 
           </div>
 
         </div>
+
+      </section>
+
+      <section className="bg-[#f3f3f1] min-h-[60vh] text-center py-12 space-y-12">
+
+        <div className="text-6xl font-extrabold text-[#1e2330] tracking-tight " >
+
+           The fast, friendly and <br /> powerful link in bio tool.
+
+        </div>
+
+        <button className="text-[#1e2330] text-base font-[610] bg-[#e9c0e9] px-20 py-4 rounded-full " >Explore all plans</button>
 
       </section>
 

@@ -240,7 +240,25 @@ export default function Home() {
 
         <div>
 
-          <p>As featured in...</p>
+          <p className="text-6xl font-extrabold text-[#1e2330] tracking-tight" >As featured in...</p>
+
+          <div className=" flex items-center justify-center flex-wrap py-12 px-[15vw] gap-4" >
+            <div className=" text-center text-3xl px-20 py-6 bg-white rounded-4xl w-fit">
+              <img src="home-scroll-eight/techcrunch.avif.svg" alt="techcrunch" />
+            </div>
+            <div className=" text-center text-3xl px-20 py-6 bg-white rounded-4xl w-fit">
+              <img src="home-scroll-eight/insider.avif.svg" alt="insider" />
+            </div>
+            <div className=" text-center text-3xl px-20 py-6 bg-white rounded-4xl w-fit">
+              <img src="home-scroll-eight/mashable.avif.svg" alt="mashable" />
+            </div>
+            <div className=" text-center text-3xl px-20 py-6 bg-white rounded-4xl w-fit">
+              <img src="home-scroll-eight/fortune.avif.svg" alt="fortune" />
+            </div>
+            <div className=" text-center text-3xl px-20 py-6 bg-white rounded-4xl w-fit">
+              <img src="home-scroll-eight/forbes.avif.svg" alt="forbes" />
+            </div>
+          </div>
 
         </div>
 

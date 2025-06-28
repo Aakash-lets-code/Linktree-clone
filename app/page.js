@@ -228,11 +228,21 @@ export default function Home() {
 
         <div className="text-6xl font-extrabold text-[#1e2330] tracking-tight " >
 
-           The fast, friendly and <br /> powerful link in bio tool.
+          The fast, friendly and <br /> powerful link in bio tool.
 
         </div>
 
         <button className="text-[#1e2330] text-base font-[610] bg-[#e9c0e9] px-20 py-4 rounded-full hover:bg-[#de9fde]" >Explore all plans</button>
+
+      </section>
+
+      <section className="bg-[#f3f3f1] min-h-screen text-center py-14" >
+
+        <div>
+
+          <p>As featured in...</p>
+
+        </div>
 
       </section>
 

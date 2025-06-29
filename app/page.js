@@ -262,6 +262,19 @@ export default function Home() {
 
         </div>
 
+        <div className="flex flex-col justify-center items-center min-h-[75vh] space-y-12 my-12" >
+
+          <img src="home-scroll-eight/rileylemon.webp" alt="rileylemon" width={850} />
+
+          <div className="text-6xl font-[825] text-[#1e2330] tracking-tighter " >“Linktree simplifies the process for <br /> creators to share multiple parts of <br /> themselves in one inclusive link.”</div>
+
+          <div className="flex flex-col justify-center items-center text-[#72756c] text-xl" >
+            <p>Riley Lemon,</p>
+            <p>Youtuber, Content Creator</p>
+          </div>
+
+        </div>
+
       </section>
 
     </main>

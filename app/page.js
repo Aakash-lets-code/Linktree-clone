@@ -273,6 +273,13 @@ export default function Home() {
             <p>Youtuber, Content Creator</p>
           </div>
 
+          <div className="flex justify-center items-center space-x-2.5" >
+
+            <img src="home-scroll-eight/left.svg" alt="left" className=" border p-4 py-3.5 text-[#c7c7c8] rounded-lg cursor-pointer hover:invert" />
+            <img src="home-scroll-eight/right.svg" alt="right" className=" border p-4 py-3.5 text-black rounded-lg cursor-pointer" />
+
+          </div>
+
         </div>
 
       </section>

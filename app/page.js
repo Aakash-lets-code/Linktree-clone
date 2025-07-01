@@ -284,6 +284,25 @@ export default function Home() {
 
       </section>
 
+      <section className="bg-[#780016] min-h-screen text-center py-14" >
+
+        <div className="text-6xl font-[825] text-[#e9c0e9] tracking-tighter" >Got questions?</div>
+
+        <div> 
+
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+
+        </div>
+
+      </section>
+
     </main>
   );
 }

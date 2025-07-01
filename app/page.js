@@ -286,18 +286,46 @@ export default function Home() {
 
       <section className="bg-[#780016] min-h-screen text-center py-14" >
 
-        <div className="text-6xl font-[825] text-[#e9c0e9] tracking-tighter" >Got questions?</div>
+        <div className="text-6xl font-[825] text-[#e9c0e9] tracking-tighter py-12" >Got questions?</div>
 
-        <div> 
+        <div className="flex flex-col justify-center items-center space-y-4" >
 
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer" >
+            <p className="text-[#e9c0e9] text-3xl font-semibold" >Why do I need a link in bio tool?</p>
+            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
+          </div>
+          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer" >
+            <p className="text-[#e9c0e9] text-3xl font-semibold" >Is Linktree the original link in bio tool?</p>
+            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
+          </div>
+          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer" >
+            <p className="text-[#e9c0e9] text-3xl font-semibold" >Can you get paid and sell things from a Linktree?</p>
+            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
+          </div>
+          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer" >
+            <p className="text-[#e9c0e9] text-3xl font-semibold" >Is Linktree safe to use on all of my social media profiles?</p>
+            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
+          </div>
+          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer" >
+            <p className="text-[#e9c0e9] text-3xl font-semibold" >What makes Linktree better than the other link in bio options?</p>
+            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
+          </div>
+          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer" >
+            <p className="text-[#e9c0e9] text-3xl font-semibold" >How can I drive more traffic to and through my Linktree?</p>
+            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
+          </div>
+          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer" >
+            <p className="text-[#e9c0e9] text-3xl font-semibold" >How many links should I have on my Linktree?</p>
+            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
+          </div>
+          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer" >
+            <p className="text-[#e9c0e9] text-3xl font-semibold" >Do I need a website to use Linktree?</p>
+            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
+          </div>
+          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer" >
+            <p className="text-[#e9c0e9] text-3xl font-semibold" >Where can I download the app?</p>
+            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
+          </div>
 
         </div>
 

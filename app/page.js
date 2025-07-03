@@ -11,7 +11,18 @@ export default function Home() {
   const slideTexts = ['Athlete', 'Baker', 'Influencer', 'Retailers', 'Musician', 'Artist', 'Creator', 'Coach', 'Business', 'Non-profit', 'Podcaster', 'Shopify', 'YouTuber', 'TikTokers', 'Instagrammer', 'Health Educator'];
   const [index, setIndex] = useState(0);
   const [visible, setVisible] = useState(true);
-
+  const [openIndex, setOpenIndex] = useState(null); // Tracks the open question
+  const questions = [
+    { question: "Why do I need a link in bio tool?", answer: "A link in bio tool helps you to organize and share all your links in one place." },
+    { question: "Is Linktree the original link in bio tool?", answer: "No, there are several other link in bio tools, but Linktree popularized it." },
+    { question: "Can you get paid and sell things from a Linktree?", answer: "Yes, you can integrate payment links to receive payments directly from Linktree." },
+    { question: "Is Linktree safe to use on all of my social media profiles?", answer: "Yes, Linktree is safe to use, but make sure you're using it responsibly." },
+    { question: "What makes Linktree better than the other link in bio options?", answer: "Linktree offers a lot of customization and analytics, making it a preferred choice." },
+    { question: "How can I drive more traffic to and through my Linktree?", answer: "Share your Linktree across your social platforms and create engaging content." },
+    { question: "How many links should I have on my Linktree?", answer: "Keep it simple. Focus on your most important links, usually 5-7." },
+    { question: "Do I need a website to use Linktree?", answer: "No, you don’t need a website, just a Linktree account." },
+    { question: "Where can I download the app?", answer: "You can download the Linktree app on the App Store or Google Play." }
+  ];
 
   const createTree = () => {
     router.push(`/generate?handle=${text}`)
@@ -24,6 +35,10 @@ export default function Home() {
 
     return () => clearInterval(interval);
   }, []);
+  
+  const toggleAnswer = (index) => {
+    setOpenIndex(openIndex === index ? null : index); // Toggle answer visibility
+  };
 
   return (
     <main>
@@ -288,45 +303,20 @@ export default function Home() {
 
         <div className="text-6xl font-[825] text-[#e9c0e9] tracking-tighter py-12" >Got questions?</div>
 
-        <div className="flex flex-col justify-center items-center space-y-4" >
-
-          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer hover:outline-1 hover:outline-offset-2" >
-            <p className="text-[#e9c0e9] text-3xl font-semibold" >Why do I need a link in bio tool?</p>
-            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
-          </div>
-          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer hover:outline-1 hover:outline-offset-2" >
-            <p className="text-[#e9c0e9] text-3xl font-semibold" >Is Linktree the original link in bio tool?</p>
-            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
-          </div>
-          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer hover:outline-1 hover:outline-offset-2" >
-            <p className="text-[#e9c0e9] text-3xl font-semibold" >Can you get paid and sell things from a Linktree?</p>
-            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
-          </div>
-          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer hover:outline-1 hover:outline-offset-2" >
-            <p className="text-[#e9c0e9] text-3xl font-semibold" >Is Linktree safe to use on all of my social media profiles?</p>
-            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
-          </div>
-          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer hover:outline-1 hover:outline-offset-2" >
-            <p className="text-[#e9c0e9] text-3xl font-semibold" >What makes Linktree better than the other link in bio options?</p>
-            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
-          </div>
-          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer hover:outline-1 hover:outline-offset-2" >
-            <p className="text-[#e9c0e9] text-3xl font-semibold" >How can I drive more traffic to and through my Linktree?</p>
-            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
-          </div>
-          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer hover:outline-1 hover:outline-offset-2" >
-            <p className="text-[#e9c0e9] text-3xl font-semibold" >How many links should I have on my Linktree?</p>
-            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
-          </div>
-          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer hover:outline-1 hover:outline-offset-2" >
-            <p className="text-[#e9c0e9] text-3xl font-semibold" >Do I need a website to use Linktree?</p>
-            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
-          </div>
-          <div className="flex items-center justify-between py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer hover:outline-1 hover:outline-offset-2" >
-            <p className="text-[#e9c0e9] text-3xl font-semibold" >Where can I download the app?</p>
-            <img src="home-scroll-ninth/down.svg" alt="down-arrow" />
-          </div>
-
+        <div className="flex flex-col justify-center items-center space-y-4">
+          {questions.map((item, index) => (
+            <div key={index} className="flex flex-col items-center py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer hover:outline-1 hover:outline-offset-2" onClick={() => toggleAnswer(index)}
+            >
+              <div className="flex items-center justify-between w-full">
+                <p className="text-[#e9c0e9] text-3xl font-semibold">{item.question}</p>
+                <img src="home-scroll-ninth/down.svg" alt="down-arrow" className={`${openIndex === index ? 'rotate-180' : ''}`}
+                />
+              </div>
+              {openIndex === index && (
+                <div className="mt-4 text-[#e9c0e9] text-xl">{item.answer}</div>
+              )}
+            </div>
+          ))}
         </div>
 
       </section>

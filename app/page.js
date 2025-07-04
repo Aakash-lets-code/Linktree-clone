@@ -305,15 +305,14 @@ export default function Home() {
 
         <div className="flex flex-col justify-center items-center space-y-4">
           {questions.map((item, index) => (
-            <div key={index} className="flex flex-col items-center py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer hover:outline-1 hover:outline-offset-2" onClick={() => toggleAnswer(index)}
+            <div key={index} className="flex flex-col justify-center items-start py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer hover:outline-1 hover:outline-offset-2" onClick={() => toggleAnswer(index)}
             >
               <div className="flex items-center justify-between w-full">
                 <p className="text-[#e9c0e9] text-3xl font-semibold">{item.question}</p>
-                <img src="home-scroll-ninth/down.svg" alt="down-arrow" className={`${openIndex === index ? 'rotate-180' : ''}`}
-                />
+                <img src="home-scroll-ninth/down.svg" alt="down-arrow" className={`${openIndex === index ? 'rotate-180' : ''}`}/>
               </div>
               {openIndex === index && (
-                <div className="mt-4 text-[#e9c0e9] text-xl">{item.answer}</div>
+                <div className="mt-10 text-[#e9c0e9] text-xl">{item.answer}</div>
               )}
             </div>
           ))}

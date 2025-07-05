@@ -78,7 +78,7 @@ export default function Home() {
 
         </div>
 
-        <div className="flex flex-col justify-center items-center mr-[5vw] gap-2.5 ">
+        <div className="flex flex-col justify-center items-center mr-[5vw] gap-2.5 cursor-pointer">
 
           <img className=" w-3/4 " src="/home-removebg-preview.png" alt="home" />
 

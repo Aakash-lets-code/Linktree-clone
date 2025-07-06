@@ -100,13 +100,13 @@ export default function Home() {
               Create and customize your Linktree in minutes
             </h2>
 
-            <p className=" text-[#502274] mt-2 " >
+            <p className=" text-[#502274] mt-2 font-semibold " >
               Connect your TikTok, Instagram, Twitter, website, store, videos, music, podcast,
               <br /> events and more. It all comes together in a link in bio landing page designed to
               <br /> convert.
             </p>
 
-            <button className="bg-[#502274] hover:bg-[#502274e3] text-white p-5 px-14 text-lg font-semibold rounded-full mt-4 transform-fill origin-center duration-200" >
+            <button className="bg-[#502274] hover:bg-[#502274e3] text-white p-5 px-14 text-lg font-semibold rounded-full mt-4 transform-fill origin-center duration-200 cursor-pointer" >
               Get started for free
             </button>
 

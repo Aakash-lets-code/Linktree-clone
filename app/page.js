@@ -168,7 +168,7 @@ export default function Home() {
               <br /> audience. Make informed updates on the fly to keep them coming back.
             </p>
 
-            <button className="bg-[#e9c0e9] hover:bg-[#cfa9cf] text-[#1e2330] px-16 py-5 text-center font-semibold rounded-full mt-10 " >
+            <button className="bg-[#e9c0e9] hover:bg-[#cfa9cf] text-[#1e2330] px-16 py-4 text-center font-semibold rounded-full mt-10 text-lg origin-center duration-200 " >
               Get started for free
             </button>
 

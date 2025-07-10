@@ -47,8 +47,7 @@ export default function Home() {
 
         <div className="fixed top-0 left-0 w-full z-auto bg-[#e9c0e9] text-[#632c88] md:text-base py-2 flex justify-center items-center shadow-md">
           <p className="text-[15px] font-bold">
-            We have updated our <a href="#"><u>Terms and Conditions.</u></a> By continuing to use Linktree, you acknowledge that you have read,
-            understood and agree to be bound by the updated <a href="#"><u>Terms and Conditions.</u></a>
+            Time to convert clicks into customers. Linktree's new growth tools are here!
           </p>
           <button className="text-[#632c88] text-2xl leading-none focus:outline-none absolute right-4 text-center" onClick={() => setVisible(false)}>
             &times;

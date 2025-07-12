@@ -46,7 +46,7 @@ export default function Home() {
   }, []);
   
   const toggleAnswer = (index) => {
-    setOpenIndex(openIndex === index ? null : index); // Toggle answer visibility
+    setOpenIndex(openIndex === index ? null : index); 
   };
 
   return (

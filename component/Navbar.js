@@ -324,6 +324,13 @@ const Navbar = () => {
                                             </div>
                                         </div>
 
+                                        <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
+                                            <div className='flex flex-col  justify-between ' >
+                                                <p className='text-[14px]' > Get rewarded for growing your Linktree </p>
+                                                <p className='text-[12px] text-gray-400' > Earn points, level up and unlock cash bonuses </p>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </>}
 

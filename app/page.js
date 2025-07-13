@@ -13,24 +13,42 @@ export default function Home() {
   const [visible, setVisible] = useState(true);
   const [openIndex, setOpenIndex] = useState(null); 
   const questions = [
-    { question: "Why do I need a link in bio tool?", 
-      answer: "A link in bio tool helps you to organize and share all your links in one place." },
-    { question: "Is Linktree the original link in bio tool?", 
-      answer: "No, there are several other link in bio tools, but Linktree popularized it." },
-    { question: "Can you get paid and sell things from a Linktree?", 
-      answer: "Yes, you can integrate payment links to receive payments directly from Linktree." },
-    { question: "Is Linktree safe to use on all of my social media profiles?", 
-      answer: "Yes, Linktree is safe to use, but make sure you're using it responsibly." },
-    { question: "What makes Linktree better than the other link in bio options?", 
-      answer: "Linktree offers a lot of customization and analytics, making it a preferred choice." },
-    { question: "How can I drive more traffic to and through my Linktree?",
-      answer: "Share your Linktree across your social platforms and create engaging content." },
-    { question: "How many links should I have on my Linktree?", 
-      answer: "Keep it simple. Focus on your most important links, usually 5-7." },
-    { question: "Do I need a website to use Linktree?", 
-      answer: "No, you don’t need a website, just a Linktree account." },
-    { question: "Where can I download the app?", 
-      answer: "You can download the Linktree app on the App Store or Google Play." }
+    {
+      question: "Why do I need a link in bio tool?",
+      answer: "A link in bio tool helps you to organize and share all your links in one place."
+    },
+    {
+      question: "Is Linktree the original link in bio tool?",
+      answer: "No, there are several other link in bio tools, but Linktree popularized it."
+    },
+    {
+      question: "Can you get paid and sell things from a Linktree?",
+      answer: "Yes, you can integrate payment links to receive payments directly from Linktree."
+    },
+    {
+      question: "Is Linktree safe to use on all of my social media profiles?",
+      answer: "Yes, Linktree is safe to use, but make sure you're using it responsibly."
+    },
+    {
+      question: "What makes Linktree better than the other link in bio options?",
+      answer: "Linktree offers a lot of customization and analytics, making it a preferred choice."
+    },
+    {
+      question: "How can I drive more traffic to and through my Linktree?",
+      answer: "Share your Linktree across your social platforms and create engaging content."
+    },
+    {
+      question: "How many links should I have on my Linktree?",
+      answer: "Keep it simple. Focus on your most important links, usually 5-7."
+    },
+    {
+      question: "Do I need a website to use Linktree?",
+      answer: "No, you don’t need a website, just a Linktree account."
+    },
+    {
+      question: "Where can I download the app?",
+      answer: "You can download the Linktree app on the App Store or Google Play."
+    }
   ];
 
   const createTree = () => {
@@ -317,11 +335,11 @@ export default function Home() {
             >
               <div className="flex items-center justify-between w-full">
                 <p className="text-[#e9c0e9] text-3xl font-semibold">{item.question}</p>
-                <img src="home-scroll-ninth/down.svg" alt="down-arrow" className={`${openIndex === index ? 'rotate-180' : ''}`}/>
+                <img src="home-scroll-ninth/down.svg" alt="down-arrow" className={`${openIndex === index ? 'rotate-180' : ''}`} />
               </div>
-              {openIndex === index && (
-                <div className="mt-10 text-[#e9c0e9] text-xl">{item.answer}</div>
-              )}
+              <div className={`text-[#e9c0e9] text-xl transition-all duration-300 ease-in-out ${openIndex === index ? 'max-h-screen opacity-100 mt-10' : 'max-h-0 opacity-0'}`} style={{ overflow: 'hidden' }} >
+                {openIndex === index && <div>{item.answer}</div>}
+              </div>
             </div>
           ))}
         </div>

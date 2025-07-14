@@ -195,6 +195,16 @@ const Navbar = () => {
                                         </div>
                                     </div>
 
+                                    <div onMouseEnter={() => setsubProducts("fifth")} className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 my-3.5 ' >
+                                        <div className='flex items-center justify-between' >
+                                            <p className='flex items-center gap-2' >
+                                                <img src="products-in-navbar/graph.svg" alt="link" width={25} className='font-bold' />
+                                               Grow and engage your audience
+                                            </p>
+                                            <img src="products-in-navbar/right-arrow.svg" alt="right-arrow" width={25} className='' />
+                                        </div>
+                                    </div>
+
                                 </div>
 
                                 {subProducts === "first" && <>

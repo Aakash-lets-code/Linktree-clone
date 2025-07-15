@@ -355,6 +355,17 @@ const Navbar = () => {
                                     </div>
                                 </>}
 
+                                {subProducts === "fifth" && <>
+                                    <div className='h-auto border-x-2 border-gray-300 bg-white' >
+                                        <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
+                                            <div className='flex flex-col  justify-between ' >
+                                                <p className='text-[14px]' >  Social + link analytics  </p>
+                                                <p className='text-[12px] text-gray-400' > Track clicks, engagement and audience insights  </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </>}
+
 
                                 {subProducts === "first" && <>
                                     <div className='h-auto bg-white rounded-2xl m-2 my-3' >

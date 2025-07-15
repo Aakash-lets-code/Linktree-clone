@@ -419,6 +419,18 @@ const Navbar = () => {
                                     </div>
                                 </>}
 
+                                {subProducts === "fourth" && <>
+                                    <div className='h-auto bg-white rounded-2xl m-2 my-3' >
+                                        <div className='w-[25vw] p-4 py-3 space-y-3 '>
+                                            <p>Featured</p>
+                                            <img src="products-in-navbar/Frame.avif" alt="image" className='w-auto' />
+                                            <div>
+                                                <p>Grow engagement with analytics</p>
+                                                <p className='text-gray-400 text-sm' >Make data-driven decisions for your Linktree and social media platforms with analytics that are easy to understand.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </>}
 
                             </div>
 

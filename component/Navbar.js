@@ -419,7 +419,7 @@ const Navbar = () => {
                                     </div>
                                 </>}
 
-                                {subProducts === "fourth" && <>
+                                {subProducts === "fifth" && <>
                                     <div className='h-auto bg-white rounded-2xl m-2 my-3' >
                                         <div className='w-[25vw] p-4 py-3 space-y-3 '>
                                             <p>Featured</p>

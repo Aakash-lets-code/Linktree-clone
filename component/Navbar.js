@@ -199,7 +199,7 @@ const Navbar = () => {
                                         <div className='flex items-center justify-between' >
                                             <p className='flex items-center gap-2' >
                                                 <img src="products-in-navbar/group.svg" alt="link" width={25} className='font-bold' />
-                                               Grow and engage your audience
+                                                Grow and engage your audience
                                             </p>
                                             <img src="products-in-navbar/right-arrow.svg" alt="right-arrow" width={25} className='' />
                                         </div>
@@ -359,8 +359,20 @@ const Navbar = () => {
                                     <div className='h-auto border-x-2 border-gray-300 bg-white' >
                                         <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
                                             <div className='flex flex-col  justify-between ' >
-                                                <p className='text-[14px]' >  Social + link analytics  </p>
-                                                <p className='text-[12px] text-gray-400' > Track clicks, engagement and audience insights  </p>
+                                                <p className='text-[14px]' >  Collect leads with contact forms  </p>
+                                                <p className='text-[12px] text-gray-400' > Turn visitors into subscribers  </p>
+                                            </div>
+                                        </div>
+                                        <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
+                                            <div className='flex flex-col  justify-between ' >
+                                                <p className='text-[14px]' >  Manage and activate your audience  </p>
+                                                <p className='text-[12px] text-gray-400' > Organize, tag, and track contacts  </p>
+                                            </div>
+                                        </div>
+                                        <div className='w-[25vw] p-4 py-3 rounded-lg hover:bg-[#eff0ec] m-2 mt-1 ' >
+                                            <div className='flex flex-col  justify-between ' >
+                                                <p className='text-[14px]' >  Send contacts to email tools  </p>
+                                                <p className='text-[12px] text-gray-400' > Sync with Mailchimp, Klaviyo, Kit & more  </p>
                                             </div>
                                         </div>
                                     </div>

@@ -437,8 +437,8 @@ const Navbar = () => {
                                             <p>Featured</p>
                                             <img src="products-in-navbar/Frame.avif" alt="image" className='w-auto' />
                                             <div>
-                                                <p>Grow engagement with analytics</p>
-                                                <p className='text-gray-400 text-sm' >Make data-driven decisions for your Linktree and social media platforms with analytics that are easy to understand.</p>
+                                                <p>Connect your email tools, activate your audiance</p>
+                                                <p className='text-gray-400 text-sm' >Send new contacts straight from Linktree to Mialchimp, klaviyo, kit and more.</p>
                                             </div>
                                         </div>
                                     </div>

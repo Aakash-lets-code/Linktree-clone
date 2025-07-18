@@ -11,7 +11,7 @@ export default function Home() {
   const slideTexts = ['Athlete', 'Baker', 'Influencer', 'Retailers', 'Musician', 'Artist', 'Creator', 'Coach', 'Business', 'Non-profit', 'Podcaster', 'Shopify', 'YouTuber', 'TikTokers', 'Instagrammer', 'Health Educator'];
   const [index, setIndex] = useState(0);
   const [visible, setVisible] = useState(true);
-  const [openIndex, setOpenIndex] = useState(null); 
+  const [openIndex, setOpenIndex] = useState(null);
   const questions = [
     {
       question: "Why do I need a link in bio tool?",
@@ -62,9 +62,9 @@ export default function Home() {
 
     return () => clearInterval(interval);
   }, []);
-  
+
   const toggleAnswer = (index) => {
-    setOpenIndex(openIndex === index ? null : index); 
+    setOpenIndex(openIndex === index ? null : index);
   };
 
   return (
@@ -342,6 +342,17 @@ export default function Home() {
               </div>
             </div>
           ))}
+        </div>
+
+      </section>
+
+      <section className="bg-[#502274]">
+
+        <div className="min-h-screen">
+          <div className="flex justify-between" >
+            <img src="footer/man.svg" alt="man" width={400} className="rotate-y-25 rotate-z-12" />
+            <img src="footer/flower.svg" alt="flower" width={400} className="" />
+          </div>
         </div>
 
       </section>

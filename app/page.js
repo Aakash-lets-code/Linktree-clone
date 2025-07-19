@@ -350,7 +350,7 @@ export default function Home() {
 
         <div className="min-h-screen relative">
           <div className="flex justify-between overflow-hidden" >
-            <img src="footer/man.svg" alt="man" width={475} className="rotate-y-25 rotate-z-[17deg]" />
+            <img src="footer/man.svg" alt="man" width={475} className="rotate-y-25 rotate-z-[17deg] pt-12" />
             <img src="footer/flower.svg" alt="flower" width={400} className="align-text-bottom absolute right-0 -bottom-60 " />
           </div>
         </div>

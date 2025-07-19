@@ -349,8 +349,8 @@ export default function Home() {
       <section className="bg-[#502274]">
 
         <div className="min-h-screen">
-          <div className="flex justify-between" >
-            <img src="footer/man.svg" alt="man" width={400} className="rotate-y-25 rotate-z-12" />
+          <div className="flex justify-between overflow-hidden" >
+            <img src="footer/man.svg" alt="man" width={475} className="rotate-y-25 rotate-z-[17deg]" />
             <img src="footer/flower.svg" alt="flower" width={400} className="" />
           </div>
         </div>

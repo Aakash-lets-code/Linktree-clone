@@ -350,8 +350,15 @@ export default function Home() {
 
         <div className="min-h-screen relative">
           <div className="flex justify-between overflow-hidden" >
-            <img src="footer/man.svg" alt="man" width={475} className="rotate-y-25 rotate-z-[17deg] pt-12" />
+            <img src="footer/man.svg" alt="man" width={465} className="rotate-y-25 rotate-z-[17deg] pt-12" />
             <img src="footer/flower.svg" alt="flower" width={400} className="align-text-bottom absolute right-0 -bottom-72 " />
+          </div>
+          <div className="absolute flex flex-col top-[26vh] right-[26vw] items-center justify-center" >
+            <div className="pb-9 text-6xl text-center" >Jumpstart your corner of the <br /> internet today</div>
+            <div>
+              <input value={text} onChange={(e) => setText(e.target.value)} className="bg-[#fff;] rounded-lg p-5 text-black" type="text" placeholder="Enter your handle" />
+              <button onClick={() => createTree()} className="bg-[#e9c0e9] p-5 font-semibold rounded-full mx-3 text-black" >Claim your Linktree</button>
+            </div>
           </div>
         </div>
 

@@ -353,11 +353,11 @@ export default function Home() {
             <img src="footer/man.svg" alt="man" width={465} className="rotate-y-25 rotate-z-[17deg] pt-12" />
             <img src="footer/flower.svg" alt="flower" width={400} className="align-text-bottom absolute right-0 -bottom-72 " />
           </div>
-          <div className="absolute flex flex-col top-[26vh] right-[22vw] items-center justify-center" >
+          <div className="absolute flex flex-col top-[35vh] right-[22vw] items-center justify-center" >
             <div className="pb-9 text-6xl text-center text-[#e9c0e9] font-extrabold" >Jumpstart your corner of the <br /> internet today</div>
             <div>
-              <input value={text} onChange={(e) => setText(e.target.value)} className="bg-[#fff;] rounded-lg p-5 text-black" type="text" placeholder="Enter your handle" />
-              <button onClick={() => createTree()} className="bg-[#e9c0e9] p-5 font-semibold rounded-full mx-3 text-black" >Claim your Linktree</button>
+              <input value={text} onChange={(e) => setText(e.target.value)} className="bg-[#fff;] rounded-lg p-5 px-7 text-black" type="text" placeholder="Enter your handle" />
+              <button onClick={() => createTree()} className="bg-[#d2e823] p-5 px-8 font-semibold rounded-full mx-3 text-black text-center" >Claim your Linktree</button>
             </div>
           </div>
         </div>

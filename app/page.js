@@ -367,42 +367,42 @@ export default function Home() {
           <div className="h-[80vh] w-[88vw] bg-white rounded-3xl flex justify-around  " >
 
             <div className="flex flex-col items-start space-y-3 pt-12" > <div className="text-3xl font-semibold text-slate-800 mb-4 " >Company</div>
-              <p className="text-sm">The Linktree Blog</p>
-              <p className="text-sm">Engineering Blog</p>
-              <p className="text-sm">Marketplace</p>
-              <p className="text-sm">What's New</p>
-              <p className="text-sm">About</p>
-              <p className="text-sm">Press</p>
-              <p className="text-sm">Careers</p>
-              <p className="text-sm">Link in Bio</p>
-              <p className="text-sm">Social Good</p>
-              <p className="text-sm">Contact</p>
+              <p className="text-sm text-slate-800 tracking-wider">The Linktree Blog</p>
+              <p className="text-sm text-slate-800 tracking-wider">Engineering Blog</p>
+              <p className="text-sm text-slate-800 tracking-wider">Marketplace</p>
+              <p className="text-sm text-slate-800 tracking-wider">What's New</p>
+              <p className="text-sm text-slate-800 tracking-wider">About</p>
+              <p className="text-sm text-slate-800 tracking-wider">Press</p>
+              <p className="text-sm text-slate-800 tracking-wider">Careers</p>
+              <p className="text-sm text-slate-800 tracking-wider">Link in Bio</p>
+              <p className="text-sm text-slate-800 tracking-wider">Social Good</p>
+              <p className="text-sm text-slate-800 tracking-wider">Contact</p>
             </div>
             <div className="flex flex-col items-start space-y-3 pt-12" ><div className="text-3xl font-semibold text-slate-800 mb-4">Community</div>
-              <p className="text-sm">Linktree for Enterprise</p>
-              <p className="text-sm">2023 Creator Report</p>
-              <p className="text-sm">2022 Creator Report</p>
-              <p className="text-sm">Charities</p>
-              <p className="text-sm">What's Trending</p>
-              <p className="text-sm">Creator Profile Directory</p>
-              <p className="text-sm">Explore Templates</p>
+              <p className="text-sm text-slate-800 tracking-wider">Linktree for Enterprise</p>
+              <p className="text-sm text-slate-800 tracking-wider">2023 Creator Report</p>
+              <p className="text-sm text-slate-800 tracking-wider">2022 Creator Report</p>
+              <p className="text-sm text-slate-800 tracking-wider">Charities</p>
+              <p className="text-sm text-slate-800 tracking-wider">What's Trending</p>
+              <p className="text-sm text-slate-800 tracking-wider">Creator Profile Directory</p>
+              <p className="text-sm text-slate-800 tracking-wider">Explore Templates</p>
             </div>
             <div className="flex flex-col items-start space-y-3 pt-12" ><div className="text-3xl font-semibold text-slate-800 mb-4">Support</div>
-              <p className="text-sm">Help Topics</p>
-              <p className="text-sm">Getting Started</p>
-              <p className="text-sm">Linktree Pro</p>
-              <p className="text-sm">Features & How-Tos</p>
-              <p className="text-sm">FAQs</p>
-              <p className="text-sm">Report a Violation</p>
+              <p className="text-sm text-slate-800 tracking-wider">Help Topics</p>
+              <p className="text-sm text-slate-800 tracking-wider">Getting Started</p>
+              <p className="text-sm text-slate-800 tracking-wider">Linktree Pro</p>
+              <p className="text-sm text-slate-800 tracking-wider">Features & How-Tos</p>
+              <p className="text-sm text-slate-800 tracking-wider">FAQs</p>
+              <p className="text-sm text-slate-800 tracking-wider">Report a Violation</p>
             </div>
             <div className="flex flex-col items-start space-y-3 pt-12" ><div className="text-3xl font-semibold text-slate-800 mb-4">Trust & Legal</div>
-              <p className="text-sm">Terms & Conditions</p>
-              <p className="text-sm">Privacy Notice</p>
-              <p className="text-sm">Cookie Notice</p>
-              <p className="text-sm">Trust Center</p>
-              <p className="text-sm">Cookie Preferences</p>
-              <p className="text-sm">Transparency Report</p>
-              <p className="text-sm">Law Enforcement Access Policy</p>
+              <p className="text-sm text-slate-800 tracking-wider">Terms & Conditions</p>
+              <p className="text-sm text-slate-800 tracking-wider">Privacy Notice</p>
+              <p className="text-sm text-slate-800 tracking-wider">Cookie Notice</p>
+              <p className="text-sm text-slate-800 tracking-wider">Trust Center</p>
+              <p className="text-sm text-slate-800 tracking-wider">Cookie Preferences</p>
+              <p className="text-sm text-slate-800 tracking-wider">Transparency Report</p>
+              <p className="text-sm text-slate-800 tracking-wider">Law Enforcement Access Policy</p>
             </div>
 
           </div>

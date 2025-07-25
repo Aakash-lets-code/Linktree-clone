@@ -364,7 +364,7 @@ export default function Home() {
 
         <div className=" min-h-screen relative bg-[#502274] flex justify-center " >
 
-          <div className="h-[80vh] w-[88vw] bg-white rounded-3xl  " >
+          <div className="h-[80vh] w-[88vw] bg-white rounded-3xl flex flex-col item " >
 
             <div className="flex justify-around ">
               <div className="flex flex-col items-start space-y-3 pt-12" > <div className="text-3xl font-semibold text-slate-800 mb-4 " >Company</div>
@@ -404,6 +404,13 @@ export default function Home() {
                 <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Cookie Preferences</p>
                 <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Transparency Report</p>
                 <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Law Enforcement Access Policy</p>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center pt-12 px-20">
+              <div className='gap-4 text-lg flex items-center' >
+                <button className="login bg-[#eff0ec] rounded-lg text-black p-4 px-6 hover:bg-[#deded7ba] ">Log in</button>
+                <button className="signup bg-[#1e2330] rounded-full py-5 px-7 text-white hover:bg-[#262d3e]">Sign up free</button>
               </div>
             </div>
 

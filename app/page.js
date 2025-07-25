@@ -367,42 +367,42 @@ export default function Home() {
           <div className="h-[80vh] w-[88vw] bg-white rounded-3xl flex justify-around  " >
 
             <div className="flex flex-col items-start space-y-3 pt-12" > <div className="text-3xl font-semibold text-slate-800 mb-4 " >Company</div>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">The Linktree Blog</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Engineering Blog</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Marketplace</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">What's New</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">About</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Press</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Careers</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Link in Bio</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Social Good</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Contact</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">The Linktree Blog</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Engineering Blog</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Marketplace</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">What's New</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">About</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Press</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Careers</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Link in Bio</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Social Good</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Contact</p>
             </div>
             <div className="flex flex-col items-start space-y-3 pt-12" ><div className="text-3xl font-semibold text-slate-800 mb-4">Community</div>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Linktree for Enterprise</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">2023 Creator Report</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">2022 Creator Report</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Charities</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">What's Trending</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Creator Profile Directory</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Explore Templates</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Linktree for Enterprise</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">2023 Creator Report</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">2022 Creator Report</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Charities</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">What's Trending</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Creator Profile Directory</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Explore Templates</p>
             </div>
             <div className="flex flex-col items-start space-y-3 pt-12" ><div className="text-3xl font-semibold text-slate-800 mb-4">Support</div>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Help Topics</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Getting Started</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Linktree Pro</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Features & How-Tos</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">FAQs</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Report a Violation</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Help Topics</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Getting Started</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Linktree Pro</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Features & How-Tos</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">FAQs</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Report a Violation</p>
             </div>
             <div className="flex flex-col items-start space-y-3 pt-12" ><div className="text-3xl font-semibold text-slate-800 mb-4">Trust & Legal</div>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Terms & Conditions</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Privacy Notice</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Cookie Notice</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Trust Center</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Cookie Preferences</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Transparency Report</p>
-              <p className="text-sm text-slate-800 tracking-wider cursor-pointer">Law Enforcement Access Policy</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Terms & Conditions</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Privacy Notice</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Cookie Notice</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Trust Center</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Cookie Preferences</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Transparency Report</p>
+              <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Law Enforcement Access Policy</p>
             </div>
 
           </div>

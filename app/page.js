@@ -409,8 +409,8 @@ export default function Home() {
 
             <div className="flex justify-between items-center pt-12 px-20">
               <div className='gap-4 text-lg flex items-center' >
-                <button className="login bg-[#eff0ec] rounded-lg text-black p-4 px-6 hover:bg-[#deded7ba] ">Log in</button>
-                <button className="signup bg-[#1e2330] rounded-full py-5 px-7 text-white hover:bg-[#262d3e]">Sign up free</button>
+                <button className="login bg-[#eff0ec] rounded-lg text-black p-4 px-6 hover:bg-[#deded7ba] font-semibold">Log in</button>
+                <button className="signup bg-[#d2e823] rounded-full py-5 px-7 text-black hover:bg-[#cee027] font-semibold">Get started for free</button>
               </div>
             </div>
 

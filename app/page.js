@@ -412,6 +412,26 @@ export default function Home() {
                 <button className="login bg-[#eff0ec] rounded-lg text-black p-4 px-6 hover:bg-[#deded7ba] font-semibold">Log in</button>
                 <button className="signup bg-[#d2e823] rounded-full py-5 px-7 text-black hover:bg-[#cee027] font-semibold">Get started for free</button>
               </div>
+              <div className="flex items-center space-x-2" >
+                <div className="p-4 px-5 rounded-full bg-black" >
+                <img src="footer/appstore.svg" alt="appstore" width={125} className="invert" />
+                </div>
+                <div className="p-4 px-5 rounded-full bg-black" >
+                <img src="footer/googleplay.svg" alt="googleplay" width={125} className="invert" />
+                </div>
+                <div className="p-4 px-3 rounded-full bg-black" >
+                <img src="footer/linktree.svg" alt="linktree" width={41}/>
+                </div>
+                <div className="p-4 px-3 rounded-full bg-black" >
+                <img src="footer/thread.svg" alt="thread" width={41}/>
+                </div>
+                <div className="p-4 px-3 rounded-full bg-black" >
+                <img src="footer/tiktok.svg" alt="tiktok" width={41}/>
+                </div>
+                <div className="p-4 px-3 rounded-full bg-black" >
+                <img src="footer/instagram.svg" alt="instagram" width={41}/>
+                </div>
+              </div>
             </div>
 
           </div>

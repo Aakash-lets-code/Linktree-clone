@@ -419,16 +419,16 @@ export default function Home() {
                 <div className="p-4 px-5 rounded-full bg-black" >
                 <img src="footer/googleplay.svg" alt="googleplay" width={125} className="invert" />
                 </div>
-                <div className="p-4 px-3 rounded-full bg-black" >
+                <div className="p-4 px-2.5 rounded-full bg-black" >
                 <img src="footer/linktree.svg" alt="linktree" width={41}/>
                 </div>
-                <div className="p-4 px-3 rounded-full bg-black" >
+                <div className="p-4 px-2.5 rounded-full bg-black" >
                 <img src="footer/thread.svg" alt="thread" width={41}/>
                 </div>
-                <div className="p-4 px-3 rounded-full bg-black" >
+                <div className="p-4 px-2.5 rounded-full bg-black" >
                 <img src="footer/tiktok.svg" alt="tiktok" width={41}/>
                 </div>
-                <div className="p-4 px-3 rounded-full bg-black" >
+                <div className="p-4 px-2.5 rounded-full bg-black" >
                 <img src="footer/instagram.svg" alt="instagram" width={41}/>
                 </div>
               </div>

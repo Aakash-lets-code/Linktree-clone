@@ -362,7 +362,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=" min-h-screen relative bg-[#502274] flex justify-center " >
+        <div className=" min-h-screen relative bg-[#502274] flex justify-center pb-20" >
 
           <div className="h-[80vh] w-[88vw] bg-white rounded-3xl flex flex-col item " >
 
@@ -414,24 +414,31 @@ export default function Home() {
               </div>
               <div className="flex items-center space-x-2" >
                 <div className="p-4 px-5 rounded-full bg-[#1e2330]" >
-                <img src="footer/appstore.svg" alt="appstore" width={125} className="invert" />
+                  <img src="footer/appstore.svg" alt="appstore" width={125} className="invert" />
                 </div>
                 <div className="p-4 px-5 rounded-full bg-[#1e2330]" >
-                <img src="footer/googleplay.svg" alt="googleplay" width={125} className="invert" />
+                  <img src="footer/googleplay.svg" alt="googleplay" width={125} className="invert" />
                 </div>
                 <div className="p-4 px-2.5 rounded-full bg-[#1e2330]" >
-                <img src="footer/linktree.svg" alt="linktree" width={41}/>
+                  <img src="footer/linktree.svg" alt="linktree" width={41} />
                 </div>
                 <div className="p-4 px-2.5 rounded-full bg-[#1e2330]" >
-                <img src="footer/thread.svg" alt="thread" width={41}/>
+                  <img src="footer/thread.svg" alt="thread" width={41} />
                 </div>
                 <div className="p-4 px-2.5 rounded-full bg-[#1e2330]" >
-                <img src="footer/tiktok.svg" alt="tiktok" width={41}/>
+                  <img src="footer/tiktok.svg" alt="tiktok" width={41} />
                 </div>
                 <div className="p-4 px-2.5 rounded-full bg-[#1e2330]" >
-                <img src="footer/instagram.svg" alt="instagram" width={41}/>
+                  <img src="footer/instagram.svg" alt="instagram" width={41} />
                 </div>
               </div>
+            </div>
+
+            <div className="flex justify-center items-center w-full mt-24 " >
+
+              <img src="footer/flag.svg" alt="flag" />
+              <img src="footer/flag-1.svg" alt="flag" />
+
             </div>
 
           </div>

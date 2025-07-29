@@ -436,8 +436,10 @@ export default function Home() {
 
             <div className="flex justify-center items-center w-full mt-24 " >
 
-              <img src="footer/flag.svg" alt="flag" />
-              <img src="footer/flag-1.svg" alt="flag" />
+              <div className="space-x-14 flex items-center justify-center">
+                <img src="footer/flag.svg" alt="flag" width={100} />
+                <img src="footer/flag-1.svg" alt="flag" width={100} />
+              </div>
 
             </div>
 

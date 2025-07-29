@@ -364,7 +364,7 @@ export default function Home() {
 
         <div className=" min-h-screen relative bg-[#502274] flex justify-center pb-20" >
 
-          <div className="h-[80vh] w-[88vw] bg-white rounded-3xl flex flex-col item " >
+          <div className="h-[80vh] w-[88vw] bg-white rounded-3xl flex flex-col " >
 
             <div className="flex justify-around ">
               <div className="flex flex-col items-start space-y-3 pt-12" > <div className="text-3xl font-semibold text-slate-800 mb-4 " >Company</div>

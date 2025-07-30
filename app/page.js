@@ -441,6 +441,10 @@ export default function Home() {
                 <img src="footer/flag-1.svg" alt="flag" width={100} />
               </div>
 
+              <div>
+                <p>We aknowledge the Traditional Custodians of the land on which our office stands, The Wurundjeri people of the Kulin Nation, and pay our requests to Elders past, present and emerging. Linktree Pty Ltd. (ABN 68 608 721 562), 1-9 Sackville st, Collingwood VIC 3066</p>
+              </div>
+
             </div>
 
           </div>

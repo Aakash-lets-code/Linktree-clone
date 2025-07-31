@@ -362,7 +362,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=" min-h-screen relative bg-[#502274] flex justify-center pb-20" >
+        <div className=" min-h-screen relative  flex justify-center pb-20" >
 
           <div className="h-[80vh] w-[88vw] bg-white rounded-3xl flex flex-col " >
 
@@ -441,7 +441,7 @@ export default function Home() {
                 <img src="footer/flag-1.svg" alt="flag" width={100} />
               </div>
 
-              <div>
+              <div className=" text-center w-[99vw] bg-[#502274]" >
                 <p>We aknowledge the Traditional Custodians of the land on which our office stands, The Wurundjeri people of the Kulin Nation, and pay our requests to Elders past, present and emerging. Linktree Pty Ltd. (ABN 68 608 721 562), 1-9 Sackville st, Collingwood VIC 3066</p>
               </div>
 

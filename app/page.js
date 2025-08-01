@@ -434,14 +434,14 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex flex-col  justify-center items-center w-full mt-24" >
+            <div className="flex flex-col justify-center items-center w-full mt-28" >
 
-              <div className="space-x-14 flex items-center justify-center">
+              <div className="space-x-12 flex items-center justify-center">
                 <img src="footer/flag.svg" alt="flag" width={100} />
                 <img src="footer/flag-1.svg" alt="flag" width={100} />
               </div>
 
-              <div className=" text-center w-[99vw] bg-[#502274] text-[#e6bde7] font-semibold text-lg py-7" >
+              <div className=" text-center w-[99vw] bg-[#502274] text-[#e6bde7] font-semibold text-lg py-9" >
                 <p>We aknowledge the Traditional Custodians of the land on which our office stands, The Wurundjeri people of the Kulin Nation, and pay our requests to <br />Elders past, present and emerging. Linktree Pty Ltd. (ABN 68 608 721 562), 1-9 Sackville st, Collingwood VIC 3066</p>
               </div>
 

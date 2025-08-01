@@ -413,22 +413,22 @@ export default function Home() {
                 <button className="signup bg-[#d2e823] rounded-full py-5 px-7 text-black hover:bg-[#cee027] font-semibold">Get started for free</button>
               </div>
               <div className="flex items-center space-x-2" >
-                <div className="p-4 px-5 rounded-full bg-[#1e2330]" >
+                <div className="p-4 px-5 rounded-full bg-[#1e2330] hover:bg-[#283045] origin-right duration-200" >
                   <img src="footer/appstore.svg" alt="appstore" width={125} className="invert" />
                 </div>
-                <div className="p-4 px-5 rounded-full bg-[#1e2330]" >
+                <div className="p-4 px-5 rounded-full bg-[#1e2330] hover:bg-[#283045] origin-right duration-200" >
                   <img src="footer/googleplay.svg" alt="googleplay" width={125} className="invert" />
                 </div>
-                <div className="p-4 px-2.5 rounded-full bg-[#1e2330]" >
+                <div className="p-4 px-2.5 rounded-full bg-[#1e2330] hover:bg-[#283045] origin-right duration-200" >
                   <img src="footer/linktree.svg" alt="linktree" width={41} />
                 </div>
-                <div className="p-4 px-2.5 rounded-full bg-[#1e2330]" >
+                <div className="p-4 px-2.5 rounded-full bg-[#1e2330] hover:bg-[#283045] origin-right duration-200" >
                   <img src="footer/thread.svg" alt="thread" width={41} />
                 </div>
-                <div className="p-4 px-2.5 rounded-full bg-[#1e2330]" >
+                <div className="p-4 px-2.5 rounded-full bg-[#1e2330] hover:bg-[#283045] origin-right duration-200" >
                   <img src="footer/tiktok.svg" alt="tiktok" width={41} />
                 </div>
-                <div className="p-4 px-2.5 rounded-full bg-[#1e2330]" >
+                <div className="p-4 px-2.5 rounded-full bg-[#1e2330] hover:bg-[#283045] origin-right duration-200" >
                   <img src="footer/instagram.svg" alt="instagram" width={41} />
                 </div>
               </div>

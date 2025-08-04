@@ -7,16 +7,13 @@ import { useState } from 'react'
 const Navbar = () => {
     const pathname = usePathname()
     const showNavbar = ["/", "/generate", "/learn", "/template", "/pricing", "/marketplace"].includes(pathname)
-    const [isLearnHovered, setIsLearnHovered] = useState(false)
-    const [isDiscoverHovered, setIsDiscoverHovered] = useState(false)
+    const [isLearnHovered, setIsLearnHovered] = useState(false) 
     const [isProductsHovered, setIsProductsHovered] = useState(false)
     const [subProducts, setsubProducts] = useState(null)
     const [sublearns, setsublearns] = useState(null)
 
     const handleLearnEnter = () => { setIsLearnHovered(true), setsublearns("learnFirst") }
-    const handleLearnLeave = () => setIsLearnHovered(false)
-    const handlediscoverEnter = () => setIsDiscoverHovered(true)
-    const handlediscoverLeave = () => setIsDiscoverHovered(false)
+    const handleLearnLeave = () => setIsLearnHovered(false) 
     const handleProductsEnter = () => { setIsProductsHovered(true), setsubProducts("first") }
     const handleProductsLeave = () => setIsProductsHovered(false)
 
@@ -31,23 +28,7 @@ const Navbar = () => {
             <ul className='flex text-[#72766b] items-center space-x-1.5'>
                 <Link href="/template"> <li className=' hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg' >Templates</li> </Link>
                 <Link href="/marketplace"> <li className=' hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg' >Marketplace</li> </Link>
-                <Link href="/">
-
-                    <li onMouseEnter={handlediscoverEnter} onMouseLeave={handlediscoverLeave} className=' hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg relative' >Discover
-
-                        {isDiscoverHovered && <> <div className='absolute left-0 top-full w-56 z-10 origin-top duration-500 bg-transparent'>
-                            <div className='mt-7 px-2 py-1 bg-white rounded-lg shadow-lg'>
-                                <div className=' p-4 py-3 rounded-lg hover:bg-[#eff0ec] my-1' >Linktree for Instagram</div>
-                                <div className=' p-4 py-3 rounded-lg hover:bg-[#eff0ec] my-1' >Linktree for youtube</div>
-                                <div className=' p-4 py-3 rounded-lg hover:bg-[#eff0ec] my-1' >Linktree for Twitter</div>
-                                <div className=' p-4 py-3 rounded-lg hover:bg-[#eff0ec] my-1' >Linktree for Linkedln</div>
-                            </div>
-                        </div></>}
-
-                    </li>
-
-                </Link>
-
+                
                 <Link href="/pricing"> <li className=' hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg' >Pricing</li> </Link>
 
                 <Link href="/learn">

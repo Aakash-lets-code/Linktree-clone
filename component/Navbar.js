@@ -437,8 +437,8 @@ const Navbar = () => {
         </div>
 
         <div className='gap-4 text-lg flex items-center' >
-            <button className="login bg-[#eff0ec] rounded-lg text-black p-4 px-6 hover:bg-[#deded7ba] ">Log in</button>
-            <button className="signup bg-[#1e2330] rounded-full py-5 px-7 text-white hover:bg-[#262d3e]">Sign up free</button>
+            <button className="login bg-[#eff0ec] rounded-lg text-black p-4 px-6 hover:bg-[#deded7ba] cursor-pointer">Log in</button>
+            <button className="signup bg-[#1e2330] rounded-full py-5 px-7 text-white hover:bg-[#262d3e] cursor-pointer">Sign up free</button>
         </div>
 
     </nav>} </>

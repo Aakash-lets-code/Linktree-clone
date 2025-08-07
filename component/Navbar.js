@@ -128,7 +128,7 @@ const Navbar = () => {
 
                 </Link>
 
-                <li onMouseEnter={handleProductsEnter} onMouseLeave={handleProductsLeave} className=' hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg relative'>
+                <li onMouseEnter={handleProductsEnter} onMouseLeave={handleProductsLeave} className=' hover:bg-[#eff0ec] text-[#202532] px-4 py-3 rounded-lg relative cursor-pointer'>
                     Product
                     {isProductsHovered && <>
                         <div className='top-full left-[-35.5vw] absolute w-auto h-auto flex bg-transparent' >

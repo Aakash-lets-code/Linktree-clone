@@ -72,7 +72,7 @@ export default function Home() {
 
       {visible && <section>
 
-        <div className="sticky top-0 left-0 w-full z-10 bg-[#d2e823] text-[#325a1a] md:text-base py-2.5 flex justify-center items-center shadow-md duration-500 origin-bottom">
+        <div className="sticky top-0 left-0 w-full z-10 bg-[#d2e823] text-[#325a1a] md:text-base py-3 flex justify-center items-center shadow-md duration-500 origin-bottom">
           <p className="text-[16px] font-semibold tracking-wider">
             Time to convert clicks into customers. <u>Linktree's new growth tools are here!</u>
           </p>

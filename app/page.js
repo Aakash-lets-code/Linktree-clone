@@ -346,12 +346,12 @@ export default function Home() {
 
       </section>
 
-      <section className="bg-[#502274]">
+      <section className="bg-[#502274] overflow-hidden">
 
-        <div className="min-h-screen relative">
-          <div className="flex justify-between overflow-hidden" >
+        <div className="min-h-screen relative ">
+          <div className="flex justify-between " >
             <img src="footer/man.svg" alt="man" width={475} className="rotate-y-25 rotate-z-[20deg] pt-12" />
-            <img src="footer/flower.svg" alt="flower" width={500} className="align-text-bottom absolute right-0 -bottom-72 " />
+            <img src="footer/flower.svg" alt="flower" width={500} className="align-text-bottom absolute -right-20 -bottom-72 z-20 " />
           </div>
           <div className="absolute flex flex-col top-[35vh] right-[22vw] items-center justify-center" >
             <div className="pb-9 text-6xl text-center text-[#e9c0e9] font-extrabold" >Jumpstart your corner of the <br /> internet today</div>

@@ -114,9 +114,9 @@ export default function Home() {
 
       <section className="bg-[#e9c0e9] min-h-[100vh]" >
 
-        <div className="grid grid-cols-2 gap-10 items-center justify-center pb-40 py-[29vh] ml-[5vw] " >
+        <div className="grid grid-cols-2 gap-10 items-center justify-center pb-40 py-[29vh] ml-[5vw]" >
 
-          <div className=" flex justify-around " >
+          <div className=" flex justify-around" >
             <img src="scroll-second.png" alt="image" />
           </div>
 
@@ -364,7 +364,7 @@ export default function Home() {
 
         <div className=" min-h-screen relative  flex justify-center pb-20" >
 
-          <div className="h-[80vh] w-[88vw] bg-white rounded-3xl flex flex-col " >
+          <div className="h-[80vh] w-[88vw] bg-white rounded-3xl flex flex-col" >
 
             <div className="flex justify-around">
               <div className="flex flex-col items-start space-y-3 pt-12" > <div className="text-3xl font-semibold text-slate-800 mb-4 " >Company</div>

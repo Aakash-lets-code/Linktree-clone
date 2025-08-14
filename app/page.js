@@ -68,7 +68,7 @@ export default function Home() {
   };
 
   return (
-    <main className=" relative">
+    <main className="">
 
       {visible && <section>
 

@@ -331,7 +331,7 @@ export default function Home() {
 
         <div className="flex flex-col justify-center items-center space-y-4">
           {questions.map((item, index) => (
-            <div key={index} className="flex flex-col justify-center items-start py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer hover:outline-1 hover:outline-offset-2" onClick={() => toggleAnswer(index)}
+            <div key={index} className="flex flex-col justify-center items-start py-14 px-12 bg-[#52000f] w-[65vw] rounded-4xl cursor-pointer hover:outline-1 hover:outline-offset-2 hover:outline-slate-900" onClick={() => toggleAnswer(index)}
             >
               <div className="flex items-center justify-between w-full">
                 <p className="text-[#e9c0e9] text-3xl font-semibold">{item.question}</p>

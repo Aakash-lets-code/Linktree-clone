@@ -267,7 +267,7 @@ export default function Home() {
 
       <section className="bg-[#f3f3f1] min-h-[60vh] text-center py-12 space-y-12">
 
-        <div className="text-6xl font-extrabold text-[#1e2330] tracking-tight " >
+        <div className="text-6xl font-extrabold text-[#1e2330] tracking-tight" >
 
           The fast, friendly and <br /> powerful link in bio tool.
 
@@ -362,7 +362,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=" min-h-screen relative  flex justify-center pb-20" >
+        <div className=" min-h-screen relative flex justify-center pb-20" >
 
           <div className="h-[80vh] w-[88vw] bg-white rounded-3xl flex flex-col" >
 

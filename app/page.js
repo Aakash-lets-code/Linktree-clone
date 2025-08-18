@@ -346,7 +346,7 @@ export default function Home() {
 
       </section>
 
-      <section className="bg-[#502274] overflow-hidden">
+      <section className="bg-[#502274] overflow-hidden pb-28" >
 
         <div className="min-h-screen relative">
           <div className="flex justify-between" >

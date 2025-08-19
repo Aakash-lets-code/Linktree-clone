@@ -8,7 +8,7 @@ export default function Home() {
 
   const [text, setText] = useState("")
   const router = useRouter()
-  const slideTexts = ['Athlete', 'Baker', 'Influencer', 'Retailers', 'Musician', 'Artist', 'Creator', 'Coach', 'Business', 'Non-profit', 'Podcaster', 'Shopify', 'YouTuber', 'TikTokers', 'Instagrammer', 'Health Educator'];
+  const slideTexts = ['Athletes', 'Bakers', 'Influencers', 'Retailers', 'Musician', 'Artist', 'Creator', 'Coach', 'small Businesses', 'Non-profit', 'Podcasters', 'Shopify', 'YouTuber', 'TikTokers', 'Instagrammers', 'Health Educator'];
   const [index, setIndex] = useState(0);
   const [visible, setVisible] = useState(true);
   const [openIndex, setOpenIndex] = useState(null);

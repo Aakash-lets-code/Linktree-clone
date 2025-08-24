@@ -437,8 +437,8 @@ export default function Home() {
             <div className="flex flex-col justify-center items-center w-full mt-28" >
 
               <div className="space-x-12 flex items-center justify-center">
-                <img src="footer/flag.svg" alt="flag" width={115} />
-                <img src="footer/flag-1.svg" alt="flag" width={115} />
+                <img src="footer/flag.svg" alt="flag" width={120} />
+                <img src="footer/flag-1.svg" alt="flag" width={120} />
               </div>
 
               <div className="text-center w-[98.9vw] bg-[#502274] text-[#e6bde7] font-semibold text-lg py-9" >

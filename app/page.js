@@ -106,7 +106,7 @@ export default function Home() {
 
         <div className="flex flex-col justify-center items-center mr-[5vw] gap-2.5 cursor-pointer">
 
-          <img className=" w-3/4 " src="/home-removebg-preview.png" alt="home" />
+          <img className="w-3/4 " src="/home-removebg-preview.png" alt="home" />
 
         </div>
 
@@ -116,7 +116,7 @@ export default function Home() {
 
         <div className="grid grid-cols-2 gap-10 items-center justify-center pb-40 py-[29vh] ml-[5vw]" >
 
-          <div className=" flex justify-around" >
+          <div className="flex justify-around" >
             <img src="scroll-second.png" alt="image" />
           </div>
 

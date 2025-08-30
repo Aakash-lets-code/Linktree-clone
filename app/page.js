@@ -208,7 +208,7 @@ export default function Home() {
 
         <div className=" px-6 pb-8 space-y-3.5 " >
 
-          <div className="" >
+          <div>
             <h2 className="text-7xl font-extrabold tracking-tight" > The only link in bio trusted by 50M+ </h2>
           </div>
 

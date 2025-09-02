@@ -212,9 +212,7 @@ export default function Home() {
             <h2 className="text-7xl font-extrabold tracking-tight" > The only link in bio trusted by 50M+ </h2>
           </div>
 
-          {/* <div className="text-blue-500 font-extrabold text-5xl tracking-tight" >
-            <p>Athlete</p>
-          </div>  */}
+          
 
           <div className="relative h-20 w-full text-center overflow-hidden">
             <div className="transition-transform duration-500" style={{ transform: `translateY(-${index * 5}rem)` }} >

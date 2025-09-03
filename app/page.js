@@ -406,11 +406,11 @@ export default function Home() {
             </div>
 
             <div className="flex justify-between items-center pt-12 px-20">
-              <div className='gap-4 text-lg flex items-center' >
+              <div className='gap-4 text-lg flex items-center'>
                 <button className="login bg-[#eff0ec] rounded-lg text-black p-4 px-6 hover:bg-[#deded7ba] font-semibold">Log in</button>
                 <button className="signup bg-[#d2e823] rounded-full py-5 px-7 text-black hover:bg-[#cee027] font-semibold">Get started for free</button>
               </div>
-              <div className="flex items-center space-x-2" >
+              <div className="flex items-center space-x-2">
                 <div className="p-4 px-5 rounded-full bg-[#1e2330] hover:bg-[#283045] origin-right duration-200" >
                   <img src="footer/appstore.svg" alt="appstore" width={125} className="invert" />
                 </div>

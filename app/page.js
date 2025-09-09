@@ -236,7 +236,7 @@ export default function Home() {
 
       <section className="bg-[#f3f3f1] min-h-screen my-auto" >
 
-        <div className=" flex justify-center space-x-4 pt-32 pb-16">
+        <div className="flex justify-center space-x-4 pt-32 pb-16">
 
           <div className="w-[42vw] h-auto space-y-3.5" >
 

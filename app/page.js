@@ -151,7 +151,7 @@ export default function Home() {
               Share your Linktree from your Instagram, TikTok, Twitter and other bios
             </h2>
 
-            <p className="text-[#e9c0e9] mt-5 font-semibold " >
+            <p className="text-[#e9c0e9] mt-5 font-semibold" >
               Add your unique Linktree URL to all the platforms and places you find your
               <br /> audience. Then use your QR code to drive your offline traffic online.
             </p>

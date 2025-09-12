@@ -95,7 +95,7 @@ export default function Home() {
 
           <p className="text-lg font-semibold font-poppins text-white">Join 50M+ people using Linktree for their link in bio. One link to help you share everything you create, curate and sell from your Instagram, TikTok, Twitter, YouTube and other social media profiles.</p>
 
-          <div className="buttons w-full " >
+          <div className="buttons w-full" >
 
             <input value={text} onChange={(e) => setText(e.target.value)} className="bg-[#fff;] rounded-lg p-5 px-6 text-black" type="text" placeholder="Enter your handle" />
             <button onClick={() => createTree()} className="bg-[#e9c0e9] p-5 font-semibold rounded-full mx-3 text-black" >Claim your Linktree</button>

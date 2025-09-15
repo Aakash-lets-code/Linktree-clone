@@ -132,7 +132,7 @@ export default function Home() {
               <br /> convert.
             </p>
 
-            <button className="bg-[#502274] hover:bg-[#502274e3] text-white p-5 px-14 text-lg font-semibold rounded-full mt-4 transform-fill origin-center duration-200 cursor-pointer" >
+            <button className="bg-[#502274] hover:bg-[#502274e3] text-white p-5 px-14 text-lg font-semibold rounded-full mt-4 transform-fill origin-center duration-200 cursor-pointer">
               Get started for free
             </button>
 

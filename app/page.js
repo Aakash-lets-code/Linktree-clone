@@ -204,7 +204,7 @@ export default function Home() {
 
       </section>
 
-      <section className="bg-[#f3f3f1] w-full text-center " >
+      <section className="bg-[#f3f3f1] w-full text-center">
 
         <div className=" px-6 pb-8 space-y-3.5 " >
 

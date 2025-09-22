@@ -147,7 +147,7 @@ export default function Home() {
 
           <div>
 
-            <h2 className="text-6xl font-extrabold text-[#e9c0e9]" >
+            <h2 className="text-6xl font-extrabold text-[#e9c0e9]">
               Share your Linktree from your Instagram, TikTok, Twitter and other bios
             </h2>
 

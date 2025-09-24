@@ -171,7 +171,7 @@ export default function Home() {
       </section>
 
 
-      <section className="bg-[#f3f3f1] min-h-screen" >
+      <section className="bg-[#f3f3f1] min-h-screen">
 
         <div className="grid grid-cols-2 gap-10 items-center justify-center py-14 pt-[20vh] ml-[5vw] " >
 

@@ -112,7 +112,7 @@ export default function Home() {
 
       </section>
 
-      <section className="bg-[#e9c0e9] min-h-[100vh]" >
+      <section className="bg-[#e9c0e9] min-h-[100vh]">
 
         <div className="grid grid-cols-2 gap-10 items-center justify-center pb-40 py-[29vh] ml-[5vw]" >
 

@@ -275,7 +275,7 @@ export default function Home() {
 
       </section>
 
-      <section className="bg-[#f3f3f1] min-h-screen text-center py-14" >
+      <section className="bg-[#f3f3f1] min-h-screen text-center py-14">
 
         <div>
 

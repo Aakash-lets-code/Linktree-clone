@@ -97,7 +97,7 @@ export default function Home() {
 
           <div className="buttons w-full">
 
-            <input value={text} onChange={(e) => setText(e.target.value)} className="bg-[#fff;] rounded-lg p-5 px-6 text-black" type="text" placeholder="Enter your handle" />
+            <input value={text} onChange={(e) => setText(e.target.value)} className="bg-[#fff;] rounded-lg p-5 px-6 text-black" type="text" placeholder="Enter your handle"/>
             <button onClick={() => createTree()} className="bg-[#e9c0e9] p-5 font-semibold rounded-full mx-3 text-black">Claim your Linktree</button>
 
           </div>

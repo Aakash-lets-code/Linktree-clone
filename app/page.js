@@ -283,7 +283,7 @@ export default function Home() {
 
           <div className="flex items-center justify-center flex-wrap py-12 px-[15vw] gap-4" >
             <div className="text-center text-3xl px-20 py-6 bg-white rounded-4xl w-fit">
-              <img src="home-scroll-eight/techcrunch.avif.svg" alt="techcrunch" />
+              <img src="home-scroll-eight/techcrunch.avif.svg" alt="techcrunch"/>
             </div>
             <div className=" text-center text-3xl px-20 py-6 bg-white rounded-4xl w-fit">
               <img src="home-scroll-eight/insider.avif.svg" alt="insider" />

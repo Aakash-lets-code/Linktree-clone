@@ -156,7 +156,7 @@ export default function Home() {
               <br /> audience. Then use your QR code to drive your offline traffic online.
             </p>
 
-            <button className="bg-[#e9c0e9] hover:bg-[#cea6ce] origin-center duration-200 cursor-pointer text-black px-16 py-5 text-center font-semibold rounded-full mt-10" >
+            <button className="bg-[#e9c0e9] hover:bg-[#cea6ce] origin-center duration-200 cursor-pointer text-black px-16 py-5 text-center font-semibold rounded-full mt-10">
               Get started for free
             </button>
           </div>

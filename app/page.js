@@ -271,7 +271,7 @@ export default function Home() {
 
         </div>
 
-        <button className="text-[#1e2330] text-lg font-[610] bg-[#e9c0e9] px-20 py-5 rounded-full hover:bg-[#de9fde] origin-center duration-300" >Explore all plans</button>
+        <button className="text-[#1e2330] text-lg font-[610] bg-[#e9c0e9] px-20 py-5 rounded-full hover:bg-[#de9fde] origin-center duration-300">Explore all plans</button>
 
       </section>
 

@@ -120,7 +120,7 @@ export default function Home() {
             <img src="scroll-second.png" alt="image"/>
           </div>
 
-          <div className="space-y-4  w-full" >
+          <div className="space-y-4  w-full">
 
             <h2 className="text-6xl font-extrabold text-[#502274]" >
               Create and customize your Linktree in minutes

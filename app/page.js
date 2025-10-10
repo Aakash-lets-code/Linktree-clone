@@ -1,4 +1,4 @@
-"use client"
+7"use client"
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation"
@@ -51,7 +51,7 @@ export default function Home() {
     }
   ];
 
-  const createTree = () => {
+  const createTree = () =>{
     router.push(`/generate?handle=${text}`)
   }
 

@@ -189,7 +189,7 @@ export default function Home() {
               <br /> engaged
             </h2>
 
-            <p className="text-[#1e2330] mt-5 font-semibold" >
+            <p className="text-[#1e2330] mt-5 font-semibold">
               Track your engagement over time, monitor revenue and learn what's converting your
               <br /> audience. Make informed updates on the fly to keep them coming back.
             </p>

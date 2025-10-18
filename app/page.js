@@ -161,7 +161,7 @@ export default function Home() {
             </button>
           </div>
 
-          <div  >
+          <div>
             <img src="scroll-third.png" alt="image"/>
           </div>
 

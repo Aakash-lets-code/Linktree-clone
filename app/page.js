@@ -234,7 +234,7 @@ export default function Home() {
 
       </section>
 
-      <section className="bg-[#f3f3f1] min-h-screen my-auto" >
+      <section className="bg-[#f3f3f1] min-h-screen my-auto">
 
         <div className="flex justify-center space-x-4 pt-32 pb-16">
 

@@ -182,7 +182,7 @@ export default function Home() {
           <div>
 
 
-            <h2 className="text-6xl font-extrabold text-[#1e2330]" >
+            <h2 className="text-6xl font-extrabold text-[#1e2330]">
               Analyze your
               <br /> audience and keep
               <br /> your followers

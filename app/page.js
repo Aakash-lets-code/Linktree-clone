@@ -205,7 +205,7 @@ export default function Home() {
 
       <section className="bg-[#f3f3f1] w-full text-center">
 
-        <div className=" px-6 pb-8 space-y-3.5">
+        <div className="px-6 pb-8 space-y-3.5">
 
           <div>
             <h2 className="text-7xl font-extrabold tracking-tight" > The only link in bio trusted by 50M+ </h2>

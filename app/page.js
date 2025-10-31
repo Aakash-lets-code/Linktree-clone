@@ -227,7 +227,7 @@ export default function Home() {
 
         <div className="min-w-[97vw]" >
 
-          <ImageSlider />
+          <ImageSlider/>
 
         </div>
 

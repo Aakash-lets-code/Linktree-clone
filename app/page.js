@@ -214,7 +214,7 @@ export default function Home() {
           
 
           <div className="relative h-20 w-full text-center overflow-hidden">
-            <div className="transition-transform duration-500" style={{ transform: `translateY(-${index * 5}rem)` }} >
+            <div className="transition-transform duration-500" style={{ transform: `translateY(-${index * 5}rem)`}} >
               {slideTexts.map((text, i) => (
                 <div key={i} className="h-20 flex items-center justify-center text-5xl font-extrabold text-[#2665d6]">
                   {text}

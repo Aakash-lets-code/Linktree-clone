@@ -153,7 +153,7 @@ export default function Home() {
 
             <p className="text-[#e9c0e9] mt-5 font-semibold">
               Add your unique Linktree URL to all the platforms and places you find your
-              <br /> audience. Then use your QR code to drive your offline traffic online.
+              <br/> audience. Then use your QR code to drive your offline traffic online.
             </p>
 
             <button className="bg-[#e9c0e9] hover:bg-[#cea6ce] origin-center duration-200 cursor-pointer text-black px-16 py-5 text-center font-semibold rounded-full mt-10">

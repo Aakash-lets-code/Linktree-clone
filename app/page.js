@@ -128,7 +128,7 @@ export default function Home() {
 
             <p className="text-[#502274] mt-2 font-semibold">
               Connect your TikTok, Instagram, Twitter, website, store, videos, music, podcast,
-              <br /> events and more. It all comes together in a link in bio landing page designed to
+              <br/> events and more. It all comes together in a link in bio landing page designed to
               <br/> convert.
             </p>
 

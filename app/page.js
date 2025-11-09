@@ -190,8 +190,7 @@ export default function Home() {
 
             <p className="text-[#1e2330] mt-5 font-semibold">
               Track your engagement over time, monitor revenue and learn what's converting your
-              <br 
-            /> audience. Make informed updates on the fly to keep them coming back.
+              <br /> audience. Make informed updates on the fly to keep them coming back.
             </p>
 
             <button className="bg-[#e9c0e9] hover:bg-[#cfa9cf] text-[#1e2330] px-16 py-4 text-center font-semibold rounded-full mt-10 text-lg origin-center duration-200">

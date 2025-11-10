@@ -87,7 +87,7 @@ export default function Home() {
 
         <div className="text-[#d2e823] flex flex-col justify-center items-start ml-[5vw] gap-10">
 
-          <p className=" font-[900] text-7xl font-notoSans">
+          <p className="font-[900] text-7xl font-notoSans">
             Everything you are.
             In one, <br /> simple link in
             bio.

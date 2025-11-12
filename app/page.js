@@ -89,7 +89,7 @@ export default function Home() {
 
           <p className="font-[900] text-7xl font-notoSans">
             Everything you are.
-            In one, <br /> simple link in
+            In one, <br/> simple link in
             bio.
           </p>
 

@@ -290,7 +290,8 @@ export default function Home() {
             <div className=" text-center text-3xl px-20 py-6 bg-white rounded-4xl w-fit">
               <img src="home-scroll-eight/mashable.avif.svg" alt="mashable" />
             </div>
-            <div className=" text-center text-3xl px-20 py-6 bg-white rounded-4xl w-fit">
+            <div className=" 
+              text-center text-3xl px-20 py-6 bg-white rounded-4xl w-fit">
               <img src="home-scroll-eight/fortune.avif.svg" alt="fortune" />
             </div>
             <div className=" text-center text-3xl px-20 py-6 bg-white rounded-4xl w-fit">

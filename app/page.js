@@ -12,7 +12,7 @@ export default function Home() {
   const [index, setIndex] = useState(0);
   const [visible, setVisible] = useState(true);
   const [openIndex, setOpenIndex] = useState(null);
-  const questions = [
+  const questions =[
     {
       question: "Why do I need a link in bio tool?",
       answer: "A link in bio tool helps you to organize and share all your links in one place."

@@ -240,7 +240,7 @@ export default function Home() {
           <div className="w-[42vw] h-auto space-y-3.5">
 
             <div className="bg-[#e9c0e9] flex flex-col items-center space-y-3 rounded-4xl">
-              <img src="home-scroll-sixth/things.png" alt="things" className=" pt-12 pb-8 px-8" />
+              <img src="home-scroll-sixth/things.png" alt="things" className=" pt-12 pb-8 px-8"/>
               <p className="font-[650] text-2xl py-8 px-3 text-[#1e2330] " >Share your content in limitless ways on your Linktree.</p>
             </div>
 

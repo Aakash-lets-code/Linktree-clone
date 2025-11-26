@@ -364,7 +364,7 @@ export default function Home() {
           <div className="h-[80vh] w-[88vw] bg-white rounded-3xl flex flex-col" >
 
             <div className="flex justify-around">
-              <div className="flex flex-col items-start space-y-3 pt-12" > <div className="text-3xl font-semibold text-slate-800 mb-4 " >Company</div>
+              <div className="flex flex-col items-start space-y-3 pt-12" > <div className="text-3xl font-semibold text-slate-800 mb-4" >Company</div>
                 <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">The Linktree Blog</p>
                 <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Engineering Blog</p>
                 <p className="text-[14.5px] text-slate-900 tracking-tight cursor-pointer">Marketplace</p>

@@ -185,7 +185,7 @@ export default function Home() {
               Analyze your
               <br/> audience and keep
               <br/> your followers
-              <br /> engaged
+              <br/> engaged
             </h2>
 
             <p className="text-[#1e2330] mt-5 font-semibold">

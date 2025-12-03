@@ -353,7 +353,7 @@ export default function Home() {
           <div className="absolute flex flex-col top-[35vh] right-[22vw] items-center justify-center" >
             <div className="pb-9 text-6xl text-center text-[#e9c0e9] font-extrabold" >Jumpstart your corner of the <br /> internet today</div>
             <div>
-              <input value={text} onChange={(e) => setText(e.target.value)} className="bg-[#fff;] rounded-lg p-5 px-7 text-black" type="text" placeholder="Enter your handle" />
+              <input value={text} onChange={(e) => setText(e.target.value)} className="bg-[#fff;] rounded-lg p-5 px-7 text-black" type="text" placeholder="Enter your handle"/>
               <button onClick={() => createTree()} className="bg-[#d2e823] p-5 px-8 font-semibold rounded-full mx-3 text-black text-center" >Claim your Linktree</button>
             </div>
           </div>

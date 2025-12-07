@@ -55,7 +55,7 @@ export default function Home() {
     router.push(`/generate?handle=${text}`)
   }
 
-  useEffect(() => {
+  useEffect(() =>{
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % slideTexts.length);
     }, 3500);
